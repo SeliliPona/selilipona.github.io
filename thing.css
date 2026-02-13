@@ -4,20 +4,20 @@
 
 @font-face {
     font-family: Fairfax;
-    src: url(fonts/FairfaxHD.ttf);
+    src: url(assets/fonts/FairfaxHD.ttf);
 }
 @font-face {
     font-family: nanpa;
-    src: url(fonts/nasin-nanpa-4.0.2-UCSUR.otf);
+    src: url(assets/fonts/nasin-nanpa-4.0.2-UCSUR.otf);
 }
 @font-face {
     font-family: Fredoka;
-    src: url(fonts/Fredoka-VariableFont_wdth\,wght.ttf);
+    src: url(assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf);
     font-weight: 600;
 }
 @font-face {
     font-family: Nunito;
-    src: url(fonts/Nunito-VariableFont_wght.ttf);
+    src: url(assets/fonts/Nunito-VariableFont_wght.ttf);
     font-weight: 700;
 }
 

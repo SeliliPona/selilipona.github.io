@@ -1,0 +1,12 @@
+.link { 
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+  /* transform: scale(1.04) rotate(-2deg); */
+  box-shadow: 0 2px 32px 0 #aa7fff, 0 4px 16px 0 rgba(154, 80, 137, 0.06);
+
+  /* z-index: 10; */
+}
