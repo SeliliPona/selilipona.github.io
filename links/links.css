@@ -3,6 +3,7 @@
     text-align: center;
     color: white;
     text-decoration: none;
+    /* font-family: "assets/fonts/Nunito-VariableFont_wght.ttf", "assets/fonts/nasin-nanpa-4.0.2-UCSUR.otf", sans-serif; */
 }
 .link:hover {
   /* transform: scale(1.04) rotate(-2deg); */

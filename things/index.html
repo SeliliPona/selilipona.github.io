@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="../thing.css" />
         <link rel="stylesheet" href="./things.css" />
         <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
+        <script src="./tab.js"></script>
+        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
     </head>
     <body>
         <ul>
@@ -14,6 +19,7 @@
             <li><a href="https://selilipona.github.io/about">about me</a></li>
             <li><a href="https://selilipona.github.io/links">all my linkies</a></li>
             <li><a href="https://selilipona.github.io/things">cool thingies</a></li>
+            <li><a href="https://selilipona.github.io/credits">credits</a></li>
         </ul>
         <main>
             <header class="hero">
@@ -25,29 +31,165 @@
                 </i></p>
             </header>
         </main>
+        <main>
+            <p class="subsubtitle">
+                these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out!
+            </p>
+        </main>
         <!-- Tab links -->
         <div class="tab">
-            <button class="tablinks" onclick="tab(event, 'tools')" id="defaultOpen">󱤎 – tools</button>
-            <button class="tablinks" onclick="tab(event, 'creators')">󱤑 – creators</button>
-            <button class="tablinks" onclick="tab(event, 'music')">󱤕 – music</button>
+            <button class="tablinks" onclick="tab(event, 'tools')" id="defaultOpen">
+                <div class="row"><h2 title="ilo">󱤎</h2></div>
+                <p class="subtitle">tools</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'creators')">
+                <div class="row"><h2 title="jan">󱤑</h2></div>
+                <p class="subtitle">creators</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'music')">
+                <div class="row"><h2 title="kalama">󱤕</h2></div>
+                <p class="subtitle">music</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'games')">
+                <div class="row"><h2 title="musi">󱤻</h2></div>
+                <p class="subtitle">games</p>
+            </button>
         </div>
 
         <!-- Tab content -->
         <div id="tools" class="tabcontent">
-            <h3>󱤎 – tools</h3>
-            <p>London is the capital city of England.</p>
+            <main class="tabthing">
+                <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Harmonoid</h2>
+                    <br>
+                    feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.
+               
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://harmonoid.com"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://discord.gg/2Rc3edFWd8"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/lrc-maker.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Akari's LRC Editor</h2>
+                    <br>
+                    Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.
+                    
+                </span></div>
+                <a class="thinglink" href="https://lrc-maker.github.io"><i class="fa-solid fa-globe"></i></a>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/yt-dlp.svg" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">yt-dlp</h2>
+                    <br>
+                    YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube.
+                    
+                </span></div>
+                <a class="thinglink" href="https://github.com/yt-dlp/yt-dlp"><i class="fa-brands fa-github"></i></a>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/fmhy.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">freemediaheckyeah</h2>
+                    <br>
+                    website <b>chock full</b> of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it.
+                    
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://fmhy.net"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://reddit.com/r/FREEMEDIAHECKYEAH"><i class="fa-brands fa-reddit"></i></a>
+                    <a class="thinglink" href="https://github.com/fmhy/FMHY/wiki/FMHY-Discord"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
         </div>
+        <div id="creators" class="tabcontent">
+            <main class="tabthing">
+                <img src="../assets/img/creators/neuro.webp" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Vedal, Neuro-sama, and Evil Neuro</h2>
+                    <br>
+                    a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters.
+                    though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in.
+                    their Swarm is one of the most dedicated fanbases out there, never failing to assimimate every newbie who even dares to mention their AI overlord.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://twitch.tv/vedal987"><i class="fa-brands fa-twitch"></i></a>
+                    <a class="thinglink" href="https://www.youtube.com/@Neurosama"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://discord.gg/neurosama"><i class="fa-brands fa-discord"></i></a>
+                    <a class="thinglink" href="https://vedal.ai"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/click.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">The Click</h2>
+                    <br>
+                    one of many Reddit reactslop channels, but I like <u>his</u> especially.
+                    he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs.
+                </span></div>
+                <div style="justify-items: right;">
+                    <a class="thinglink" href="https://www.youtube.com/@TheClick"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://x.com/NotTheClick"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="thinglink" href="https://discord.gg/theclick"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/matt-rose.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Matt Rose</h2>
+                    <br>
+                    British dude known for reading memes funnily.
+                    almost always goes the extra mile,
+                    whether it be <u>actually</u> falling down the stairs for an authentic sound effect
+                    or buying custom T-shirts of shitposts.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://www.youtube.com/@Matt_Rose"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://x.com/rose_matt"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/shindigs.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">shindigs</h2>
+                    <br>
+                    perhaps the most interactive streamer on Twitch.
+                    his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures.
+                    he's really fun.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://www.youtube.com/@shindigs3463"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://twitch.tv/shindigs"><i class="fa-brands fa-twitch"></i></a>
+                    <a class="thinglink" href="https://x.com/shindags"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </main>
+        </div>
+        <div id="music" class="tabcontent songcontent">
+            <!-- <main class="tabthing tabsong">
+                <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname">UNDERTALE Soundtrack<br><small>Toby Fox</small></h2>
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </main>
+            <main class="tabthing tabsong">
+                <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname">I Wanna Be A Machine<br><small>The Living Tombstone</small></h2>
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </main> -->
+        </div> 
+
         <script>
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen").click();
         </script>
-
-        <div id="creators" class="tabcontent">
-            <h3>󱤑 – creators</h3>
-            <p>Paris is the capital of France.</p>
-        </div>
-
-        <div id="music" class="tabcontent">
-            <h3>󱤕 – music</h3>
-            <p>Tokyo is the capital of Japan.</p>
-        </div> 
