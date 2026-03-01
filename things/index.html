@@ -33,26 +33,31 @@
         </main>
         <main>
             <p class="subsubtitle">
-                these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out!
+                these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out! hopefully you find something you like :3
             </p>
         </main>
         <!-- Tab links -->
         <div class="tab">
             <button class="tablinks" onclick="tab(event, 'tools')" id="defaultOpen">
-                <div class="row"><h2 title="ilo">󱤎</h2></div>
+                <div class="row"><h2 title="ilo • tools">󱤎</h2></div>
                 <p class="subtitle">tools</p>
             </button>
             <button class="tablinks" onclick="tab(event, 'creators')">
-                <div class="row"><h2 title="jan">󱤑</h2></div>
+                <div class="row"><h2 title="jan • people">󱤑</h2></div>
                 <p class="subtitle">creators</p>
             </button>
-            <button class="tablinks" onclick="tab(event, 'music')">
-                <div class="row"><h2 title="kalama">󱤕</h2></div>
+            <!-- TODO: why the fuck are half-width entries so fucking hard -->
+            <!-- <button class="tablinks" onclick="tab(event, 'music')">
+                <div class="row"><h2 title="kalama • sounds">󱤕</h2></div>
                 <p class="subtitle">music</p>
-            </button>
+            </button> -->
             <button class="tablinks" onclick="tab(event, 'games')">
-                <div class="row"><h2 title="musi">󱤻</h2></div>
+                <div class="row"><h2 title="musi • funs">󱤻</h2></div>
                 <p class="subtitle">games</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'anime')">
+                <div class="row"><h2 title="sitelen • pictures">󱥠</h2></div>
+                <p class="subtitle">anime</p>
             </button>
         </div>
 
@@ -61,7 +66,7 @@
             <main class="tabthing">
                 <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">Harmonoid</h2>
+                    <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></small></h1>
                     <br>
                     feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.
                
@@ -74,7 +79,7 @@
             <main class="tabthing">
                 <img src="../assets/img/tools/lrc-maker.png" class="thingimage" style="vertical-align:middle">
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">Akari's LRC Editor</h2>
+                    <h1 class="thingname" style="vertical-align: top;">Akari's LRC Editor <small>by magic_akari</small></h1>
                     <br>
                     Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.
                     
@@ -84,7 +89,7 @@
             <main class="tabthing">
                 <img src="../assets/img/tools/yt-dlp.png" class="thingimage" style="vertical-align:middle">
                 <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
-                    <h1 class="thingname" style="vertical-align: top;">yt-dlp</h2>
+                    <h1 class="thingname" style="vertical-align: top;">yt-dlp</h1>
                     <br>
                     YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube.
                     
@@ -94,7 +99,7 @@
             <main class="tabthing">
                 <img src="../assets/img/tools/fmhy.png" class="thingimage" style="vertical-align:middle">
                 <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
-                    <h1 class="thingname" style="vertical-align: top;">freemediaheckyeah</h2>
+                    <h1 class="thingname" style="vertical-align: top;">freemediaheckyeah</h1>
                     <br>
                     website <b>chock full</b> of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it.
                     
@@ -102,7 +107,18 @@
                 <div>
                     <a class="thinglink" href="https://fmhy.net"><i class="fa-solid fa-globe"></i></a>
                     <a class="thinglink" href="https://reddit.com/r/FREEMEDIAHECKYEAH"><i class="fa-brands fa-reddit"></i></a>
-                    <a class="thinglink" href="https://github.com/fmhy/FMHY/wiki/FMHY-Discord"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/keepass.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">KeePass <small>by Dominik Reichl</small></h1>
+                    <br>
+                    free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost.
+                    
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://keepass.info"><i class="fa-solid fa-globe"></i></a>
                 </div>
             </main>
         </div>
@@ -110,7 +126,7 @@
             <main class="tabthing">
                 <img src="../assets/img/creators/neuro.webp" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">Vedal, Neuro-sama, and Evil Neuro</h2>
+                    <h1 class="thingname" style="vertical-align: top;">Vedal, Neuro-sama, and Evil Neuro</h1>
                     <br>
                     a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters.
                     though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in.
@@ -126,7 +142,7 @@
             <main class="tabthing">
                 <img src="../assets/img/creators/click.jpg" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">The Click</h2>
+                    <h1 class="thingname" style="vertical-align: top;">The Click</h1>
                     <br>
                     one of many Reddit reactslop channels, but I like <u>his</u> especially.
                     he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs.
@@ -140,7 +156,7 @@
             <main class="tabthing">
                 <img src="../assets/img/creators/matt-rose.jpg" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">Matt Rose</h2>
+                    <h1 class="thingname" style="vertical-align: top;">Matt Rose</h1>
                     <br>
                     British dude known for reading memes funnily.
                     almost always goes the extra mile,
@@ -155,7 +171,7 @@
             <main class="tabthing">
                 <img src="../assets/img/creators/shindigs.jpg" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">shindigs</h2>
+                    <h1 class="thingname" style="vertical-align: top;">shindigs</h1>
                     <br>
                     perhaps the most interactive streamer on Twitch.
                     his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures.
@@ -169,10 +185,11 @@
             </main>
         </div>
         <div id="music" class="tabcontent songcontent">
+            <main><p>work in progress because HTML is hard</p></main>
             <!-- <main class="tabthing tabsong">
                 <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname">UNDERTALE Soundtrack<br><small>Toby Fox</small></h2>
+                    <h1 class="thingname">UNDERTALE Soundtrack<br><small>Toby Fox</small></h1>
                 </span></div>
                 <div>
                     <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
@@ -181,7 +198,7 @@
             <main class="tabthing tabsong">
                 <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname">I Wanna Be A Machine<br><small>The Living Tombstone</small></h2>
+                    <h1 class="thingname">I Wanna Be A Machine<br><small>The Living Tombstone</small></h1>
                 </span></div>
                 <div>
                     <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
@@ -190,9 +207,9 @@
         </div> 
         <div id="games" class="tabcontent">
             <main class="tabthing">
-                <img src="../assets/img/games/undertale.png" class="thingimage"/>
+                <img src="../assets/img/games/undertale.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢UNDERTALE｣ <small>by Toby Fox</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢UNDERTALE｣ <small>by Toby Fox</small></h1>
                     <br>
                     ★★★★★
                     <br>
@@ -207,9 +224,9 @@
                 </div>
             </main>
             <main class="tabthing">
-                <img src="../assets/img/games/deltarune.webp" class="thingimage"/>
+                <img src="../assets/img/games/deltarune.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢DELTARUNE｣ <small>by Toby Fox</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢DELTARUNE｣ <small>by Toby Fox</small></h1>
                     <br>
                     ★★★★☆
                     <br>
@@ -223,11 +240,11 @@
                 </div>
             </main>
             <main class="tabthing">
-                <img src="../assets/img/games/minecraft.avif" class="thingimage"/>
+                <img src="../assets/img/games/minecraft.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢Minecraft｣ <small>by Mojang Studios</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢Minecraft｣ <small>by Mojang Studios</small></h1>
                     <br>
-                    ★★★★⯨
+                    ★★★★☆
                     <br>
                     everyone knows ｢Minecraft｣, the little indie that could.
                     it's the best-selling video game that ever best-sold.
@@ -239,9 +256,9 @@
                 </div>
             </main>
             <main class="tabthing">
-                <img src="../assets/img/games/stickmin.png" class="thingimage"/>
+                <img src="../assets/img/games/stickmin.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢The Henry Stickmin Collection｣ <small>by PuffballsUnited</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢The Henry Stickmin Collection｣ <small>by PuffballsUnited</small></h1>
                     <br>
                     ★★★★★
                     <br>
@@ -256,9 +273,9 @@
                 </div>
             </main>
             <main class="tabthing">
-                <img src="../assets/img/games/coffin.jpg" class="thingimage"/>
+                <img src="../assets/img/games/coffin.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢The Coffin of Andy and Leyley｣ <small>by Kit9 Studio</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢The Coffin of Andy and Leyley｣ <small>by Kit9 Studio</small></h1>
                     <br>
                     ★★★★★
                     <br>
@@ -272,9 +289,9 @@
                 </div>
             </main>
             <main class="tabthing">
-                <img src="../assets/img/games/ddlc.webp" class="thingimage"/>
+                <img src="../assets/img/games/ddlc.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">｢Doki Doki Literature Club!｣ <small>by Team Salvato</small></h2>
+                    <h1 class="thingname" style="vertical-align: top;">｢Doki Doki Literature Club!｣ <small>by Team Salvato</small></h1>
                     <br>
                     ★★★★★
                     <br>
@@ -286,6 +303,61 @@
                 <div>
                     <a class="thinglink" href="https://ddlc.moe"><i class="fa-solid fa-globe"></i></a>
                     <a class="thinglink" href="https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+        </div>
+        <div id="anime" class="tabcontent">
+            <main><p class="subsubtitle">links marked with <i class="fa-solid fa-book"></i> are for AniDB. anime here are ordered by first watched to last watched.</p></main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/bocchi.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Botchi Za Rokku! • Bocchi the Rock!">ぼっち・ざ・ろっく！</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    NEET girl learns guitar because she wants to be in a band. she's too shy to make friends, but a drummer invites her to play for a band.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/16063"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/kanojo.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Kanojo, Okarishimasu • Rent-A-Girlfriend">彼女、お借りします</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    guy gets dumped, decides to try girlfriend experience. one thing leads to another and now him and the rental have to actively pretend to be together in from of his family.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/15299"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/onimai.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Onii-chan wa Oshimai! • Onimai: I'm Now Your Sister!">お兄ちゃんはおしまい！</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    middle school genius drugs her older brother and makes him a middle school girl. he then has to learn how to live in this body while still being a young man inside.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/17328"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/oreimo.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo • My Little Sister Can't Be This Cute">俺の妹がこんなに可愛いわけがない</h1>
+                    <br>
+                    ★★★★☆
+                    <br>
+                    high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's like in a very unique and undesirable way.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/7525"><i class="fa-solid fa-book"></i></a>
                 </div>
             </main>
         </div>
