@@ -91,33 +91,7 @@ main {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    position:fixed;
-    overflow: hidden;
-    background-color: #caf;
-    width:100%;
-}
-ul li {
-    float: left;
-}
-ul li a {
-    font-family: Fredoka;
-    display: block;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    padding: 16px 16px 0px;
-    text-decoration: none;
-    font-size: 30px;
-}
-ul li a:hover {
-  background-color: #BC8FFF;
-}
-ul img {
-    max-width: 50px;
+    font-size: 24px;
 }
 
 .subpagecontainer {
