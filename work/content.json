@@ -1,0 +1,259 @@
+{
+    "arts": [
+        {
+            "image": "In the Blink of an Eye.png",
+            "title": "In the Blink of an Eye",
+            "date": "8 May 2024",
+            "description": "my first ever digital drawing with ibisPaint. it was supposed to depict me medicated vs unmedicated, and/or how I can go from happy to depressed “in the blink of an eye”. I'm still proud of it to this day."
+        },
+        {
+            "image": "AetherRedrawzs.png",
+            "title": "AetherRedrawzs",
+            "date": "9-10 May 2024",
+            "description" : "my own take on Aether, Sleepy's OC and then-persona. named after her Twitch handle, which at the time was AetherDrawzs."
+        },
+        {
+            "image": "Fun in the Snow.png",
+            "title": "Fun in the Snow",
+            "date": "9-11 May 2024",
+            "description" : "this picture depicts Sarah dressed in winter clothes, making a snow angel. I don't remember if I ever officially considered it finished."
+        },
+        {
+            "image": "Two Young Ladies.png",
+            "title": "Two Young Ladies",
+            "date": "13-14 May 2024",
+            "description" : "this image depicts a child Sarah looking at a ladybug on her hand.\nthis image still disturbs me today."
+        },
+        {
+            "image": "KISSK.png",
+            "title": "KISSK",
+            "date": "14-16 May 2024",
+            "description" : "this is another self-portrait. the name was supposed to be an acronym, though for what I don't remember – my best guess is “kind, intelligent, sweet, silly kid”."
+        },
+        {
+            "image": "Sillies Being Silly.png",
+            "title": "Sillies Being Silly",
+            "date": "12 Jun 2024",
+            "description" : "this is an image I drew for Sleepy's birthday. it includes (left to right, top to bottom) Ether, Aether, Sarah, and them. I am happy with how Aether and more so Ether came out. Sarah and Sleepy, not so much.\nnote: the date is speculation. I lost the original IPV file for this art – the date is based off of the only export I have."
+        },
+        {
+            "image": "Selaso.png",
+            "title": "Selaso",
+            "date": "20-23 Jun 2024",
+            "description" : "first ever appearance of Selaso, one of my OCs. since then her appearance has changed a bit, but still mostly the same."
+        },
+        {
+            "image": "Just Sarah..png",
+            "title": "Just Sarah.",
+            "date": "3-12 Jul 2024",
+            "description" : "this is supposed to be a parody of Act 3 of ｢Doki Doki Literature Club!｣ with Sarah, one of my OCs. she is supposed to be sitting in a bean bag, the context being similar to the source material."
+        },
+        {
+            "image": "Aether Aether.png",
+            "title": "Aether Aether",
+            "date": "21-23 Jul 2024",
+            "description" : "drawing of Sleepy's OC (and then-persona) “Aether” about to make an Aether portal (as in, the ｢Minecraft｣ mod). terible joke, I know.\nthis artwork is actually the one I'm most proud of. I think it turned out the best. ^.^"
+        },
+        {
+            "image": "lon li nasa",
+            "title": "󱤬󱤧󱤾",
+            "translation": "existence is weird",
+            "date": "5-6 Aug 2024",
+            "description" : "in this picture, Selaso is laying on her bed having a moment of depression/contemplation.\nthe thoughts roughly tranlate to “what is existence? why do I exist? everything is wierd.”."
+        },
+        {
+            "image": "relAIxation.png",
+            "title": "relAIxation",
+            "date": "3-4 Dec 2024",
+            "description" : "a trace of a photograph of the Neuro-sama V2 plushie. the scene is supposed to be a beach."
+        },
+        {
+            "image": "Drawing 8.png",
+            "title": "Drawing 8",
+            "date": "14 Feb 2025",
+            "description" : "pixel art traces of the poemgame chibis from ｢Doki Doki Literature Club!｣, using the standard PICO-8 palette."
+        },
+        {
+            "image": "Drawing 7.png",
+            "title": "Drawing 7",
+            "date": "12 Mar 2025",
+            "description" : "simple pixel art drawing of Vedal and the Neuro twins using the extended PICO-8 palette. I submitted it to Neurocord and it never got reviewed T-T"
+        },
+        {
+            "image": "Drawing 47.png",
+            "title": "Drawing 47",
+            "date": "23 Jun 2025",
+            "description" : "Neuro-sama riding a happy ghast from ｢Minecraft｣. another one that was submitted to Neurocord and never reviewed."
+        },
+        {
+            "image": "B.png",
+            "title": "B",
+            "date": "3 Oct 2025",
+            "description" : "a more feminized depiction of Selili, this was mostly traced from a drawing of Rosa from ｢Pokémon Black 2 & White 2｣ sourced from Pixiv, the original author of which I can't recall.\nI used this as my pfp for a while, until my mom questioned why it “depicted me with breasts”. -_-"
+        }
+    ],
+    "albums": [
+        {
+            "name": "In a Heartbeat OST",
+            "subtitle": "(side A)",
+            "description": "these songs were created for ｢In a Heartbeat｣, a game I never finished. it was supposed to be a visual novel dating sim made in LÖVE with PICO-8-inspired visuals.",
+            "path": "iah1",
+            "songs": [
+                {
+                    "name": "In a Heartbeat",
+                    "file": "1 In a Heartbeat.mp3",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "Sarah's Song",
+                    "file": "2 Sarah's Song.mp3",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "The Only One I Trust",
+                    "file": "3 The Only One I Trust.mp3",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "Sweden",
+                    "file": "4 Sweden.mp3",
+                    "artist": "C418",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "Lavender Town",
+                    "file": "5 Lavender Town.mp3",
+                    "artist": "増田順一",
+                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "An Actual Date",
+                    "file": "6 An Actual Date.mp3",
+                    "art": "iah1.png"
+                },
+                {
+                    "name": "Together Forever",
+                    "file": "7 Together Forever.mp3",
+                    "art": "iah1.png"
+                }
+            ]
+        },
+        {
+            "name": "In a Heartbeat OST",
+            "subtitle":"(side B)",
+            "description": "these are some bonus songs made for the ｢In a Heartbeat｣ soundtrack. none of them were in the game.",
+            "path": "iah2",
+            "songs": [
+                {
+                    "name":"In a Heartbeat",
+                    "subtitle": "(Early Sketch)",
+                    "file": "1 In a Heartbeat (Early Sketch).mp3",
+                    "art": "iah2.png"
+                },
+                {
+                    "name": "Lavender Town",
+                    "subtitle": "(Early Sketch)",
+                    "artist": "増田順一",
+                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
+                    "file": "2 Lavender Town (Early Sketch).mp3",
+                    "art": "iah2.png"
+                },
+                {
+                    "name": "Your Reality",
+                    "artist": "Dan Salvato, Jillian Ashcraft",
+                    "file": "3 Your Reality.mp3",
+                    "art": "iah2.png"
+                },
+                {
+                    "name": "Sarah's Song",
+                    "subtitle": "(Restarted Version)",
+                    "file": "4 Sarah's Song (Restarted Version).mp3",
+                    "art": "iah2.png"
+                },
+                {
+                    "name": "The Only One I Trust",
+                    "subtitle": "(Restarted Version)",
+                    "file": "5 The Only One I Trust (Restarted Version).mp3",
+                    "art": "iah2.png"
+                },
+                {
+                    "name": "Together Forever",
+                    "subtitle": "(Restarted Version)",
+                    "file": "7 Together Forever (Restarted Version.mp3",
+                    "art": "iah2.png"
+                }
+            ]
+        },
+        {
+            "name": "PICO PICO Literature Club! OST",
+            "description": "PICO-8 versions of some of ｢DDLC｣'s OST. I was half-planning on actually demaking it into PICO-8 and using these songs.",
+            "path": "pplc",
+            "songs": [
+                {
+                    "name": "Dreams Of Love and Literature",
+                    "artist": "Dan Salvato",
+                    "file": "03 Dreams Of Love and Literature.mp3",
+                    "art": "pplc.png"
+                },
+                {
+                    "name": "Poem Panic!",
+                    "artist": "Dan Salvato",
+                    "file": "06 Poem Panic!.mp3",
+                    "art": "pplc.png"
+                },
+                {
+                    "name": "My Confession",
+                    "artist":"Dan Salvato",
+                    "file": "09 My Confession.mp3",
+                    "art": "pplc.png"
+                },
+                {
+                    "name": "Sayo-nara",
+                    "artist": "Dan Salvato",
+                    "file": "10 Sayo-nara.mp3",
+                    "art": "pplc.png"
+                }
+            ]
+        },
+        {
+            "name": "other covers",
+            "description": "all other covers that aren't in their own album",
+            "path": "covers",
+            "songs": [
+                {
+                    "name": "Dance Mr. Funnybones",
+                    "artist": "PuffballsUnited",
+                    "file": "Dance Mr. Funnybones.mp3",
+                    "art": "funnybones.png"
+                },
+                {
+                    "name": "Коробе́йники",
+                    "name_translation": "Korobéyniki • Korobeiniki",
+                    "artist": "田中宏和",
+                    "artist_translation": "Tanaka Hirokazu • Hirokazu Tanaka",
+                    "file": "Коробе́йники.mp3",
+                    "art": "коробе́йники.mp3"
+                },
+                {
+                    "name": "LIFE",
+                    "artist": "Neuro-sama",
+                    "file": "LIFE.mp3",
+                    "art": "life.png"
+                },
+                {
+                    "name": "PICO 4 Lyfe",
+                    "artist": "PuffballsUnited",
+                    "file": "PICO 4 Lyfe.mp3",
+                    "art": "pico4lyfe.png"
+                },
+                {
+                    "name": "Science Blaster",
+                    "artist": "SpellingPhailer",
+                    "file": "Science Blaster.mp3",
+                    "art": "blaster.png"
+                }
+            ]
+        }
+    ]
+}

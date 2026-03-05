@@ -1,0 +1,282 @@
+{
+    "tools": [
+        {
+            "name": "Harmonoid",
+            "subtitle": "by Hitesh Kumar Saini",
+            "image": "harmonoid.png",
+            "description": "feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://harmonoid.com"
+                },
+                {
+                    "class": "fa-brands fa-discord",
+                    "link": "https://discord.gg/2Rc3edFWd8"
+                }
+            ]
+        },
+        {
+            "name": "Akari's LRC Editor",
+            "subtitle": "by magic_akari",
+            "image": "lrc-maker.png",
+            "description": "Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://lrc-maker.github.io"
+                }
+            ]
+        },
+        {
+            "name": "yt-dlp",
+            "image": "yt-dlp.png",
+            "description": "YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube.",
+            "links": [
+                {
+                    "class": "fa-brands fa-github",
+                    "link": "https://github.com/yt-dlp/yt-dlp"
+                }
+            ]
+        },
+        {
+            "name": "freemediaheckyeah",
+            "image": "fmhy.png",
+            "description": "website <b>chock full</b> of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://fmhy.net"
+                },
+                {
+                    "class": "fa-brands fa-reddit",
+                    "link": "https://reddit.com/r/FREEMEDIAHECKYEAH"
+                }
+            ]
+        },
+        {
+            "name": "KeePass",
+            "subtitle": "by Dominik Reichl",
+            "image": "keepass.png",
+            "description": "free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://keepass.info"
+                }
+            ]
+        }
+    ],
+    "creators": [
+        {
+            "name": "Vedal, Neuro-sama, and Evil Neuro",
+            "image": "neuro.webp",
+            "description": "a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters. though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in. their Swarm is one of the most dedicated fanbases out there, never failing to assimimate every newbie who even dares to mention their AI overlord.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://vedal.ai"
+                },
+                {
+                    "class": "fa-brands fa-twitch",
+                    "link": "https://twitch.tv/vedal987"
+                },
+                {
+                    "class": "fa-brands fa-youtube",
+                    "link": "https://youtube.com/@Neurosama"
+                },
+                {
+                    "class": "fa-brands fa-discord",
+                    "link": "https://discord.gg/neurosama"
+                }
+            ]
+        },
+        {
+            "name": "The Click",
+            "image": "click.jpg",
+            "description": "one of many Reddit reactslop channels, but I like <u>his</u> especially. he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs.",
+            "links": [
+                {
+                    "class": "fa-brands fa-youtube",
+                    "link": "https://youtube.com/@TheClick"
+                },
+                {
+                    "class": "fa-brands fa-twitter",
+                    "link": "https://x.com/NotTheClick"
+                },
+                {
+                    "class": "fa-brands fa-discord",
+                    "link": "https://discord.gg/theclick"
+                }
+            ]
+        },
+        {
+            "name": "Matt Rose",
+            "image": "matt-rose.jpg",
+            "description": "British dude known for reading memes funnily. almost always goes the extra mile, whether it be <u>actually</u> falling down the stairs for an authentic sound effect or buying custom T-shirts of shitposts.",
+            "links": [
+                {
+                    "class": "fa-brands fa-youtube",
+                    "link": "https://youtube.com/@Matt_Rose"
+                },
+                {
+                    "class": "fa-brands fa-twitter",
+                    "link": "https://x.com/rose_matt"
+                }
+            ]
+        },
+        {
+            "name": "shindigs",
+            "image": "shindigs.jpg",
+            "description": "perhaps the most interactive streamer on Twitch. his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures. he's really fun.",
+            "links": [
+                {
+                    "class": "fa-brands fa-youtube",
+                    "link": "https://youtube.com/@shindigs3463"
+                },
+                {
+                    "class": "fa-brands fa-twitch",
+                    "link": "https://twitch.tv/shindigs"
+                },
+                {
+                    "class": "fa-brands fa-twitter",
+                    "link": "https://x.com/shindags"
+                }
+            ]
+        }
+    ],
+    "games": [
+        {
+            "name": "UNDERTALE",
+            "subtitle": "by Toby Fox",
+            "image": "undertale.jpg",
+            "description": "★★★★★<br>the RPG where no one has to die. this game needs no introduction – chances are you have heard of it, if not played it. mostly developed by one singular person, this game is definitely deserving of my #1 spot. its soundtrack is a banger, its art is beautiful, its story is heart-wrenching.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://undertale.com"
+                },
+                {
+                    "class": "fa-brands fa-steam",
+                    "link": "https://store.steampowered.com/app/391540/Undertale"
+                }
+            ]
+        },
+        {
+            "name": "DELTARUNE",
+            "subtitle": "by Toby Fox",
+            "image": "deltarune.jpg",
+            "description": "★★★★☆<br>the spiritual successor/parallel story to ｢UNDERTALE｣. different setting, new and old characters, same amazing quality. the game isn't finished yet, so I can't really rate it fairly, but so far it's great.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://deltarune.com"
+                },
+                {
+                    "class": "fa-brands fa-steam",
+                    "link": "https://store.steampowered.com/app/1671210/DELTARUNE"
+                }
+            ]
+        },
+        {
+            "name": "Minecraft",
+            "subtitle": "by Mojang Studios",
+            "image": "minecraft.jpg",
+            "description": "★★★★☆<br>everyone knows ｢Minecraft｣, the little indie that could. it's the best-selling video game that ever best-sold. create, explore, survive – use the blocks around you to make anything, from castles to computers to cocks.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://minecraft.net"
+                }
+            ]
+        },
+        {
+            "name": "The Henry Stickmin Collection",
+            "subtitle": "by PuffballsUnited",
+            "image": "stickmin.jpg",
+            "description": "★★★★★<br>a remake of the original ｢Henry Stickmin｣ games – CYOAs where you want to fail. it possibly holds the record for the most references in a video game (though don't Google that, it probably doesn't). this is actually my only perfect Steam game, so that's cool ig.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://innersloth.com/games/the-henry-stickmin-collection"
+                },
+                {
+                    "class": "fa-brands fa-steam",
+                    "link": "https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection"
+                }
+            ]
+        },
+        {
+            "name": "The Coffin of Andy and Leyley",
+            "subtitle": "by Kit9 Studio",
+            "image": "coffin.jpg",
+            "description": "★★★★★<br>brother and sister witness a botched satanic ritual and become cannibals. the story shows their love for each other (and possibly their <i><b>love</b></i> for each other, depending on the route). oh and there are some fun puzzles strewn throughout the game.",
+            "links": [
+                {
+                    "class": "fa-brands fa-steam",
+                    "link": "https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley"
+                }
+            ]
+        },
+        {
+            "name": "Doki Doki Literature Club!",
+            "subtitle": "by Team Salvato",
+            "image": "ddlc.jpg",
+            "description": "★★★★★<br>NEET high schooler joins the literature club his friend is part of and tries to rizz up one of three of the four girls in there. but the other one really doesn't like that and goes severely out of her way to stop you. this game is not suitable for children or those who are easily disturbed.",
+            "links": [
+                {
+                    "class": "fa-solid fa-globe",
+                    "link": "https://ddlc.moe"
+                },
+                {
+                    "class": "fa-brands fa-steam",
+                    "link": "https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club"
+                }
+            ]
+        }
+    ],
+    "anime": [
+        {
+            "name": "ぼっち・ざ・ろっく！",
+            "name_translation": "Botchi Za Rokku! • Bocchi the Rock!",
+            "image": "bocchi.jpg",
+            "description": "★★★★★<br>NEET girl learns guitar because she wants to be in a band, but she's too shy to make friends, so that ain't happening any time soon. but a drummer is desperate for a guitarist for her band when she finds the NEET sitting alone. so now NEET gets what she wanted.",
+            "links": [
+                {
+                    "class": "fa-solid fa-book",
+                    "link": "https://anidb.net/anime/16063"
+                }
+            ]
+        },
+        {
+            "name": "彼女、お借りします",
+            "name_translation": "Kanojo, Okarishimasu • Rent-A-Girlfriend",
+            "image": "kanojo.jpg",
+            "description": "★★★★★<br>guy gets dumped, decides to try girlfriend experience. one thing leads to another and now him and the rental have to actively pretend to be together in front of his family.",
+            "links": [
+                {
+                    "class": "fa-solid fa-book",
+                    "link": "https://anidb.net/anime/15299"
+                }
+            ]
+        },
+        {
+            "name": "お兄ちゃんはおしまい！",
+            "name_translation": "Onii-chan wa Oshimai! • Onimai: I'm Now Your Sister!",
+            "image": "onimai.jpg",
+            "description": "★★★★★<br>middle school genius drugs her older brother and makes him a middle school girl. he then has to learn how to live in this body while still being a young man inside.",
+            "links": [
+                {
+                    "class": "fa-solid fa-book",
+                    "link": "https://anidb.net/anime/17328"
+                }
+            ]
+        },
+        {
+            "name": "俺の妹がこんなに可愛いわけがない",
+            "name_translation": "Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo: My Little Sister Can't Be This Cute",
+            "image": "oreimo.jpg",
+            "description": "★★★★☆<br>high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a very undesirable way."
+        }
+    ]
+}

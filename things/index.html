@@ -4,23 +4,29 @@
         <meta charset="utf-8" />
         <title>ijo epiku - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
-        <link rel="stylesheet" href="../thing.css" />
-        <link rel="stylesheet" href="./things.css" />
-        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
-        <script src="./tab.js"></script>
+        <meta property="og:image" content="assets/img/selili.png">
         <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
+        <link rel="stylesheet" href="../thing.css" />
+        <link rel="stylesheet" href="./things.css" />
+        <link rel="stylesheet" href="../topnav.css" />
+        <script src="../topnav.js"></script>
+        <script src="../tab.js"></script>
     </head>
     <body>
-        <ul>
-            <li><a href="https://selilipona.github.io"><img src="../assets/img/selili.png" alt="pixel art drawing of Selili"></a></li>
-            <li><a href="https://selilipona.github.io/about">about me</a></li>
-            <li><a href="https://selilipona.github.io/links">all my linkies</a></li>
-            <li><a href="https://selilipona.github.io/things">cool thingies</a></li>
-            <li><a href="https://selilipona.github.io/credits">credits</a></li>
-        </ul>
+        <div class="topnav" id="topnavstuff">
+            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
+            <a href="https://selilipona.github.io">home</a>
+            <a href="https://selilipona.github.io/about">about me</a>
+            <a href="https://selilipona.github.io/links">all my linkies</a>
+            <a href="https://selilipona.github.io/things">cool thingies</a>
+            <a href="https://selilipona.github.io/work" class="active">stuff I've done</a>
+            <a href="https://selilipona.github.io/credits">credits</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">•••</a>
+        </div>
         <main>
             <header class="hero">
                 <div class="row">
@@ -63,10 +69,11 @@
 
         <!-- Tab content -->
         <div id="tools" class="tabcontent">
+            <div id="toolcreator"></div>
             <main class="tabthing">
                 <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></small></h1>
+                    <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></h1>
                     <br>
                     feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.
                
@@ -350,11 +357,11 @@
             <main class="tabthing">
                 <img src="../assets/img/anime/oreimo.jpg" class="gameimage"/>
                 <div style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;" title="Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo • My Little Sister Can't Be This Cute">俺の妹がこんなに可愛いわけがない</h1>
+                    <h1 class="thingname" style="vertical-align: top;" title="Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo: My Little Sister Can't Be This Cute">俺の妹がこんなに可愛いわけがない</h1>
                     <br>
                     ★★★★☆
                     <br>
-                    high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a very unique and undesirable way.
+                    high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a very undesirable way.
                 </span></div>
                 <div>
                     <a class="thinglink" href="https://anidb.net/anime/7525"><i class="fa-solid fa-book"></i></a>

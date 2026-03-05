@@ -40,8 +40,8 @@
 /* Style the tab content */
 .tabcontent {
   display: none;
+  max-width: 900px;
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
@@ -52,6 +52,9 @@
 }
 .songcontent {
     justify-items: left;
+}
+.drawingcontent {
+    margin: auto;
 }
 .tabthing {
     display: flex;
@@ -80,4 +83,9 @@
 .gameimage {
     max-width: 192px;
     max-height: 192px;
+}
+.songimage {
+    max-width: 96px;
+    max-height: 96px;
+    border-radius: 5%;
 }

@@ -5,19 +5,25 @@
         <meta charset="utf-8" />
         <title>lipu open - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
+        <link rel="icon" type="image/x-png" href="assets/img/selili.png">
         <link rel="stylesheet" href="thing.css" />
         <link rel="stylesheet" href="links/links.css" />
-        <link rel="icon" type="image/x-png" href="assets/img/selili.png">
+        <link rel="stylesheet" href="topnav.css" />
+        <script src="topnav.js"></script>
+        <script src="tab.js"></script>
         <meta property="og:image" content="assets/img/selili.png">
     </head>
     <body>
-        <ul>
-            <li><a href="https://selilipona.github.io"><img src="assets/img/selili.png" alt="pixel art drawing of Selili"></a></li>
-            <li><a href="https://selilipona.github.io/about">about me</a></li>
-            <li><a href="https://selilipona.github.io/links">all my linkies</a></li>
-            <li><a href="https://selilipona.github.io/things">cool thingies</a></li>
-            <li><a href="https://selilipona.github.io/credits">credits</a></li>
-        </ul>
+        <div class="topnav" id="topnavstuff">
+            <a href="https://selilipona.github.io"><img class="topnavicon" src="assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
+            <a href="https://selilipona.github.io">home</a>
+            <a href="https://selilipona.github.io/about">about me</a>
+            <a href="https://selilipona.github.io/links">all my linkies</a>
+            <a href="https://selilipona.github.io/things">cool thingies</a>
+            <a href="https://selilipona.github.io/work" class="active">stuff I've done</a>
+            <a href="https://selilipona.github.io/credits">credits</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">•••</a>
+        </div>
 
         <main>
             <header class="hero">
@@ -42,9 +48,9 @@
             <a href="https://selilipona.github.io/links">
                 <div class="subpage">
                     <div class="row">
-                        <h1 title="lipu mi ale • all pages of me">󱤪󱤴󱤄</h1>
+                        <h1 title="lipu mi • pages of me">󱤪󱤴</h1>
                     </div>
-                    <p class="subtitle">all my linkies</p>
+                    <p class="subtitle">my linkies</p>
                 </div>
             </a>
             <a href="https://selilipona.github.io/things">
@@ -55,16 +61,18 @@
                     <p class="subtitle unusedsubtitle">cool thingies</p>
                 </div>
             </a>
-            <div class="subpage unusedsubpage">
-                <div class="row">
-                    <h1 title="tenpo ni la ala • currently nothing">󱥫󱥁󱤡󱤂</h1>
+            <a href="https://selilipona.github.io/work">
+                <div class="subpage">
+                    <div class="row">
+                        <h1 title="pali mi • work of me">󱥉󱤴</h1>
+                    </div>
+                    <p class="subtitle">stuff I've done</p>
                 </div>
-                <p class="subtitle unusedsubtitle">nothing yet</p>
-            </div>
+            </a>
             <a href="https://selilipona.github.io/credits">
                 <div class="subpage">
                     <div class="row">
-                        <h1 title="tan pi ijo pali • sources of creation things">󱥧󱥍󱤌󱥉</h1>
+                        <h1 title="tan pali • sources of creation things">󱥧󱥉</h1>
                     </div>
                     <p class="subtitle">credits</p>
                 </div>

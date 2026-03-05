@@ -2,31 +2,37 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>lipu mi ale - lipu pi jan Selili</title>
+        <title>lipu mi - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
-        <link rel="stylesheet" href="../thing.css" />
-        <link rel="stylesheet" href="./links.css" />
+        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
         <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
         <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
-        <link rel="icon" type="image/x-png" href="../img/selili.png">
-        <meta property="og:image" content="../img/selili.png">
+        <link rel="stylesheet" href="../thing.css" />
+        <link rel="stylesheet" href="./links.css" />
+        <link rel="stylesheet" href="../topnav.css" />
+        <script src="../topnav.js"></script>
+        <script src="../tab.js"></script>
+        <meta property="og:image" content="../assets/img/selili.png">
     </head>
     <body>
-        <ul>
-            <li><a href="https://selilipona.github.io"><img src="../assets/img/selili.png" alt="pixel art drawing of Selili"></a></li>
-            <li><a href="https://selilipona.github.io/about">about me</a></li>
-            <li><a href="https://selilipona.github.io/links">all my linkies</a></li>
-            <li><a href="https://selilipona.github.io/things">cool thingies</a></li>
-            <li><a href="https://selilipona.github.io/credits">credits</a></li>
-        </ul>
+        <div class="topnav" id="topnavstuff">
+            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
+            <a href="https://selilipona.github.io">home</a>
+            <a href="https://selilipona.github.io/about">about me</a>
+            <a href="https://selilipona.github.io/links">all my linkies</a>
+            <a href="https://selilipona.github.io/things">cool thingies</a>
+            <a href="https://selilipona.github.io/work" class="active">stuff I've done</a>
+            <a href="https://selilipona.github.io/credits">credits</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">•••</a>
+        </div>
         <main>
             <header class="hero">
                 <div class="row">
-                    <h1 title="lipu mi ale • all pages of me">󱤪󱤴󱤄</h1>
+                    <h1 title="lipu mi • pages of me">󱤪󱤴</h1>
                 </div>
-                <p class="subtitle">all my linkies</p>
+                <p class="subtitle">my linkies</p>
                 <p class="subsubtitle"><i>have fun stalking me ig
                 </i></p>
             </header>
