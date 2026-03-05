@@ -5,6 +5,10 @@
         <title>sona mi - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
         <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
+        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
         <link rel="stylesheet" href="../thing.css" />
         <link rel="stylesheet" href="../topnav.css" />
         <script src="../topnav.js"></script>
@@ -22,6 +26,12 @@
             <a href="https://selilipona.github.io/credits">credits</a>
             <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">•••</a>
         </div>
+        <script>
+            var seliliAudio = new Audio("../assets/audio/selili.mp3")
+            function playAudio() {
+                
+            }
+        </script>
         <main>
             <header class="hero">
                 <div class="row">
@@ -33,7 +43,7 @@
             </header>
         </main>
         <main>
-            <h1>hey, I'm Selili! :3</h1>
+            <h1>hey, I'm Selili<sup>[<a href="javascript:void(0);" onclick="seliliAudio.play()"><i class="fa-solid fa-volume"></i></a>]</sup>! :3</h1>
             he/him/any – male (I think)
             <p class="paragraph">
                 <small>uh I'm a silly and I like to do stuff.</small><br>
