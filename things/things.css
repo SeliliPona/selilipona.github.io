@@ -43,6 +43,7 @@
   max-width: 900px;
   padding: 6px 12px;
   border-top: none;
+  margin: auto;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 /* Go from zero to full opacity */
