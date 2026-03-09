@@ -18,6 +18,19 @@
         <meta property="og:image" content="../assets/img/selili.png">
     </head>
     <body>
+    
+            <!-- image modal -->
+        <div id="modal" class="modal">
+
+            <!-- close button -->
+            <span id="closeButton" class="close" onclick="closeModal();">&times;</span>
+
+            <!-- modal content -->
+            <img class="modal-content" id="img01">
+
+            <!-- modal caption -->
+            <div id="caption"></div>
+        </div>
         <div class="topnav" id="topnavstuff">
             <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
             <a href="https://selilipona.github.io">home</a>
@@ -417,7 +430,8 @@
                 <button onclick="toggleDropdown('covers')" id="_covers" class="dropbtn">other covers</button>
                 <div id="covers" class="dropdown-content">
                     <h2>
-                        all other covers that aren't in their own folder
+                        all other covers that aren't in their own folder. these are all subject to change.<br>
+                        if for whatever reason you want to download them, right-click or long tap on the player and choose “save audio as...”. they all have full metadata added, so they'll look nice in whatever app you use.
                     </h2>
                     <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/funnybones.png">
@@ -449,6 +463,16 @@
                         </div>
                     </div>
                     <div class="tabthing">
+                        <img class="songimage" src="../assets/img/songs/megalovania.png">
+                        <div>
+                            <h3 class="songtitle">MEGALOVANIA <small>by Toby Fox</small><br>
+                                <audio controls>
+                                    <source src="../assets/audio/covers/MEGALOVANIA.wav">
+                                </audio>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/pico4lyfe.png">
                         <div>
                             <h3 class="songtitle">PICO 4 Lyfe <small>by PuffballsUnited</small><br>
@@ -472,17 +496,4 @@
             </div>
         </div>
     </body>
-    
-        <!-- image modal -->
-    <div id="imageModal" class="modal">
-
-        <!-- close button -->
-        <span id="close" class="close">&times;</span>
-
-        <!-- modal content -->
-        <img class="modal-content" id="img01">
-
-        <!-- modal caption -->
-        <div id="caption"></div>
-    </div>
 </html>
