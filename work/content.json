@@ -255,5 +255,22 @@
                 }
             ]
         }
+    ],
+    "translations": [
+        {
+            "name": "Steve's Lava Chicken",
+            "date": "13 Apr-15 May 2025",
+            "text": [
+                "sina wile ala wile sona e kama ni: telo seli li pilin e waso?",
+                "mi wile. ni la sina kama sona.",
+                "ike!",
+                "",
+                "o kute e ni."
+            ]
+        },
+        {
+            "name": "Ram Ranch",
+            "date": "27-30 Oct 2024"
+        }
     ]
 }

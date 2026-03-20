@@ -18,4 +18,10 @@ function tab(evt, tabName) {
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
-} 
+}
+// this greedy asshole wants to run first bc it's all self-important and shit
+// so we wrap it in a fancy event listener that somehow cures it of ADHD
+ document.addEventListener("DOMContentLoaded", function() {
+  // all that work just to make a page open by default
+  document.getElementById("defaultOpen").click()
+ })

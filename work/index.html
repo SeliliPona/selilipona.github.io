@@ -6,6 +6,10 @@
         <title>pali mi - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
         <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
+        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
         <link rel="stylesheet" href="../thing.css" />
         <link rel="stylesheet" href="../links/links.css" />
         <link rel="stylesheet" href="../things/things.css" />
@@ -68,7 +72,7 @@
                 <p class="subtitle">songs</p>
             </button>
             <button class="tablinks" onclick="tab(event, 'translations')">
-                <div class="row"><h2 title="ante • changes">󱤆</h2></div>
+                <div class="row"><h2 title="ante toki • language changes">󱤆󱥬</h2></div>
                 <p class="subtitle">translations</p>
             </button>
             <button class="tablinks" onclick="tab(event, 'misc')">
@@ -77,9 +81,15 @@
             </button>
         </div>
 
+        <!--
+            there is so much wrong with this presentation.
+            I tried to add a closeup view modal that shows up when you click a picture,
+            but it just errors for no reason. fucking JavaScript...
+        -->
+
 
         <!-- Tab content -->
-         <div id="drawings" class="tabcontent drawingcontent">
+        <div id="drawings" class="tabcontent drawingcontent">
             <main><p class="subsubtitle">the works made with ibisPaint are all from back when I could draw. I have since lost (or at least misplaced) that talent.
                 they are sorted from oldest to newest, dated based on the creation and update dates that ibisPaint displays (or if inapplicable, the last export date).<br><i>wow I forgot I drew so many pics...</i></p></main>
             <div class="artrow">
@@ -216,7 +226,7 @@
                 </div>
             </div>
         </div>
-         <div id="songs" class="tabcontent drawingcontent">
+        <div id="songs" class="tabcontent drawingcontent">
             <main>
                 <p class="subsubtitle">
                     this is all the music I've made. many of these are covers of existing songs, but some were fully made by me. they were all made with PICO-8.<br>
@@ -225,6 +235,7 @@
 
                 </p>
             </main>
+            <!-- TODO: why the fuck do these cover the header -->
              <div class="dropdown">
                 <button onclick="toggleDropdown('iah1')" id="_iah1" class="dropbtn">In a Heartbeat OST <small>(side A)</small></button>
                 <div id="iah1" class="dropdown-content">
@@ -448,7 +459,7 @@
                     <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/коробе́йники.png">
                         <div>
-                            <h2 class="songtitle" title="Korobéyniki • Korobeiniki">Коробе́йники <small>by <small title="Tanaka Hirokazu • Hirokazu Tanaka">田中宏和</small></small><br>
+                            <h2 class="songtitle"><a title="Korobéyniki • Korobeiniki">Коробе́йники</a> <small>by <small title="Tanaka Hirokazu • Hirokazu Tanaka">田中宏和</small></small><br>
                                 <audio controls>
                                     <source src="../assets/audio/covers/Korobeiniki.mp3">
                             </h2>
@@ -462,11 +473,12 @@
                                     <source src="../assets/audio/covers/LIFE.mp3">
                                 </audio>
                             </h2>
-                            this is the first song where I encountered a unique issue: the song didn't fit in one PICO-8 cartridge.
-                            I solved this by simply putting the rest (just the last chorus) in a second cartridge and combining the two in Audacity.<br>
-                            I also discovered that PICO-8 can smoothly fade out sound. I can't do it in the audio editor – it's a runtime effect – but it's possible so I allow it.
                         </div>
                     </div>
+                    this is the first song where I encountered a unique issue: the song didn't fit in one PICO-8 cartridge.
+                    I solved this by simply putting the rest (just the last chorus) in a second cartridge and combining the two in Audacity.<br>
+                    I also discovered that PICO-8 can smoothly fade out sound. I can't do it in the audio editor – it's a runtime effect – but it's possible so I allow it.
+
                     <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/megalovania.png">
                         <div>
@@ -475,11 +487,12 @@
                                     <source src="../assets/audio/covers/MEGALOVANIA.wav">
                                 </audio>
                             </h2>
-                            between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio.
-                            PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized.
-                            so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV.
                         </div>
                     </div>
+                    between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio.
+                    PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized.
+                    so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV.
+
                     <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/pico4lyfe.png">
                         <div>
@@ -501,6 +514,22 @@
                         </div>
                     </div>
                     <div class="tabthing">
+                        <img class="songimage" src="../assets/img/songs/undertale.png">
+                        <div>
+                            <h2 class="songtitle">Undertale <small>by Toby Fox</small><br>
+                                <audio controls>
+                                    <source src="../assets/audio/covers/Undertale.wav">
+                                </audio>
+                            </h2>
+                        </div>
+                    </div>
+                    this will probably be my longest cover, unless I decide to do something like ｢Bury the Light｣.<br>
+                    the art for this one was very fun to make. I actually made it in PICO-8 for once instead of using LibreSprite like I usually do,
+                    to make it look like an actual PICO-8 demake of ｢UNDERTALE｣.
+                    it was originally gonna include a dialogue box saying the famous line, but I figured having text on it looked ugly.
+                    also I really like the human's face on it – they just look so silly :3
+
+                    <div class="tabthing">
                         <img class="songimage" src="../assets/img/songs/nightmare.png">
                         <div>
                             <h2 class="songtitle">Your Best Nightmare + Finale <small>by Toby Fox</small><br>
@@ -508,13 +537,88 @@
                                     <source src="../assets/audio/covers/Your Best Nightmare + Finale.wav">
                                 </audio>
                             </h2>
-                            I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.<br>
-                            I had a lot more fun with this one, strayed a bit farther from the source material than usual.
-                            and I think it came out pretty good!
                         </div>
                     </div>
+                    I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.<br>
+                    I had a lot more fun with this one, strayed a bit farther from the source material than usual.
+                    and I think it came out pretty good!
                 </div>
             </div>
         </div>
+        <!-- shh... -->
+        <!-- <div id="translations" class="tabcontent drawingcontent">
+            <main><p class="subsubtitle">these are things I've translated. most of them have never culminated into anything other than text, but I wish to change that someday.<br>
+            for now, translations are unavailable for them until I figure out a good way to implement them on this site.</p>
+            </main>
+            <main class="tabthing">
+            <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></h1>
+                <br>
+                I am an (and afaik the only) active translator for Harmonoid (see <a href="https://selilipona.github.io/things">cool thingies</a>) – every other translation (other than the original English) seems to be maintained by AI. I guess the original contributors gave up?
+            
+            </span></div>
+            <div>
+                <a class="thinglink" href="https://harmonoid.com"><i class="fa-solid fa-globe"></i></a>
+                <a class="thinglink" href="https://discord.gg/2Rc3edFWd8"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </main>
+        <main class="tabthing">
+            <img src="../assets/img/translations/lavachicken.png" class="songimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">Steve's Lava Chicken <small>by Jack Black</small></h1>
+            
+            </span></div>
+            <div>
+                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                <a class="thinglink" href="https://open.spotify.com/track/2n5sAzeWh5LqnV9cGBjgGr"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </main>
+        <main class="tabthing">
+            <img src="../assets/img/translations/stillalive.png" class="songimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">Still Alive <small>by Jonathan Coulton & Ellen McLain</small></h1>
+            
+            </span></div>
+            <div>
+                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                <a class="thinglink" href="https://open.spotify.com/track/2JVZSUwPWzfBdgkdy3ZHet"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </main>
+        <main class="tabthing">
+            <img src="../assets/img/translations/bananaphone.png" class="songimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">Bananaphone <small>by Raffi</small></h1>
+            
+            </span></div>
+            <div>
+                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                <a class="thinglink" href="https://open.spotify.com/track/2Uu4AnnMTJpevC0IrwAuOW"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </main>
+        <main class="tabthing">
+            <img src="../assets/img/translations/boom.png" class="songimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">BOOM <small>by Evil Neuro</small></h1>
+            
+            </span></div>
+            <div>
+                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                <a class="thinglink" href="https://open.spotify.com/track/7kn8ks0WDXIyJyrrklNUkD"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </main>
+        <main class="tabthing">
+            <img src="../assets/img/translations/wearenumberone.jpeg" class="songimage"/>
+            <div style="padding-right: 25px; padding-left: 25px"><span>
+                <h1 class="thingname" style="vertical-align: top;">We Are Number One <small>by LazyTown</small></h1>
+            
+            </span></div>
+            <div>
+                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                <a class="thinglink" href="https://open.spotify.com/track/15rwk2llI0gzo6l0Pk8SBw"><i class="fa-brands fa-spotify"></i></a>
+            </div>
+        </main>
+        </div> -->
+        
     </body>
 </html>
