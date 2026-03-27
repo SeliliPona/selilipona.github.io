@@ -6,4 +6,4 @@ function toggleTopnav() {
   } else {
     x.className = "topnav";
   }
-} 
+}

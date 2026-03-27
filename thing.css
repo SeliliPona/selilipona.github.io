@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: Fredoka;
-    src: url(assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf), url(assets/fonts/nasin-nanpa-4.0.2-UCSUR.otf);
+    src: url(assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf), url(assets/fonts/nasin-nanpa-4.0.2-UCSUR.otf), url(assets/fonts/FairfaxHD.ttf);
     font-weight: 600;
 }
 @font-face {

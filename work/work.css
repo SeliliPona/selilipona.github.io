@@ -37,6 +37,7 @@ h1 {
   background-color: #caf;
   padding: 10px;
   border-radius: 12px;
+  font-family: nunito, nanpa;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -92,6 +93,7 @@ h1 {
   background-color:#caf;
   border-radius: 0 0 10px 10px;
   z-index: 1;
+  font-family: nunito;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -100,7 +102,7 @@ h1 {
 
 .songtitle {
     color:white;
-    font-family: Fairfax;
+    font-family: Fredoka;
     vertical-align: middle;
 }
 
