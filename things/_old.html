@@ -1,0 +1,381 @@
+<!-- this file was the index.html before automatic filling was added -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ijo epiku - lipu pi jan Selili</title>
+        <meta name="description" content="personal website for Selili">
+        <meta property="og:image" content="assets/img/selili.png">
+        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
+        <link rel="stylesheet" href="../thing.css" />
+        <link rel="stylesheet" href="./things.css" />
+        <link rel="stylesheet" href="../topnav.css" />
+        <script src="../topnav.js"></script>
+        <script src="../tab.js"></script>
+    </head>
+    <body>
+        <div class="topnav" id="topnavstuff">
+            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
+            <a href="https://selilipona.github.io">home</a>
+            <a href="https://selilipona.github.io/about">about me</a>
+            <a href="https://selilipona.github.io/links">all my linkies</a>
+            <a href="https://selilipona.github.io/things" class="active">cool thingies</a>
+            <a href="https://selilipona.github.io/work">stuff I've done</a>
+            <a href="https://selilipona.github.io/credits">credits</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
+                <div class="icon-container">
+                    <span class="dots">•••</span>
+                    <span class="close">✕</span>
+                </div>
+            </a>
+        </div>
+        <main>
+            <header class="hero">
+                <div class="row">
+                    <h1 title="ijo epiku • epic things">󱤌󱦃</h1>
+                </div>
+                <p class="subtitle">cool thingies</p>
+                <p class="subsubtitle"><i>like an Awesome list but objectively worse because it's mine
+                </i></p>
+            </header>
+        </main>
+        <main>
+            <p class="subsubtitle">
+                these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out! hopefully you find something you like :3
+            </p>
+        </main>
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="tab(event, 'tools')" id="defaultOpen">
+                <div class="row"><h2 title="ilo • tools">󱤎</h2></div>
+                <p class="subtitle">tools</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'creators')">
+                <div class="row"><h2 title="jan • people">󱤑</h2></div>
+                <p class="subtitle">creators</p>
+            </button>
+            <!-- TODO: why the fuck are half-width entries so fucking hard -->
+            <!-- <button class="tablinks" onclick="tab(event, 'music')">
+                <div class="row"><h2 title="kalama • sounds">󱤕</h2></div>
+                <p class="subtitle">music</p>
+            </button> -->
+            <button class="tablinks" onclick="tab(event, 'games')">
+                <div class="row"><h2 title="musi • funs">󱤻</h2></div>
+                <p class="subtitle">games</p>
+            </button>
+            <button class="tablinks" onclick="tab(event, 'anime')">
+                <div class="row"><h2 title="sitelen • pictures">󱥠</h2></div>
+                <p class="subtitle">anime</p>
+            </button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="tools" class="tabcontent">
+            <div id="toolcreator"></div>
+            <main class="tabthing">
+                <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></h1>
+                    <br>
+                    feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.
+               
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://harmonoid.com"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://discord.gg/2Rc3edFWd8"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/lrc-maker.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Akari's LRC Editor <small>by magic_akari</small></h1>
+                    <br>
+                    Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.
+                    
+                </span></div>
+                <a class="thinglink" href="https://lrc-maker.github.io"><i class="fa-solid fa-globe"></i></a>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/yt-dlp.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">yt-dlp</h1>
+                    <br>
+                    YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube.
+                    
+                </span></div>
+                <a class="thinglink" href="https://github.com/yt-dlp/yt-dlp"><i class="fa-brands fa-github"></i></a>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/fmhy.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">freemediaheckyeah</h1>
+                    <br>
+                    website <b>chock full</b> of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it.
+                    
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://fmhy.net"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://reddit.com/r/FREEMEDIAHECKYEAH"><i class="fa-brands fa-reddit"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/tools/keepass.png" class="thingimage" style="vertical-align:middle">
+                <div style="padding-right: 25px; padding-left: 25px"><span style="vertical-align: top;">
+                    <h1 class="thingname" style="vertical-align: top;">KeePass <small>by Dominik Reichl</small></h1>
+                    <br>
+                    free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost.
+                    
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://keepass.info"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </main>
+        </div>
+        <div id="creators" class="tabcontent">
+            <main class="tabthing">
+                <img src="../assets/img/creators/neuro.webp" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Vedal, Neuro-sama, and Evil Neuro</h1>
+                    <br>
+                    a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters.
+                    though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in.
+                    their Swarm is one of the most dedicated fanbases out there, never failing to assimimate every newbie who even dares to mention their AI overlord.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://twitch.tv/vedal987"><i class="fa-brands fa-twitch"></i></a>
+                    <a class="thinglink" href="https://www.youtube.com/@Neurosama"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://discord.gg/neurosama"><i class="fa-brands fa-discord"></i></a>
+                    <a class="thinglink" href="https://vedal.ai"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/click.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">The Click</h1>
+                    <br>
+                    one of many Reddit reactslop channels, but I like <u>his</u> especially.
+                    he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs.
+                </span></div>
+                <div style="justify-items: right;">
+                    <a class="thinglink" href="https://www.youtube.com/@TheClick"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://x.com/NotTheClick"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="thinglink" href="https://discord.gg/theclick"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/matt-rose.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Matt Rose</h1>
+                    <br>
+                    British dude known for reading memes funnily.
+                    almost always goes the extra mile,
+                    whether it be <u>actually</u> falling down the stairs for an authentic sound effect
+                    or buying custom T-shirts of shitposts.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://www.youtube.com/@Matt_Rose"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://x.com/rose_matt"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/creators/shindigs.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">shindigs</h1>
+                    <br>
+                    perhaps the most interactive streamer on Twitch.
+                    his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures.
+                    he's really fun.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://www.youtube.com/@shindigs3463"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="thinglink" href="https://twitch.tv/shindigs"><i class="fa-brands fa-twitch"></i></a>
+                    <a class="thinglink" href="https://x.com/shindags"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </main>
+        </div>
+        <div id="music" class="tabcontent songcontent">
+            <main><p>work in progress because HTML is hard</p></main>
+            <!-- <main class="tabthing tabsong">
+                <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname">UNDERTALE Soundtrack<br><small>Toby Fox</small></h1>
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </main>
+            <main class="tabthing tabsong">
+                <img src="../assets/img/songs/undertale.jpg" class="thingimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname">I Wanna Be A Machine<br><small>The Living Tombstone</small></h1>
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </main> -->
+        </div> 
+        <div id="games" class="tabcontent">
+            <main class="tabthing">
+                <img src="../assets/img/games/undertale.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">UNDERTALE <small>by Toby Fox</small></h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    the RPG where no one has to die.
+                    this game needs no introduction – chances are you have heard of it, if not played it.
+                    mostly developed by one singular person, this game is definitely deserving of my #1 spot.
+                    its soundtrack is a banger, its art is beautiful, its story is heart-wrenching.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://undertale.com"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://store.steampowered.com/app/391540/Undertale/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/games/deltarune.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">DELTARUNE <small>by Toby Fox</small></h1>
+                    <br>
+                    ★★★★☆
+                    <br>
+                    the spiritual successor/parallel story to ｢UNDERTALE｣.
+                    different setting, new and old characters, same amazing quality.
+                    the game isn't finished yet, so I can't really rate it fairly, but so far it's great.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://deltarune.com"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://store.steampowered.com/app/1671210/DELTARUNE/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/games/minecraft.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Minecraft <small>by Mojang Studios</small></h1>
+                    <br>
+                    ★★★★☆
+                    <br>
+                    everyone knows ｢Minecraft｣, the little indie that could.
+                    it's the best-selling video game that ever best-sold.
+                    create, explore, survive –
+                    use the blocks around you to make anything, from castles to computers to cocks.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://minecraft.net"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/games/stickmin.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">The Henry Stickmin Collection <small>by PuffballsUnited</small></h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    a remake of the original ｢Henry Stickmin｣ games – CYOAs where you want to fail.
+                    it possibly holds the record for the most references in a video game
+                    (though don't Google that, it probably doesn't).
+                    this is actually my only perfect Steam game, so that's cool ig.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://www.innersloth.com/games/the-henry-stickmin-collection/"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://store.steampowered.com/app/1089980/The_Henry_Stickmin_Collection/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/games/coffin.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">The Coffin of Andy and Leyley <small>by Kit9 Studio</small></h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    brother and sister witness a botched satanic ritual and become cannibals.
+                    the story shows their love for each other
+                    (and possibly their <i><b>love</b></i> for each other, depending on the route).
+                    oh and there are some fun puzzles strewn throughout the game.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/games/ddlc.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;">Doki Doki Literature Club! <small>by Team Salvato</small></h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    NEET high schooler joins the literature club his friend is part of
+                    and tries to rizz up one of three of the four girls in there.
+                    but the other one really doesn't like that and goes severely out of her way to stop you.
+                    this game is not suitable for children or those who are easily disturbed.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://ddlc.moe"><i class="fa-solid fa-globe"></i></a>
+                    <a class="thinglink" href="https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/"><i class="fa-brands fa-steam"></i></a>
+                </div>
+            </main>
+        </div>
+        <div id="anime" class="tabcontent">
+            <main><p class="subsubtitle">links marked with <i class="fa-solid fa-book"></i> are for AniDB. anime here are ordered by first watched to last watched.</p></main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/bocchi.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Botchi Za Rokku! • Bocchi the Rock!">ぼっち・ざ・ろっく！</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    NEET girl learns guitar because she wants to be in a band, but she's too shy to make friends, so that ain't happening any time soon. but a drummer is desperate for a guitarist for her band when she finds the NEET sitting alone. so now NEET gets what she wanted.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/16063"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/kanojo.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Kanojo, Okarishimasu • Rent-A-Girlfriend">彼女、お借りします</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    guy gets dumped, decides to try girlfriend experience. one thing leads to another and now him and the rental have to actively pretend to be together in front of his family.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/15299"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/onimai.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Onii-chan wa Oshimai! • Onimai: I'm Now Your Sister!">お兄ちゃんはおしまい！</h1>
+                    <br>
+                    ★★★★★
+                    <br>
+                    middle school genius drugs her older brother and makes him a middle school girl. he then has to learn how to live in this body while still being a young man inside.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/17328"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+            <main class="tabthing">
+                <img src="../assets/img/anime/oreimo.jpg" class="gameimage"/>
+                <div style="padding-right: 25px; padding-left: 25px"><span>
+                    <h1 class="thingname" style="vertical-align: top;" title="Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo: My Little Sister Can't Be This Cute">俺の妹がこんなに可愛いわけがない</h1>
+                    <br>
+                    ★★★★☆
+                    <br>
+                    high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a very undesirable way.
+                </span></div>
+                <div>
+                    <a class="thinglink" href="https://anidb.net/anime/7525"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </main>
+        </div>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
