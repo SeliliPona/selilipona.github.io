@@ -5,7 +5,7 @@
         "contents": [
             {
                 "name": "Harmonoid",
-                "subtitle": "by Hitesh Kumar Saini",
+                "creator": "Hitesh Kumar Saini",
                 "image": "harmonoid.png",
                 "desc": "feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.",
                 "links": [
@@ -21,7 +21,7 @@
             },
             {
                 "name": "Akari's LRC Editor",
-                "subtitle": "by magic_akari",
+                "creator": "magic_akari",
                 "image": "lrc-maker.png",
                 "desc": "Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.",
                 "links": [
@@ -59,7 +59,7 @@
             },
             {
                 "name": "KeePass",
-                "subtitle": "by Dominik Reichl",
+                "creator": "Dominik Reichl",
                 "image": "keepass.png",
                 "desc": "free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost.",
                 "links": [
@@ -174,7 +174,7 @@
         "contents": [
             {
                 "name": "UNDERTALE",
-                "subtitle": "by Toby Fox",
+                "creator": "Toby Fox",
                 "image": "undertale.jpg",
                 "desc": "★★★★★\nthe RPG where no one has to die. this game needs no introduction – chances are you have heard of it, if not played it. mostly developed by one singular person, this game is definitely deserving of my #1 spot. its soundtrack is a banger, its art is beautiful, its story is heart-wrenching.",
                 "links": [
@@ -190,7 +190,7 @@
             },
             {
                 "name": "DELTARUNE",
-                "subtitle": "by Toby Fox",
+                "creator": "Toby Fox",
                 "image": "deltarune.jpg",
                 "desc": "★★★★☆\nthe spiritual successor/parallel story to ｢UNDERTALE｣. different setting, new and old characters, same amazing quality. the game isn't finished yet, so I can't really rate it fairly, but so far it's great.",
                 "links": [
@@ -206,7 +206,7 @@
             },
             {
                 "name": "Minecraft",
-                "subtitle": "by Mojang Studios",
+                "creator": "Mojang Studios",
                 "image": "minecraft.jpg",
                 "desc": "★★★★☆\neveryone knows ｢Minecraft｣, the little indie that could. it's the best-selling video game that ever best-sold. create, explore, survive – use the blocks around you to make anything, from castles to computers to cocks.",
                 "links": [
@@ -218,7 +218,7 @@
             },
             {
                 "name": "The Henry Stickmin Collection",
-                "subtitle": "by PuffballsUnited",
+                "creator": "PuffballsUnited",
                 "image": "stickmin.jpg",
                 "desc": "★★★★★\na remake of the original ｢Henry Stickmin｣ games – CYOAs where you want to fail. it possibly holds the record for the most references in a video game (though don't Google that, it probably doesn't).\nthis is actually my only perfect Steam game, so that's cool ig.",
                 "links": [
@@ -234,7 +234,7 @@
             },
             {
                 "name": "The Coffin of Andy and Leyley",
-                "subtitle": "by Kit9 Studio",
+                "creator": "Kit9 Studio",
                 "image": "coffin.jpg",
                 "desc": "★★★★★\nbrother and sister witness a botched satanic ritual and become cannibals. the story shows their love for each other (and possibly their <i><b>love</b></i> for each other, depending on the route). oh and there are some fun puzzles strewn throughout the game.",
                 "links": [
@@ -246,7 +246,7 @@
             },
             {
                 "name": "Doki Doki Literature Club!",
-                "subtitle": "by Team Salvato",
+                "creator": "Team Salvato",
                 "image": "ddlc.jpg",
                 "desc": "★★★★★\nNEET high schooler joins the literature club his friend is part of and tries to rizz up one of three of the four girls in there. but the other one really doesn't like that and goes severely out of her way to stop you. this game is not suitable for children or those who are easily disturbed.",
                 "links": [

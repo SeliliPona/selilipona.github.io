@@ -29,6 +29,20 @@ async function fillThings() {
         if (item.name_translation) {
             name.title = item.name_translation;
         }
+        if (item.creator) {
+            name.appendChild(document.createTextNode(" "));
+            const i = document.createElement('i');
+            const small = document.createElement('small');
+            small.textContent = "by ";
+            const creator = document.createElement('a');
+            creator.textContent = item.creator;
+            if (item.creator_translation) {
+                creator.title = item.creator_translation;
+            }
+            small.appendChild(creator);
+            i.appendChild(small);
+            name.appendChild(i);
+        }
         if (item.desc) {
             // replacing style tags until I can figure out how to get Marked working without breaking everything
             // there has to be a better way to do this but whatever
