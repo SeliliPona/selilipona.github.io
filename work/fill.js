@@ -25,18 +25,18 @@ async function fillThings() {
     const clone = art_template.content.cloneNode(true);
 
     // 2. Fill the clone with data
-    const image = clone.querySelector('.image');
-    image.src = "/assets/img/drawings/"+item.image;
+    clone.querySelector('.image').src = "/assets/img/drawings/"+item.image;
+
+    const title = clone.querySelector('.title');
+    title.textContent = item.title;
     // checking if the art has a translated title
     if (item.translation) {
-        image.alt = item.translation;
+        title.title = item.translation;
     }
-
-    clone.querySelector('.title').textContent = item.title;
     clone.querySelector('.date').textContent = item.date;
     clone.querySelector('.desc').textContent = item.desc;
 
-    // 3. Add the clone to the CURRENT row, not the main container
+    // 3. Add the clone to the main container
     artRow.appendChild(clone);
   });
 
@@ -47,10 +47,23 @@ albums.forEach(item => {
     album = album_template.content.cloneNode(true);
 
     // 2. Fill the clone with data
-    const path = item.path
+    const path = item.path;
     const dropdown_content = album.querySelector(".dropdown-content");
-    dropdown_content.id = path
-    album.querySelector('.desc').textContent = item.desc;
+    dropdown_content.id = path;
+    if (item.desc) {
+        // replacing style tags until I can figure out how to get Marked working without breaking everything
+        // there has to be a better way to do this but whatever
+        const desc = item.desc
+        .replace("<b>", "*").replace("</b>", "*")
+        .replace("<u>", "*").replace("</u>", "*")
+        .replace("<i>", "*").replace("</i>", "*");
+        const thingdesc = album.querySelector('.desc');
+        desc.split("\n").forEach(line => {
+            thingdesc.appendChild(document.createTextNode(line));
+            thingdesc.appendChild(document.createElement('br'));
+        })
+        thingdesc.removeChild(thingdesc.lastChild);
+    }
     const dropbtn = album.querySelector('.dropbtn');
     dropbtn.id = "_"+path;
     dropbtn.textContent = item.title;
@@ -67,17 +80,25 @@ albums.forEach(item => {
         const songClone = song_template.content.cloneNode(true);
 
         // 2. Fill the clone with data
-        songClone.querySelector('.songimage').src="/assets/img/songs/"+song.image
-        const title = songClone.querySelector('.songtitle')
+        songClone.querySelector('.songimage').src="/assets/img/songs/"+song.image;
+        const title = songClone.querySelector('.songtitle');
         const name = document.createElement('a');
         name.textContent = song.title;
-        if (song.fairfax) {
-            name.style = "font-family: fairfax;"
+        if (song.fairfax) { // this is for songs with characters that aren't in Fredoka
+            name.style = "font-family: fairfax;";
         }
         if (song.title_translation) {
-            name.title = song.title_translation
+            name.title = song.title_translation;
         }
         title.appendChild(name);
+        // these are separated because some song titles are non-English
+        // (so they get translations in hover text) but have secondary English
+        // that is separate from the non-English
+        if (song.subtitle) {
+            const subtitle = document.createElement('a');
+            subtitle.textContent = " "+song.subtitle;
+            title.appendChild(subtitle);
+        }
         if (song.artist) {
             title.appendChild(document.createTextNode(" "));
             const i = document.createElement('i');
@@ -105,7 +126,17 @@ albums.forEach(item => {
         dropdown_content.appendChild(songClone)
 
         if (song.desc) {
-            dropdown_content.appendChild(document.createTextNode(song.desc))
+            // replacing style tags until I can figure out how to get Marked working without breaking everything
+            // there has to be a better way to do this but whatever
+            const desc = song.desc
+            .replace("<b>", "*").replace("</b>", "*")
+            .replace("<u>", "*").replace("</u>", "*")
+            .replace("<i>", "*").replace("</i>", "*");
+            desc.split("\n").forEach(line => {
+                dropdown_content.appendChild(document.createTextNode(line));
+                dropdown_content.appendChild(document.createElement('br'));
+            })
+            dropdown_content.removeChild(dropdown_content.lastChild);
         }
     })
 

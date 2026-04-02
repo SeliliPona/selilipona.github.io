@@ -84,6 +84,7 @@
 .gameimage {
     max-width: 192px;
     max-height: 192px;
+    border-radius: 5%;
 }
 .songimage {
     max-width: 128px;

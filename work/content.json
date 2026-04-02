@@ -121,8 +121,9 @@
                     "image": "iah1.png"
                 },
                 {
-                    "title": "Lavender Town",
-                    "file": "5 Lavender Town.mp3",
+                    "title": "シオンタウンのテーマ",
+                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
+                    "file": "5 シオンタウンのテーマ.mp3",
                     "artist": "増田順一",
                     "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
                     "image": "iah1.png"
@@ -152,11 +153,12 @@
                     "image": "iah2.png"
                 },
                 {
-                    "title": "Lavender Town",
+                    "title": "シオンタウンのテーマ",
+                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
                     "subtitle": "(Early Sketch)",
                     "artist": "増田順一",
                     "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
-                    "file": "2 Lavender Town (Early Sketch).mp3",
+                    "file": "2 シオンタウンのテーマ (Early Sketch).mp3",
                     "image": "iah2.png"
                 },
                 {
@@ -175,6 +177,15 @@
                     "title": "The Only One I Trust",
                     "subtitle": "(Restarted Version)",
                     "file": "5 The Only One I Trust (Restarted Version).mp3",
+                    "image": "iah2.png"
+                },
+                {
+                    "title": "シオンタウンのテーマ",
+                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
+                    "subtitle": "(Restarted Version)",
+                    "artist": "増田順一",
+                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
+                    "file": "6 シオンタウンのテーマ (Restarted Version).mp3",
                     "image": "iah2.png"
                 },
                 {
@@ -222,6 +233,13 @@
             "path": "covers",
             "songs": [
                 {
+                    "title": "Bonetrousle",
+                    "artist": "Toby Fox",
+                    "file": "Bonetrousle.wav",
+                    "image": "bonetrousle.png",
+                    "desc": "this song is technically double (± a bit) the speed of the original song, but the notes are also double the normal length, so you'd never notice. this was done so that I could put in the half notes you can hear thoughout the song, which I think make it sound a lot better.\nI also thought the song was too short, so I added a bit from the trailer version of the song at the end. I think it works quite well."
+                },
+                {
                     "title": "Dance Mr. Funnybones",
                     "artist": "PuffballsUnited",
                     "file": "Dance Mr. Funnybones.mp3",
@@ -249,6 +267,13 @@
                     "file": "MEGALOVANIA.wav",
                     "image": "megalovania.png",
                     "desc": "between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio. PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized. so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV."
+                },
+                {
+                    "title": "Metal Crusher",
+                    "artist": "Toby Fox",
+                    "file": "Metal Crusher.wav",
+                    "image": "crusher.png",
+                    "desc": "I am not super happy with this song's cover art for a couple reasons.\nthe art is meant to depict a hypothetical PICO-8 port of ｢UNDERTALE｣. the HUD being visible means there is text on the art, but this port can't hide it during the enemy's turn for reasons you'd know if you've seen the end of the Genocide route.\nalso, it just looks bad. unlike the Mettaton sprite (which was custom drawn for this art), the Alphys one is just the one in game scaled down with a few minor tweaks, so it's really ugly."
                 },
                 {
                     "title": "PICO 4 Lyfe",
