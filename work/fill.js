@@ -86,6 +86,8 @@ albums.forEach(item => {
         name.textContent = song.title;
         if (song.fairfax) { // this is for songs with characters that aren't in Fredoka
             name.style = "font-family: fairfax;";
+        } else if (song.nanpa) { // this is for songs with Toki Pona titles
+            name.style = "font-family: nanpa;";
         }
         if (song.title_translation) {
             name.title = song.title_translation;

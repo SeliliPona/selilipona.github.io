@@ -228,17 +228,63 @@
             ]
         },
         {
-            "title": "other covers",
-            "desc": "all other covers that aren't in their own album",
-            "path": "covers",
+            "title": "PICOTALE Soundtrack",
+            "desc": "covers of ｢UNDERTALE｣'s soundtrack. I'm slightly more confident these could be made into an actual PICO-8 port in the future than with the ｢DDLC｣ ones because ｢UNDERTALE｣ is more of a game if you get what I mean. still would be a fuckton of effort though.\nmy goal is to cover at least every boss theme, and some others I like.",
+            "path": "picotale",
             "songs": [
                 {
                     "title": "Bonetrousle",
                     "artist": "Toby Fox",
                     "file": "Bonetrousle.wav",
                     "image": "bonetrousle.png",
-                    "desc": "this song is technically double (± a bit) the speed of the original song, but the notes are also double the normal length, so you'd never notice. this was done so that I could put in the half notes you can hear thoughout the song, which I think make it sound a lot better.\nI also thought the song was too short, so I added a bit from the trailer version of the song at the end. I think it works quite well."
+                    "desc": "this song is technically double (± a bit) the speed of the original song, but the notes are also double the normal length, so you'd never notice (I'm like 90% sure there's a music term for this but idk it). this was done so that I could put in the half notes you can hear thoughout the song, which I think make it sound a lot better.\nI also thought the song was too short, so I added a bit from the trailer version of the song at the end. I think it works quite well."
                 },
+                {
+                    "title": "MEGALOVANIA",
+                    "artist": "Toby Fox",
+                    "file": "MEGALOVANIA.wav",
+                    "image": "megalovania.png",
+                    "desc": "between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio. PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized. so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV."
+                },
+                {
+                    "title": "Metal Crusher",
+                    "artist": "Toby Fox",
+                    "file": "Metal Crusher.wav",
+                    "image": "crusher.png",
+                    "desc": "I am not super happy with this song's cover art for a couple reasons.\nthe art is meant to depict a hypothetical PICO-8 port of ｢UNDERTALE｣. the HUD being visible means there is text on the art, but this port can't hide it during the enemy's turn for reasons you'd know if you've seen the end of the Genocide route.\nalso, it just looks bad. unlike the Mettaton sprite (which was custom drawn for this art), the Alphys one is just the one in game scaled down with a few minor tweaks, so it's really ugly."
+                },
+                {
+                    "title": "Undertale",
+                    "artist": "Toby Fox",
+                    "file": "Undertale.wav",
+                    "image": "undertale.png",
+                    "desc": "this will probably be my longest cover, unless I decide to do something like ｢Bury the Light｣.\n the art for this one was very fun to make. I actually made it in PICO-8 for once instead of using LibreSprite like I usually do, to make it look like an actual PICO-8 demake of ｢UNDERTALE｣. it was originally gonna include a dialogue box saying the famous line, but I figured having text on it looked ugly. also I really like the human's face on it – they just look so silly :3"
+                },
+                {
+                    "title": "󱥱󱥍󱤗󱦐󱥍󱤃󱥷󱤌󱦑",
+                    "nanpa": true,
+                    "title_translation":"utala pi kasi Pawi · Flowey fight",
+                    "artist": "Toby Fox",
+                    "file": "utala pi kasi Pawi.wav",
+                    "image": "nightmare.png",
+                    "desc": "this is a mix of ｢Your Best Nightmare｣ and ｢Finale｣. I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.\n I had a lot more fun with this one, strayed a bit farther from the source material than usual. and I think it came out pretty good!"
+                },
+                {
+                    "title": "󱥱󱥍󱥢󱦐󱤀󱥦󱥰󱥷󱤏󱤓󱥅󱦑",
+                    "nanpa": true,
+                    "title_translation": "utala pi soweli Asuwijo · Asriel fight",
+                    "artist":"Toby Fox",
+                    "file": "utala pi soweli Asuwijo.wav",
+                    "image": "hopes.png",
+                    "desc": "this is a mix of ｢Hopes and Dreams｣ and ｢SAVE the World｣. I am generally very happy with this cover. I feel it sounds very accurate despite all the things removed (I have to remove some stuff because PICO-8 only supports four audio channels).\nI'm not super happy with the album art though – as it stands it's just a palette-swap of the flashback. I would've done something with the Asriel's God of Hyperdeath form flying around with the LSD stuff in the back, but it proved to be too much work for me."
+                }
+            ]
+        },
+        {
+            "title": "other covers",
+            "desc": "all other covers that aren't in their own album",
+            "path": "covers",
+            "songs": [
                 {
                     "title": "Dance Mr. Funnybones",
                     "artist": "PuffballsUnited",
@@ -262,20 +308,6 @@
                     "desc": "this is the first song where I encountered a unique issue: the song didn't fit in one PICO-8 cartridge. I solved this by simply putting the rest (just the last chorus) in a second cartridge and combining the two in Audacity.\nI also discovered that PICO-8 can smoothly fade out sound. I can't do it in the audio editor – it's a runtime effect – but it's possible so I allow it."
                 },
                 {
-                    "title": "MEGALOVANIA",
-                    "artist": "Toby Fox",
-                    "file": "MEGALOVANIA.wav",
-                    "image": "megalovania.png",
-                    "desc": "between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio. PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized. so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV."
-                },
-                {
-                    "title": "Metal Crusher",
-                    "artist": "Toby Fox",
-                    "file": "Metal Crusher.wav",
-                    "image": "crusher.png",
-                    "desc": "I am not super happy with this song's cover art for a couple reasons.\nthe art is meant to depict a hypothetical PICO-8 port of ｢UNDERTALE｣. the HUD being visible means there is text on the art, but this port can't hide it during the enemy's turn for reasons you'd know if you've seen the end of the Genocide route.\nalso, it just looks bad. unlike the Mettaton sprite (which was custom drawn for this art), the Alphys one is just the one in game scaled down with a few minor tweaks, so it's really ugly."
-                },
-                {
                     "title": "PICO 4 Lyfe",
                     "artist": "PuffballsUnited",
                     "file": "PICO 4 Lyfe.mp3",
@@ -286,20 +318,6 @@
                     "artist": "SpellingPhailer",
                     "file": "Science Blaster.mp3",
                     "image": "blaster.png"
-                },
-                {
-                    "title": "Undertale",
-                    "artist": "Toby Fox",
-                    "file": "Undertale.wav",
-                    "image": "undertale.png",
-                    "desc": "this will probably be my longest cover, unless I decide to do something like ｢Bury the Light｣.\n the art for this one was very fun to make. I actually made it in PICO-8 for once instead of using LibreSprite like I usually do, to make it look like an actual PICO-8 demake of ｢UNDERTALE｣. it was originally gonna include a dialogue box saying the famous line, but I figured having text on it looked ugly. also I really like the human's face on it – they just look so silly :3"
-                },
-                {
-                    "title": "Your Best Nightmare + Finale",
-                    "artist": "Toby Fox",
-                    "file": "Your Best Nightmare + Finale.wav",
-                    "image": "nightmare.png",
-                    "desc": "I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.\n I had a lot more fun with this one, strayed a bit farther from the source material than usual. and I think it came out pretty good!"
                 }
             ]
         }
