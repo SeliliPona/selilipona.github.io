@@ -1,0 +1,51 @@
+name: initialize
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # defaults:
+    #   run:
+    #     working-directory: .
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v6
+
+      - name: setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      # - name: install modules
+      #   run: |
+      #     npm install archiver
+      #     npm install music-metadata
+      #     cd node_modules
+      #     echo node_modules:
+      #     ls
+      #     cd ..
+      #     echo root:
+      #     ls
+      - name: run initalize
+        env:
+          GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          echo message: $GITHUB_COMMIT_MESSAGE
+          node initialize.js $GITHUB_COMMIT_MESSAGE  
+      - name: set Git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          full_commit_message: ${{ github.event.head_commit.message }}
