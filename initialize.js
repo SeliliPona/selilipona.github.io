@@ -3,14 +3,11 @@
 import fs from 'fs';
 import path from 'path';
 import * as archiverModule from 'archiver';
-const archiver = (typeof archiverModule.default === 'function') 
-  ? archiverModule.default 
-  : (typeof archiverModule === 'function' ? archiverModule : archiverModule.create);
+const ZipArchive = archiverModule.ZipArchive;
 
-// Verify before calling
-if (typeof archiver !== 'function') {
-  console.error('Archiver Module Structure:', archiverModule);
-  throw new Error("Target 'archiver' is still not a function. Check the log above.");
+if (!ZipArchive) {
+  console.error('Available exports:', Object.keys(archiverModule));
+  throw new Error("ZipArchive class not found in archiver module.");
 }
 import * as music_metadata from 'music-metadata';
 
@@ -34,7 +31,7 @@ async function initialize(message) {
         console.log(`Creating ZIP for: ${album.title}...`);
 
         const output = fs.createWriteStream(outputPath);
-        const archive = archiver('zip', { zlib: { level: 0 } });
+        const archive = new ZipArchive({ zlib: { level: 0 } });
 
         archive.pipe(output);
         
@@ -56,7 +53,7 @@ async function initialize(message) {
 
                         console.log(`making source zip for ${name}: ${sourceZipPath}`);
                         const sourceOutput = fs.createWriteStream(sourceZipPath);
-                        const sourceArchive = archiver('zip', { zlib: { level: 0 } });
+                        const sourceArchive = new ZipArchive({ zlib: { level: 0 } });
 
                         // error handling for the stream
                         sourceOutput.on('error', (err) => console.error("Stream Error:", err));
