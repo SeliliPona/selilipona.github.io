@@ -36,7 +36,7 @@ async function initialize(message) {
 
         archive.pipe(output);
 
-        album.songs.forEach((song, idx) => {
+        album.songs.forEach(async (song, idx) => {
             const name = song.files[0][0];
             const filePath = path.join(albumPath, name);
             const songFormats = {};
