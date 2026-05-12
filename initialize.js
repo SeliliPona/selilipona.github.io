@@ -177,6 +177,8 @@ async function initialize(message) {
     commit.timestamp = (new Date()).toISOString();
     changelog.push(commit);
     fs.writeFileSync(clPath, JSON.stringify(changelog, null, 4));
+    console.log("CHANGELOG UPDATED. New length:", changelog.length);
+    console.log("LAST ENTRY:", changelog[changelog.length - 1]);
 }
 
 /*
