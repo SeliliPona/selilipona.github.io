@@ -3,11 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
-<<<<<<< HEAD
-=======
 console.log('Archiver type:', typeof archiver);
 console.log('Archiver content:', archiver);
->>>>>>> 568f431 (add everything because idk what the initialize script needs)
 const music_metadata = require('music-metadata');
 
 const argv = process.argv;
