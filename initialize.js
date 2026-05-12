@@ -2,13 +2,12 @@
 
 const fs = require('fs');
 const path = require('path');
-const archiver = require('archiver');
-console.log('Archiver type:', typeof archiver);
-console.log('Archiver content:', archiver);
-const music_metadata = require('music-metadata');
+const archiverModule = require('archiver');
+const archiver = archiverModule.default || archiverModule;
+const music_metadataModule = require('music-metadata');
+const music_metadata = music_metadataModule.default || music_metadataModule;
 
 const argv = process.argv;
-console.log('argv:', argv)
 
 async function initialize(message) {
     const clPath = './changelog/content.json';
