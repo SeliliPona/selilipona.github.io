@@ -1,0 +1,15 @@
+/* Hide desktop text by default (Mobile view) */
+.desktop-only {
+  display: none;
+}
+
+/* Show desktop text and hide mobile text on larger screens */
+@media (min-width: 768px) {
+  .desktop-only {
+    display:block; /* or block, depending on your layout */
+  }
+  
+  .mobile-only {
+    display: none;
+  }
+}

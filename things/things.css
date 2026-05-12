@@ -9,12 +9,11 @@
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab button {
+.tab btn {
   background-color: inherit;
   float: left;
   border: none;
   outline: none;
-  cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 24px;
@@ -22,16 +21,16 @@
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab btn:hover {
   background-color: #986ed7;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab btn.active {
   background-color: #BC8FFF;
 }
 @media screen and (max-width: 600px) {
-  .tab button {
+  .tab btn {
     display: block;
     width: 50%;
   }
@@ -70,7 +69,7 @@
     /* flex-direction: row; */
     /* justify-content: center; */
     align-items:start;
-    font-family: "Fredoka", sans-serif;
+    font-family: Fredoka, nanpa, sans-serif;
 }
 .thinglink {
     color: white;

@@ -1,0 +1,745 @@
+[
+	{
+		"timestamp": "2026-01-20T01:47:11.000Z",
+		"title": "*initial commit*",
+		"additions": {
+			"repository": [
+				"- create repository"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T01:55:04.000Z",
+		"title": "*the site exists now*",
+		"additions": {
+			"general": [
+				"- added homepage and about page"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T01:57:20.000Z",
+		"title": "*readme*",
+		"changes": {
+			"repository": [
+				"- added project description to README"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T02:01:45.000Z",
+		"title": "*trying to add this to my Discord*",
+		"additions": {
+			"repository": [
+				"- added .well-known/discord because apparently this lets me put the site on my Discord profile"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T02:18:27.000Z",
+		"title": "*some image idk*",
+		"additions": {
+			"about": [
+				"- added `og:image` thing to the head because a bunch of sites do that"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T02:18:38.000Z",
+		"title": "*some image idk II: Electric Boogaloo*",
+		"additions": {
+			"home": [
+				"- added `og:image` to head"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T02:18:53.000Z",
+		"title": "body ≠ head",
+		"fixes": {
+			"about": [
+				"- moved `og:image` thing out of body and into head where it belongs"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-01-20T02:26:36.000Z",
+		"title": "mhm boyfailiure",
+		"fixes": {
+			"about": [
+				"- fixed typo: boyfailiure => boyfailure"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T03:58:56.000Z",
+		"title": "move about.html to a folder so the URL (hopefully) doesn't need .hmtl at the end",
+		"changes": {
+			"general": [
+				"- moved the about page from `/about.html` to `/about/index.html`"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T04:02:52.000Z",
+		"title": "make about/index.html use absolute paths for stuff rather than relative ones",
+		"changes": {
+			"about": [
+				"- made references to images and stylesheets refer to a subdirectory of the parent"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T04:05:23.000Z",
+		"title": "ew we don't like relative paths around here",
+		"changes": {
+			"about": [
+				"- changed path for `og:image` to match previous commit"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T04:11:30.000Z",
+		"title": "make links URLs instead of relative file paths",
+		"changes": {
+			"general": [
+				"- links in topbar now explicitly refer to the website"
+			],
+			"home": [
+				"- links in buttons now expicitly refer to the website"
+			]
+		},
+		"fixes": {
+			"home": [
+				"- about page button no longer 404s"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T04:12:47.000Z",
+		"title": "remove .DS_Store",
+		"removals": {
+			"repository": [
+				"- deleted a .DS_Store that was included in commit 9"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T07:46:04.000Z",
+		"title": "wow so much shit done",
+		"additions": {
+			"general": [
+				"- links page"
+			]
+		},
+		"changes": {
+			"general": [
+				"- move all assets to `/assets/`"
+			],
+			"home": [
+				"- commented out non-functional things button on home page topbar"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T07:49:08.000Z",
+		"title": "whoops the link button wasn't clickable",
+		"fixes": {
+			"home": [
+				"- button for links page is no longer considered unused",
+				"- *properly* commented out things button on topbar, so it no longer has a blank entry"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T07:50:27.000Z",
+		"title": "didn't know omitting “profile” from a Roblox profile link 404s",
+		"fixes": {
+			"links": [
+				"- Roblox link no longer leads to a 404 page"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T07:52:23.000Z",
+		"title": "hiding cool thingies page from all pages until the page actually exists",
+		"changes": {
+			"general": [
+				"- commented out things button on remaining pages' topbars"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T07:57:14.000Z",
+		"title": "added a cool header to the about me page so it matches the others :3",
+		"additions": {
+			"about": [
+				"- added the header from other pages"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-13T08:00:29.000Z",
+		"title": "changed title and subtitle of about me header to actually say “about me”",
+		"fixes": {
+			"about": [
+				"- the subtitle and Sitelen Pona for the header no longer use text from the links page"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-14T01:09:28.000Z",
+		"title": "experimental upgrades (ooh~)",
+		"additions": {
+			"general": [
+				"- stylesheets and code for a prototype things page"
+			]
+		},
+		"changes": {
+			"general": [
+				"- replaced site icon with 512x512 and 128x128 versions"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-15T14:50:26.000Z",
+		"title": "content overload OwO",
+		"additions": {
+			"general": [
+				"- credits page"
+			],
+			"things": [
+				"- added content"
+			]
+		},
+		"changes": {
+			"general": [
+				"- uncommented all things page buttons in topbars"
+			],
+			"home": [
+				"- button for things page is no longer considered unused"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-15T15:23:48.000Z",
+		"title": "Nineteen Eighty-Four frfr",
+		"additions": {
+			"about": [
+				"- added dislike: “the flawed age verification techniques that every website is implementing”"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-15T15:28:58.000Z",
+		"title": "better yt-dlp image",
+		"changes": {
+			"things": [
+				"- made yt-dlp use a different image"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-15T20:46:47.000Z",
+		"title": "add missing `<br>`",
+		"fixes": {
+			"about": [
+				"- added a `<br>` after the formerly-last item in the dislikes section"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-20T06:06:37.000Z",
+		"title": "games games games game",
+		"additions": {
+			"about": [
+				"- added like: “lost media”"
+			],
+			"things": [
+				"- added games to things page"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-02-20T06:08:36.000Z",
+		"title": "*add start*",
+		"additions": {
+			"repository": [
+				"- added project's start date to bottom of README"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:16:09.000Z",
+		"title": "NOWAYING anime page added???",
+		"additions": {
+			"general": [
+				"- translations are now displayed when hovering (just uses the `title` attribute)"
+			],
+			"home": [
+				"- hint for hover translations"
+			],
+			"things": [
+				"- anime section",
+				"- added KeePass to tools section",
+				"- creator is now displayed for some things",
+				"- added work-in-progress note for music section"
+			]
+		},
+		"changes": {
+			"things": [
+				"- changed subtitle",
+				"- changed style for individual things"
+			]
+		},
+		"removals": {
+			"things": [
+				"- removed Discord link for freemediaheckyeah"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:19:00.000Z",
+		"title": "fucking “sister's like” NAHH",
+		"fixes": {
+			"things": [
+				"- fixed typo in {｢俺の妹がこんなに可愛いわけがない｣}[Ore no Imōto ga Konna ni Kawaii Wake ga Nai](Oreimo: My Little Sister Can't Be This Cute) description: like => life"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:20:02.000Z",
+		"title": "more fucking typos yippee",
+		"fixes": {
+			"things": [
+				"- fixed typo in {｢彼女、お借りします｣}[Kanojo, Okarishimasu](Rent-A-Girlfriend) description: from => front"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:22:50.000Z",
+		"title": "really awful Bocchi description but I just wanna be done here",
+		"changes": {
+			"things": [
+				"- updated description for {｢ぼっち・ざ・ろっく！｣}[Botchi Za Rokku!](Bocchi the Rock!)"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:24:42.000Z",
+		"title": "make your images 1.5x bigger with this one simple trick!",
+		"changes": {
+			"things": [
+				"- images for games and anime are now 1.5x bigger than images for tools and creators"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:36:52.000Z",
+		"title": "add more translations and some dislikes",
+		"additions": {
+			"general": [
+				"- page headers now have translations upon hovering"
+			],
+			"about": [
+				"- added dislikes:",
+				[
+					"- the MMDDYYYY date format",
+					"- depictions of non-binary/androgynous characters as especially male or female"
+				]
+			]
+		},
+		"changes": {
+			"things": [
+				"- game titles are no longer displayed in CJK brackets"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:38:31.000Z",
+		"title": "fuck fuck fuck I need linebreaks",
+		"fixes": {
+			"about": [
+				"- added `<br>`s for the entries from the previous commit"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-01T12:40:47.000Z",
+		"title": "I am not using the green owl anymore (thankfully)",
+		"changes": {
+			"about": [
+				"- removed mention of Duolingo"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T18:26:26.000Z",
+		"title": "brand new page NOWAYING",
+		"additions": {
+			"general": [
+				"- work page"
+			]
+		},
+		"changes": {
+			"general": [
+				"- completely remade topbar to use `<a>`s rather than `<li>`s"
+			],
+			"things": [
+				"- now data-driven (nothing hardcoded)"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T18:32:51.000Z",
+		"title": "why no {Коробе́йники}[Korobéyniki](The Peddlers) working :(",
+		"fixes": {
+			"things": [
+				"- renamed `Коробе́йники.mp3` to `Korobeiniki.mp3` so it's recognized"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T18:35:27.000Z",
+		"title": "recenter the things page lmao",
+		"fixes": {
+			"things": [
+				"- page is now centered"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T22:42:24.000Z",
+		"title": "good boy topnav \\\\^.^// – also name pronunciation",
+		"additions": {
+			"about": [
+				"- added name pronunciation"
+			]
+		},
+		"fixes": {
+			"general": [
+				"- topnav is now locked to the top"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T22:49:25.000Z",
+		"title": "why won't this deploy"
+	},
+	{
+		"timestamp": "2026-03-05T22:50:49.000Z",
+		"title": "remove unused code",
+		"removals": {
+			"about": [
+				"- removed three unused lines of code"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T22:58:42.000Z",
+		"title": "please tell me this reenables",
+		"changes": {
+			"about": [
+				"- changed a `var` declaration to a `const` declaration"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T23:19:04.000Z",
+		"title": "use `<ul>` for its intended purpose",
+		"changes": {
+			"about": [
+				"- make bullet points use `<ul>` instead of `•`"
+			]
+		},
+		"fixes": {
+			"about": [
+				"- topnav no longer shows work page as selected"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-05T23:25:40.000Z",
+		"title": "make topnav know which page is selected",
+		"changes": {
+			"general": [
+				"- make the topnav a bit different on each page so it shows the current page"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-09T03:37:59.000Z",
+		"title": "add MEGALOVANIA and fix topnav selected page (hopefully)",
+		"additions": {
+			"about": [
+			"- added likes:",
+			[
+				"milk chocolate",
+				"Trader Joe's",
+				"Costco"
+			],
+			"- added dislike: “chocolate as a flavor”"
+			],
+			"work": [
+				"- added song: ｢MEGALOVANIA｣",
+				"- added download note to covers header"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-09T03:42:59.000Z",
+		"title": "move song comment to top of song section",
+		"changes": {
+			"work": [
+				"- moved the download note from the covers header to the top of the songs section"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-09T10:36:47.000Z",
+		"title": "better MEGALOVANIA",
+		"changes": {
+			"work": [
+				"- replaced ｢MEGALOVANIA｣ file with an improved version"
+			]
+		},
+		"fixes": {
+			"work": [
+				"- made ｢MEGALOVANIA｣ cover use PICO-8 palette"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-13T08:52:13.000Z",
+		"title": "added peak",
+		"additions": {
+			"work": [
+				"- added song: ｢Your Best Nightmare + Finale｣",
+				"- added descriptions to some songs",
+				"- added rights disclaimer to songs header"
+			]
+		},
+		"changes": {
+			"work": [
+				"- song titles now use `<h2>` instead of `<h3>`",
+				"- song subtitles no longer use `<small>`",
+				"- changed misc cover album to say “album” instead of “folder”"
+			]
+		},
+		"fixes": {
+			"work": [
+				"- ｢Lavender Town (Early Sketch)｣ and ｢Lavender Town (Restarted Version)｣ now show their orignal artist"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-20T06:50:57.000Z",
+		"title": "new song and started work on translations tab",
+		"additions": {
+			"about": [
+				"- added Japanese pronoun"
+			]
+		},
+		"changes": {
+			"general": [
+				"- changed topnav font size from 24px to 25px"
+			],
+			"work": [
+				"- renamed translation section: %S{󱤆}[ante](changes) => %S{󱤆󱥬}[ante toki](language changes)"
+			],
+			"repository": [
+				"- added contribution paragraph to README"
+			]
+		},
+		"fixes": {
+			"work": [
+				"- the hover effect for ｢{Коробе́йники}[Korobéyniki](The Peddlers)｣'s name now only applies to the name"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-26T23:51:47.000Z",
+		"title": "Create .nojekyll",
+		"additions": {
+			"repository": [
+				"- added `/.nojekyll` because it apparently makes the build include `./well-known/`"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-27T13:55:36.000Z",
+		"title": "auto-filling and maybe working mobile support?",
+		"additions": {
+			"general": [
+				"- alternate works page to test auto-filling"
+			]
+		},
+		"changes": {
+			"work": [
+				"- changed song title font: Fairfax HD => Fredoka",
+				"- changed size of song images: 96px => 128px",
+				"- updated drawing section's header"
+			]
+		},
+		"fixes": {
+			"general": [
+				"- topnav now properly works on mobile"
+			]
+		},
+		"removals": {
+			"works": [
+				"- removed ｢PPLC｣ album from static version"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-03-27T14:27:54.000Z",
+		"title": "actually add mobile support for all pages",
+		"additions": {
+			"general": [
+				"- implemented auto-filling for things page and works page"
+			]
+		},
+		"changes": {
+			"general": [
+				"- the topbar link for the current page is disabled"
+			]
+		},
+		"fixes": {
+			"general": [
+				"- screen width is now properly calculated for mobile detection"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-02T22:32:54.000Z",
+		"title": "fixed cool thingies page and added some songs",
+		"additions": {
+			"work": [
+				"- added songs:",
+				[
+					"｢Bonetrousle｣",
+					"｢Metal Crusher｣"
+				]
+			]
+		},
+		"changes": {
+			"things": [
+				"- logic for generating list entries now treats tools, creators, games, and anime the same"
+			],
+			"work": [
+				"- renamed ｢Lavender Town｣ and its variations to the original Japanese name",
+				"- reworded songs header to not refer to a specific button",
+				"- song titles and song subtitles are now separate"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-02T22:42:26.000Z",
+		"title": "update ｢Metal Crusher｣ art",
+		"changes": {
+			"work": [
+				"- updated art for ｢Metal Crusher｣"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-02T22:51:07.000Z",
+		"title": "make things page show creator",
+		"additions": {
+			"things": [
+				"- things' creators are now displayed"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-02T22:59:22.000Z",
+		"title": "update pronouns",
+		"changes": {
+			"about": [
+				"- change pronouns on about page: he/him/any => he/him/their"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-02T23:00:31.000Z",
+		"title": "update UNDERTALE capitalization",
+		"changes": {
+			"about": [
+				"- changed capitalization for ｢UNDERTALE｣"
+			]
+		}
+	},
+	{
+		"timestamp": "2026-04-05T10:08:19.000Z",
+		"title": "add new song and move ｢UNDERTALE｣ songs to separate album",
+		"additions": {
+			"work": [
+				"- add song: ｢%S{󱥱󱥍󱥢󱦐󱤀󱥦󱥰󱥷󱤏󱤓󱥅󱦑}[utala pi soweli Asuwijo](Asriel fight)｣"
+			]
+		},
+		"changes": {
+			"general": [
+				"- moved all ｢UNDERTALE｣ covers to ｢PICOTALE Soundtrack｣ album",
+				"- rename song: ｢Your Best Nightmare + Finale｣ => ｢%S{󱥱󱥍󱤗󱦐󱥍󱤃󱥷󱤌󱦑}[utala pi kasi Pawi](Flowey fight)｣"
+			]
+		}
+	},
+	{
+		"title": "perhaps the biggest update yet",
+		"desc": [
+			"well I took way too long with this update. I kept adding more and more things and fixing them and fixing again. I'm turning into RobTop...",
+			"but it wasn't for nothing! it's now way easier for me to make changes to the website."
+		],
+		"additions": {
+			"general": [
+				"- added changelog page",
+				"- added footer at bottom of all pages"
+			],
+			"work": [
+				"- added source link to the description of ｢B｣ drawing",
+				"- added songs:",
+				[
+					"- ｢otherside｣",
+					"- ｢Wrong Number｣",
+					"- ｢Call Ringing｣"
+				]
+			]
+		},
+		"changes": {
+			"general": [
+				"- made all pages' content data-driven",
+				[
+					"- (this just means it's easier for me to edit them)"
+				],
+				"- improved mobile compatibility for some pages (still not perfect but better)",
+				"- new translation hover thingy (this one __should__ be mobile-compatible)",
+				"- many text fields (primarily descriptions) now use Marked with some custom extensions",
+				[
+					"- simple translation: better and easier text customization"
+				]
+			],
+			"home": [
+				"- Sitelen Pona in header wraps better on smaller screens"
+			],
+			"about": [
+				"- edited gender stuff and other text",
+				"- removed brackets wrapping pronunciation button"
+			],
+			"work": [
+				"- completely overhauled songs section",
+				"- renamed all ｢DDLC｣ song covers to comply with Team Salvato's IP guidelines"
+			]
+		},
+		"plans": {
+			"general": [
+				"- custom 404 page",
+				"- full site overhaul – the entire site is a hodgepodge of varying experience levels. I am now way more experienced with HTML/CSS/JS than when I started, so the entire page should reflect that."
+			],
+			"work": [
+				"- OCs section to display lore about my characters"
+			]
+		},
+		"timestamp": "2026-05-08T22:42:18.150Z"
+	}
+]

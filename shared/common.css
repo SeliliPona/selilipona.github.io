@@ -1,0 +1,444 @@
+:root {
+    --stroke-color: #7e48e9;
+    --stroke-width: 1px;
+    --subtext: #777777;
+    --tl-stroke: #007bff;
+    --tl-stroke-width: 1em;
+    --tl-stroke-blur: 5px;
+}
+
+@font-face {
+    font-family: Fairfax;
+    src: url(/assets/fonts/FairfaxHD.ttf);
+}
+@font-face {
+    font-family: nanpa;
+    src: url(/assets/fonts/nasin-nanpa-5.0.0-beta.3-UCSUR.otf);
+}
+@font-face {
+    font-family: Fredoka;
+    src: url(/assets/fonts/Fredoka-VariableFont_wdth\,wght.ttf), url(/assets/fonts/nasin-nanpa-5.0.0-beta.3-UCSUR.otf), url(assets/fonts/FairfaxHD.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/assets/fonts/Nunito-VariableFont_wght.ttf), url(/assets/fonts/nasin-nanpa-5.0.0-beta.3-UCSUR.otf);
+}
+
+span {
+    font-style: normal;
+}
+
+body {
+    background-color: #354174;
+    color: #eee;
+    font-family: Fairfax, sans-serif;
+    min-height: 100vh;
+    overflow-y: auto;
+    margin: 0;
+    margin-top:100px;
+    padding: 0;
+}
+
+main {
+    font-family: Nunito, nanpa;
+    max-width: 900px;
+    background-color: #986ed7;
+    margin: 25px auto;
+    border-radius: 32px;
+    padding: 15px 25px;
+    font-size: 24px;
+}
+
+btn {
+    cursor: pointer;
+}
+
+#hero {
+    margin: 12px auto 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    display:flex;
+    text-decoration: none;
+    color: inherit;
+    width:100%;
+    margin: 12px 8px;
+    padding: 24px 32px;
+    justify-content: center;
+    position: relative;
+}
+
+#hero h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column; /* Forces vertical stacking */
+    align-items: center;    /* Centers items horizontally */
+    text-align: center;
+    padding: 15px 20px;
+}
+.hero .row {
+    display: block; /* Changes from flex to block to prevent side-by-side titles */
+    justify-content: center;
+    width: max-content;
+}
+
+.hero h1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.1;
+    /* display: inline-block; */
+}
+.cartouche {
+    white-space: nowrap;
+}
+.hero .subtitle, 
+.hero .subsubtitle {
+    margin: 15px 0 0; /* Consistent vertical spacing */
+    display: block;
+}
+@media (min-width: 1000px) {
+    .hero h1 br {
+        display: none; /* Hides the break on wide screens */
+    }
+}
+
+.subtitle {
+    font-size: 32px; /* Larger English text */
+    text-align: center;
+    color: #ccc;
+    text-shadow:
+        var(--stroke-width) var(--stroke-width) 0 var(--stroke-color),
+        calc(var(--stroke-width)*-1) calc(var(--stroke-width)*-1) 0 var(--stroke-color),
+        var(--stroke-width) calc(var(--stroke-width)*-1) 0 var(--stroke-color),
+        calc(var(--stroke-width)*-1) var(--stroke-width) 0 var(--stroke-color);
+    margin: 12px 0 0; /* Consistent top margin, zero others */
+    font-family: Fredoka, sans-serif;
+}
+.unusedsubtitle {
+    text-shadow: none;
+}
+.subsubtitle {
+    font-size: 24px;
+    text-align: center;
+    font-family: nunito;
+    color: #bbb;
+    margin: 8px 0 0;
+}
+.paragraph {
+    font-size: 24px;
+    color: #eee;
+}
+.line p {
+    display: block;
+    text-indent: 1em;
+}
+
+ul {
+    font-size: 24px;
+}
+
+#button-container {
+    max-width: 1000px; /* Increased to allow for bigger buttons side-by-side */
+    margin: 40px auto; 
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    justify-content: center; 
+    justify-items: center; 
+    /* Increased height for a "chunkier" feel */
+    grid-auto-rows: 200px; 
+    gap: 40px; 
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #button-container {
+        grid-template-columns: auto;
+        /* Increased row height on mobile */
+        grid-auto-rows: 180px; 
+        gap: 25px;
+    }
+
+    .subpage {
+        /* Fills most of the width but leaves a small margin */
+        width: 90vw; 
+        max-width: 500px;
+        padding: 25px;
+    }
+
+    #title {
+        font-size: 56px;
+    }
+
+    .subtitle {
+        font-size: 26px;
+    }
+}
+
+.subpage {
+    border-radius: 16px; /* Slightly rounder for the larger size */
+    background: #bc8fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    /* Increased width for desktop */
+    width: 350px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    padding: 30px; 
+    position: relative;
+    text-align: center;
+}
+
+/* Remove or comment out any old .buttonrow or .row styles 
+   that might be adding extra margins/padding */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "nanpa", sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    #button-container {
+        grid-template-columns: auto;
+        justify-content: center;
+        /* Reduce side padding on the container to give buttons more room */
+        padding: 10px; 
+        gap: 20px;
+    }
+
+    .subpage {
+        /* Change from 280px to a percentage of the screen width */
+        /* 85vw or 90% are usually good for mobile "hero" buttons */
+        width: 85vw; 
+        max-width: 400px; /* Optional: prevents them from getting TOO huge on small tablets */
+        grid-auto-rows: 130px;
+    }
+}
+.subpage:hover {
+  box-shadow: 0 2px 32px 0 #aa7fff, 0 4px 16px 0 rgba(154, 80, 137, 0.06);
+}
+
+.unusedsubpage {
+    background:#383838
+}
+.unusedsubpage:hover {
+    box-shadow: 0 0px 0px;
+}
+
+.stretched-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+/* 2. Desktop & General Behavior */
+.subpage {
+    position: relative;
+    z-index: 1;
+}
+
+.stretched-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+span.tl h1 {
+    /* This allows the h1 to "trigger" the mousemove event 
+       for your script, but clicks will still pass through 
+       because the parent span is set to none. */
+    pointer-events: auto;
+}
+
+span.tl {
+    position: relative;
+    z-index: 2; /* Sits above the link's hit area */
+    pointer-events: auto;
+}
+
+#title {
+    font-size: 64px; /* Larger Sitelen Pona */
+    margin: 0;
+}
+
+/* 3. Mobile Behavior */
+@media (max-width: 768px) {
+    span.tl {
+        z-index: 10;
+        /* On mobile, we need it to be interactive so 
+           the user can tap it to see the translation. */
+        pointer-events: auto; 
+    }
+    span.tl h1 {
+        pointer-events: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buttonrow {
+        width: unset;
+    }
+}
+
+.emote {
+  /* Scale based on current text size */
+  height: 1.2em; 
+  width: auto;
+  
+  /* Alignment fixes */
+  vertical-align: middle; 
+  position: relative;
+  top: -0.1em; /* Fine-tune the "sit" of the icon on the baseline */
+  
+  /* Prevent layout shift */
+  display: inline-block;
+}
+.creator {
+    color:#bbb
+}
+
+.text-divider {
+    display: grid;
+    grid-template-columns: 5% max-content auto;
+}
+.divider-text {
+    font-family: fredoka;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 30px;
+}
+.divider-bar {
+    height: 3px;
+    background-color: #eee;
+    align-self: center;
+    border-radius: 5px;
+}
+.divider {
+    height: 3px;
+    width: 100%;
+    background-color: #eee;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.download-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+    grid-auto-flow: row;
+}
+.download-chip {
+    background-color: #354174;
+    display: grid;
+    grid-template-columns: auto max-content;
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.download-chip:hover {
+    background-color: #545b7d;
+}
+.download-chip #download-icon {
+    font-size: 30px;
+    align-self: center;
+}
+.download-chip #download-text {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.download-title {
+    font-size: 30px;
+    font-family: fredoka;
+}
+.download-info {
+    font-size: 15px;
+    font-family: nunito;
+}
+
+.footer {
+    background-color: #777777;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+.footer > img {
+    width: 33%;
+    max-width: 900px;
+    padding: 0;
+}
+
+.footer-quote {
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    margin: 5px;
+    font-family: nunito;
+    text-align: center;
+}
+.footer-quote > p {
+    margin: 0;
+}
+
+.footer-name {
+    display: grid;
+    grid-template-columns: 50px auto;
+    padding: 5px;
+}
+.footer-name > * {
+    align-self: center;
+}
+.footer-name > img {
+    height: 50px;
+}
+.footer-name > span {
+    font-family: fredoka;
+    font-size: 25px;
+}
+
+.footer-details {
+    font-family: nunito;
+    font-size: 20px;
+}
+.footer-details nav {
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+nav.footer-details > * {
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 100%;
+    }
+    .footer > img {
+        width: 75%;
+    }
+}

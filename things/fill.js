@@ -1,7 +1,11 @@
-async function fillThings() {
-  const response = await fetch('./content.json');
-  const items = await response.json();
+let items = [];
 
+async function fetchItems() {
+  const response = await fetch('./content.json');
+  items = await response.json();
+}
+
+async function fill() {
   const tools = items.tools;
   
   const creators = items.creators;
@@ -9,8 +13,6 @@ async function fillThings() {
   const games = items.games;
   
   const anime = items.anime;
-
-  const thing_template = document.querySelector('#thing-template');
 
   function fillFrom(array) {
     const template = document.querySelector('#'+array.template)
@@ -24,38 +26,34 @@ async function fillThings() {
             image = 'gameimage';
         }
         clone.querySelector('.'+image).src = "/assets/img/"+array.path+"/"+item.image;
-        const name = clone.querySelector('.thingname');
-        name.textContent = item.name
-        if (item.name_translation) {
-            name.title = item.name_translation;
-        }
+        
+        const title = document.createElement('h1');
+        if (item.name_tl) {
+            const name = tlDfn(item.name_tl);
+            name.textContent = item.name
+            if (item.name_nanpa) name.style = 'font-family: nanpa';
+            title.appendChild(name);
+        } else title.append(document.createTextNode(item.name));
+        title.classList = 'thingname';
+        title.style = 'vertical-align: top;';
         if (item.creator) {
-            name.appendChild(document.createTextNode(" "));
-            const i = document.createElement('i');
+            title.append(document.createTextNode(" "));
             const small = document.createElement('small');
+            small.classList = 'creator';
             small.textContent = "by ";
-            const creator = document.createElement('a');
-            creator.textContent = item.creator;
-            if (item.creator_translation) {
-                creator.title = item.creator_translation;
-            }
-            small.appendChild(creator);
-            i.appendChild(small);
-            name.appendChild(i);
+            if (item.creator_tl) {
+                const creator = tlDfn(item.creator_tl);
+                creator.textContent = item.creator;
+                if (item.creator_nanpa) creator.style = 'font-family: nanpa';
+                small.appendChild(creator)
+            } else small.append(document.createTextNode(item.creator));
+            title.appendChild(small);
         }
+        clone.querySelector('.thingdesc').appendChild(title);
         if (item.desc) {
-            // replacing style tags until I can figure out how to get Marked working without breaking everything
-            // there has to be a better way to do this but whatever
-            const desc = item.desc
-            .replace("<b>", "*").replace("</b>", "*")
-            .replace("<u>", "*").replace("</u>", "*")
-            .replace("<i>", "*").replace("</i>", "*");
-            const thingdesc = clone.querySelector('.thingdesc')
-            desc.split("\n").forEach(line => {
-                thingdesc.appendChild(document.createTextNode(line));
-                thingdesc.appendChild(document.createElement('br'));
-            })
-            thingdesc.removeChild(thingdesc.lastChild);
+            const desc = document.createElement('p');
+            desc.innerHTML = marked.parse(item.desc.join("\n"));
+            clone.querySelector('.thingdesc').appendChild(desc);
         }
         if (item.links) {
             item.links.forEach(link => {
@@ -80,7 +78,3 @@ async function fillThings() {
   fillFrom(games);
   fillFrom(anime);
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    fillThings();
-})

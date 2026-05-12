@@ -7,7 +7,9 @@
                 "name": "Harmonoid",
                 "creator": "Hitesh Kumar Saini",
                 "image": "harmonoid.png",
-                "desc": "feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation.",
+                "desc": [
+                    "feature-packed music file player. cross-platform, free to download, looks beautiful and juicy. only US$1/month gets you the Plus membership and access to bonus features like a tag editor and lyric translation."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -23,7 +25,9 @@
                 "name": "Akari's LRC Editor",
                 "creator": "magic_akari",
                 "image": "lrc-maker.png",
-                "desc": "Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point.",
+                "desc": [
+                    "Harmonoid supports adding LRC (LyRiC) files to songs, and this is what I use to create LRCs. super simple to use and straight to the point."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -34,7 +38,9 @@
             {
                 "name": "yt-dlp",
                 "image": "yt-dlp.png",
-                "desc": "YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube.",
+                "desc": [
+                    "YouTube video downloader. this (and sometimes an Android app that uses it) is what I use to get most of my files for Harmonoid. it is super customizable and works for way more sites than just YouTube."
+                ],
                 "links": [
                     {
                         "class": "fa-brands fa-github",
@@ -45,7 +51,9 @@
             {
                 "name": "freemediaheckyeah",
                 "image": "fmhy.png",
-                "desc": "website <b>chock full</b> of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it.",
+                "desc": [
+                    "website **chock full** of lists of lists of lists of free shit. everything from games to anime to music – if you're a fan of sailing the Seven Seas, then this is the site for you, and even if you're not, you're bound to find something cool from it."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -61,7 +69,9 @@
                 "name": "KeePass",
                 "creator": "Dominik Reichl",
                 "image": "keepass.png",
-                "desc": "free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost.",
+                "desc": [
+                    "free, open source, cross-platform, simple-to-use password manager. it's won multiple awards and even sponsored by some countries' cybersecurity agencies. it's got 90%ish of the features of the leading password managers, with none of the cost."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -72,7 +82,9 @@
             {
                 "name": "The Spriters Resource",
                 "image": "tsr.webp",
-                "desc": "this amazing website is dedicated to archiving and preserving media from thousands of games, including sprites, textures, sounds, and models. given all the effort their mission requires, its community is honestly fucking amazing.",
+                "desc": [
+                    "this amazing website is dedicated to archiving and preserving media from thousands of games, including sprites, textures, sounds, and models. given all the effort their mission requires, its community is honestly fucking amazing."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -81,6 +93,64 @@
                     {
                         "class": "fa-brands fa-discord",
                         "link": "https://discord.gg/tsr"
+                    }
+                ]
+            },
+            {
+                "name": "Syncthing",
+                "image": "syncthing.png",
+                "desc": [
+                    "this app lets you sync your files between devices over Wi-Fi at lightning-fast speeds. I use it to sync my music between devices rather than manually transferring using something like Discord. it's really simple to set up and use, and it's also 100% FOSS."
+                ],
+                "links": [
+                    {
+                        "class": "fa-solid fa-globe",
+                        "link": "https://syncthing.net"
+                    },
+                    {
+                        "class": "fa-brands fa-github",
+                        "link": "https://github.com/syncthing/syncthing"
+                    },
+                    {
+                        "class": "fa-brands fa-android",
+                        "link": "https://github.com/researchxxl/syncthing-android"
+                    }
+                ]
+            },
+            {
+                "name": "Neuro & Evil Karaoke Web Player",
+                "creator": "Soul",
+                "image": "neurokaraoke.png",
+                "desc": [
+                    "this website started as just a way to archive and listen to all of Neuro-sama and Evil Neuro's karaoke, but has since grown into so much more. you can view thousands of fanarts, there's a soundbite collection, quizzes, quotes, and a lot more. it's a real showcase of love and passion, and is a great example of the dedication of the Swarm."
+                ],
+                "links": [
+                    {
+                        "class": "fa-solid fa-globe",
+                        "link": "https://neurokaraoke.com"
+                    }
+                ]
+            },
+            {
+                "name": "󱤪󱦐󱤪󱦜󱥂󱤟󱦜󱦑",
+                "name_tl": ["lipu Linku"],
+                "name_nanpa": true,
+                "creator": ["󱤔󱦐󱤃󱥡󱤎󱦑"],
+                "creator_tl": ["kala Asi"],
+                "creator_nanpa": true,
+                "image": "linku.svg",
+                "desc": [
+                    "this is a web frontend for {󱥡󱦐󱤪󱦜󱥂󱤟󱦜󱦑}[sona Linku], a dictionary of widespread and non-widespread Toki Pona words. it also includes a dataset of Sitelen Pona fonts, a number system converter, a Latin alphabet–Sitelen Pona converter, and a Sitelen Pona identifier.",
+                    "I often use this page to look for fonts to use or to quickly make Sitelen Pona text without copy-pasting a bunch of characters."
+                ],
+                "links": [
+                    {
+                        "class": "fa-solid fa-globe",
+                        "link": "https://linku.la"
+                    },
+                    {
+                        "class":"fa-brands fa-discord",
+                        "link": "https://discord.gg/A3ZPqnHHsy"
                     }
                 ]
             }
@@ -93,7 +163,9 @@
             {
                 "name": "Vedal, Neuro-sama, and Evil Neuro",
                 "image": "neuro.webp",
-                "desc": "a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters. though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in. their Swarm is one of the most dedicated fanbases out there, never failing to assimimate every newbie who even dares to mention their AI overlord.",
+                "desc": [
+                    "a British turtle tried to make an ｢osu!｣ bot and somehow ended up with two AI daughters. though calling them AIs is a bit disingenuous, because all of their content (as well as themselves) has plenty of human soul baked in. their Swarm is one of the most dedicated fanbases out there, never failing to assimimate every newbie who even dares to mention their AI overlord."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -116,7 +188,9 @@
             {
                 "name": "The Click",
                 "image": "click.jpg",
-                "desc": "one of many Reddit reactslop channels, but I like <u>his</u> especially. he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs.",
+                "desc": [
+                    "one of many Reddit reactslop channels, but I like __his__ especially. he almost always has something insightful or funny to say about every post, and there's a good reason he has so many subs."
+                ],
                 "links": [
                     {
                         "class": "fa-brands fa-youtube",
@@ -135,7 +209,9 @@
             {
                 "name": "Matt Rose",
                 "image": "matt-rose.jpg",
-                "desc": "British dude known for reading memes funnily. almost always goes the extra mile, whether it be <u>actually</u> falling down the stairs for an authentic sound effect or buying custom T-shirts of shitposts.",
+                "desc": [
+                    "British dude known for reading memes funnily. almost always goes the extra mile, whether it be __actually__ falling down the stairs for an authentic sound effect or buying custom T-shirts of shitposts."
+                ],
                 "links": [
                     {
                         "class": "fa-brands fa-youtube",
@@ -150,7 +226,9 @@
             {
                 "name": "shindigs",
                 "image": "shindigs.jpg",
-                "desc": "perhaps the most interactive streamer on Twitch. his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures. he's really fun.",
+                "desc": [
+                    "perhaps the most interactive streamer on Twitch. his viewers get to be a part of the action in every stream through chat integrations and unscripted adventures. he's really fun."
+                ],
                 "links": [
                     {
                         "class": "fa-brands fa-youtube",
@@ -176,7 +254,10 @@
                 "name": "UNDERTALE",
                 "creator": "Toby Fox",
                 "image": "undertale.jpg",
-                "desc": "★★★★★\nthe RPG where no one has to die. this game needs no introduction – chances are you have heard of it, if not played it. mostly developed by one singular person, this game is definitely deserving of my #1 spot. its soundtrack is a banger, its art is beautiful, its story is heart-wrenching.",
+                "desc": [
+                    "★★★★★",
+                    "the RPG where no one has to die. this game needs no introduction – chances are you have heard of it, if not played it. mostly developed by one singular person, this game is definitely deserving of my #1 spot. its soundtrack is a banger, its art is beautiful, its story is heart-wrenching."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -192,7 +273,10 @@
                 "name": "DELTARUNE",
                 "creator": "Toby Fox",
                 "image": "deltarune.jpg",
-                "desc": "★★★★☆\nthe spiritual successor/parallel story to ｢UNDERTALE｣. different setting, new and old characters, same amazing quality. the game isn't finished yet, so I can't really rate it fairly, but so far it's great.",
+                "desc": [
+                    "★★★★☆",
+                    "the spiritual successor/parallel story to ｢UNDERTALE｣. different setting, new and old characters, same amazing quality. the game isn't finished yet, so I can't really rate it fairly, but so far it's great."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -208,7 +292,10 @@
                 "name": "Minecraft",
                 "creator": "Mojang Studios",
                 "image": "minecraft.jpg",
-                "desc": "★★★★☆\neveryone knows ｢Minecraft｣, the little indie that could. it's the best-selling video game that ever best-sold. create, explore, survive – use the blocks around you to make anything, from castles to computers to cocks.",
+                "desc": [
+                    "★★★★☆",
+                    "everyone knows ｢Minecraft｣, the little indie that could. it's the best-selling video game that ever best-sold. create, explore, survive – use the blocks around you to make anything, from castles to computers to cocks."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -220,7 +307,11 @@
                 "name": "The Henry Stickmin Collection",
                 "creator": "PuffballsUnited",
                 "image": "stickmin.jpg",
-                "desc": "★★★★★\na remake of the original ｢Henry Stickmin｣ games – CYOAs where you want to fail. it possibly holds the record for the most references in a video game (though don't Google that, it probably doesn't).\nthis is actually my only perfect Steam game, so that's cool ig.",
+                "desc": [
+                    "★★★★★",
+                    "a remake of the original ｢Henry Stickmin｣ games – CYOAs where you want to fail. it possibly holds the record for the most references in a video game (though don't Google that, it probably doesn't).",
+                    "this is actually my only perfect Steam game, so that's cool ig."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -236,7 +327,10 @@
                 "name": "The Coffin of Andy and Leyley",
                 "creator": "Kit9 Studio",
                 "image": "coffin.jpg",
-                "desc": "★★★★★\nbrother and sister witness a botched satanic ritual and become cannibals. the story shows their love for each other (and possibly their <i><b>love</b></i> for each other, depending on the route). oh and there are some fun puzzles strewn throughout the game.",
+                "desc": [
+                    "★★★★★",
+                    "brother and sister witness a botched satanic ritual and become cannibals. the story shows their love for each other (and possibly their ***love*** for each other, depending on the route). oh and there are some fun puzzles strewn throughout the game."
+                ],
                 "links": [
                     {
                         "class": "fa-brands fa-steam",
@@ -248,7 +342,10 @@
                 "name": "Doki Doki Literature Club!",
                 "creator": "Team Salvato",
                 "image": "ddlc.jpg",
-                "desc": "★★★★★\nNEET high schooler joins the literature club his friend is part of and tries to rizz up one of three of the four girls in there. but the other one really doesn't like that and goes severely out of her way to stop you. this game is not suitable for children or those who are easily disturbed.",
+                "desc": [
+                    "★★★★★",
+                    "NEET high schooler joins the literature club his friend is part of and tries to rizz up one of three of the four girls in there. but the other one really doesn't like that and goes severely out of her way to stop you. this game is not suitable for children or those who are easily disturbed."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-globe",
@@ -268,9 +365,15 @@
         "contents": [
             {
                 "name": "ぼっち・ざ・ろっく！",
-                "name_translation": "Botchi Za Rokku! • Bocchi the Rock!",
+                "name_tl": [
+                    "Botchi Za Rokku!",
+                    "Bocchi the Rock!"
+                ],
                 "image": "bocchi.jpg",
-                "desc": "★★★★★\nNEET girl learns guitar because she wants to be in a band, but she's too shy to even make friends. but when a drummer is desperate for a guitarist for her band, she finds herself dragged into one.",
+                "desc": [
+                    "★★★★★",
+                    "NEET girl learns guitar because she wants to be in a band, but she's too shy to even make friends. but when a drummer is desperate for a guitarist for her band, she finds herself dragged into one."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-book",
@@ -280,9 +383,15 @@
             },
             {
                 "name": "彼女、お借りします",
-                "name_translation": "Kanojo, Okarishimasu • Rent-A-Girlfriend",
+                "name_tl": [
+                    "Kanojo, Okarishimasu",
+                    "Rent-A-Girlfriend"
+                ],
                 "image": "kanojo.jpg",
-                "desc": "★★★★★\nguy gets dumped, decides to try the “girlfriend experience”. one thing leads to another and now him and the rental have to actively pretend to be together in order to not blow the guy's cover.",
+                "desc": [
+                    "★★★★★",
+                    "guy gets dumped, decides to try the “girlfriend experience”. one thing leads to another and now him and the rental have to actively pretend to be together in order to not blow the guy's cover."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-book",
@@ -292,9 +401,15 @@
             },
             {
                 "name": "お兄ちゃんはおしまい！",
-                "name_translation": "Onii-chan wa Oshimai! • Onimai: I'm Now Your Sister!",
+                "name_tl": [
+                    "Onii-chan wa Oshimai!",
+                    "Onimai: I'm Now Your Sister!"
+                ],
                 "image": "onimai.jpg",
-                "desc": "★★★★★\nmiddle school genius drugs her older brother and makes him a middle school girl. he then has to learn how to live in this body while still being a young man inside.",
+                "desc": [
+                    "★★★★★",
+                    "middle school genius drugs her older brother and makes him a middle school girl. he then has to learn how to live in this body while still being a young man inside."
+                ],
                 "links": [
                     {
                         "class": "fa-solid fa-book",
@@ -304,9 +419,21 @@
             },
             {
                 "name": "俺の妹がこんなに可愛いわけがない",
-                "name_translation": "Ore no Imōto ga Konna ni Kawaii Wake ga Nai • Oreimo: My Little Sister Can't Be This Cute",
+                "name_tl": [
+                    "Ore no Imōto ga Konna ni Kawaii Wake ga Nai",
+                    "Oreimo: My Little Sister Can't Be This Cute"
+                ],
                 "image": "oreimo.jpg",
-                "desc": "★★★★☆\nhigh schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a way he never wanted to be, and he's gonna have to learn to deal with it."
+                "desc": [
+                    "★★★★☆",
+                    "high schooler discovers his little sister is obsessed with little sister-themed anime, manga, and adult games. now that he knows, he's part of it too. he's now involved in his sister's life in a way he never wanted to be, and he's gonna have to learn to deal with it."
+                ],
+                "links": [
+                    {
+                        "class": "fa-solid fa-book",
+                        "link": "https://anidb.net/anime/7525"
+                    }
+                ]
             }
         ]
     }

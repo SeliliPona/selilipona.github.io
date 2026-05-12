@@ -1,127 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>lipu mi - lipu pi jan Selili</title>
-        <meta name="description" content="personal website for Selili">
-        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
-        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
-        <link rel="stylesheet" href="../thing.css" />
+        <link href="/assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/solid.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-png" href="/assets/img/selili.png">
         <link rel="stylesheet" href="./links.css" />
-        <link rel="stylesheet" href="../topnav.css" />
-        <script src="../topnav.js"></script>
-        <script src="../tab.js"></script>
-        <meta property="og:image" content="../assets/img/selili.png">
+        <link rel="stylesheet" href="/shared/common.css" />
+        <link rel="stylesheet" href="/shared/tl.css" />
+        <link rel="stylesheet" href="/shared/topnav.css" />
+        <meta charset="utf-8" />
+        <meta name="description" content="personal website for Selili">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="/assets/img/selili.png">
+        <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+        <script src="./fill.js"></script>
+        <script src="/shared/common.js"></script>
+        <script src="/shared/marked.js"></script>
+        <script src="/shared/tab.js"></script>
+        <script src="/shared/tl.js"></script>
+        <title>lipu mi - lipu pi jan Selili</title>
     </head>
-    <body>
-        <div class="topnav" id="topnavstuff">
-            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
-            <a href="https://selilipona.github.io">home</a>
-            <a href="https://selilipona.github.io/about">about me</a>
-            <a class="active">all my linkies</a>
-            <a href="https://selilipona.github.io/things">cool thingies</a>
-            <a href="https://selilipona.github.io/work">stuff I've done</a>
-            <a href="https://selilipona.github.io/credits">credits</a>
-            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
-                <div class="icon-container">
-                    <span class="dots">•••</span>
-                    <span class="close">✕</span>
-                </div>
-            </a>
-        </div>
-        <main>
-            <header class="hero">
-                <div class="row">
-                    <h1 title="lipu mi • pages of me">󱤪󱤴</h1>
-                </div>
-                <p class="subtitle">my linkies</p>
-                <p class="subsubtitle"><i>have fun stalking me ig
-                </i></p>
-            </header>
-        </main>
-        <main>
-            <p class="subsubtitle">
-                note: everything here is me. assume everything else is not.
-                some of these I regularly use, some I only have so that no
-                one impersonates me on that platform.
-            </p>
-        </main>
-        <a class="link" href="https://discord.com/users/312804079216885763/">
+    <template id="link-template">
+        <a class="link" href="">
             <main>
-                <div>
-                    <i class="fa-brands fa-discord"></i>
-                    Discord
-                </div>
+                <div id="visual" style="font-family: fredoka;"></div>
             </main>
         </a>
-        <a class="link" href="https://youtube.com/@SeliliPona/">
-            <main>
-                <div>
-                    <i class="fa-brands fa-youtube"></i>
-                    YouTube
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://x.com/SeliliPona/">
-            <main>
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
-                    Twitter
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://github.com/SeliliPona/">
-            <main>
-                <div>
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://twitch.tv/selilipona/">
-            <main>
-                <div>
-                    <i class="fa-brands fa-twitch"></i>
-                    Twitch
-                </div>
-            </main>
-        </a>
-        
-        <br>
-
-        <a class="link" href="https://roblox.com/users/150274710/profile">
-            <main>
-                <div>
-                    <i class="fa-solid fa-dumpster-fire"></i>
-                    Roblox
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://steamcommunity.com/id/SeliliPona/">
-            <main>
-                <div>
-                    <i class="fa-brands fa-steam"></i>
-                    Steam
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://namemc.com/profile/SeliliPona/">
-            <main>
-                <div>
-                    <i class="fa-solid fa-cube"></i>
-                    NameMC
-                </div>
-            </main>
-        </a>
-        <a class="link" href="https://osu.ppy.sh/users/38982129/">
-            <main>
-                <div>
-                    <i class="fa-solid fa-circle"></i>
-                    osu!
-                </div>
-            </main>
-        </a>
+    </template>
+    <body></body>
+</html>

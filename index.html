@@ -2,87 +2,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" type="image/x-png" href="/assets/img/selili.png">
+        <link rel="stylesheet" href="/index.css" />
+        <link rel="stylesheet" href="/links/links.css" />
+        <link rel="stylesheet" href="/shared/common.css" />
+        <link rel="stylesheet" href="/shared/tl.css" />
+        <link rel="stylesheet" href="/shared/topnav.css" />
         <meta charset="utf-8" />
-        <title>lipu open - lipu pi jan Selili</title>
         <meta name="description" content="personal website for Selili">
-        <link rel="icon" type="image/x-png" href="assets/img/selili.png">
-        <link rel="stylesheet" href="thing.css" />
-        <link rel="stylesheet" href="links/links.css" />
-        <link rel="stylesheet" href="topnav.css" />
-        <script src="topnav.js"></script>
-        <script src="tab.js"></script>
-        <meta property="og:image" content="assets/img/selili.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="/assets/img/selili.png">
+        <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+        <script src="/fill.js"></script>
+        <script src="/shared/common.js"></script>
+        <script src="/shared/marked.js"></script>
+        <script src="/shared/tab.js"></script>
+        <script src="/shared/tl.js"></script>
+        <title>lipu open - lipu pi jan Selili</title>
     </head>
+    <template id="button-template">
+        <div class="subpage">
+            <a href="" class="stretched-link">
+            <div class="row" style="margin: 0;">
+                <span class="tl" data-roman="" data-trans="">
+                    <h1 id="title" style="margin: 0; font-size: 48px;"></h1>
+                </span>
+            </div>
+                <p id="subtitle" class="subtitle" style="margin: 10px 0 0;"></p>
+            </a>
+        </div>
+    </template>
     <body>
-        <div class="topnav" id="topnavstuff">
-            <a class="active"><img class="topnavicon" src="assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
-            <a class="active">home</a>
-            <a href="https://selilipona.github.io/about">about me</a>
-            <a href="https://selilipona.github.io/links">all my linkies</a>
-            <a href="https://selilipona.github.io/things">cool thingies</a>
-            <a href="https://selilipona.github.io/work">stuff I've done</a>
-            <a href="https://selilipona.github.io/credits">credits</a>
-            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
-                <div class="icon-container">
-                    <span class="dots">•••</span>
-                    <span class="close">✕</span>
-                </div>
-            </a>
-        </div>
-
-        <main>
-            <header class="hero">
-                <div class="row">
-                    <h1 title="lipu pi jan Selili • page of Selili">󱤪󱥍󱤑󱦐󱥠󱤊󱤤󱤎󱥼󱤏󱦑</h1>
-                </div>
-                <p class="subtitle">Selili's page</p>
-                <p class="subsubtitle"><i>please help I don't know how to make a website (>///&lt)
-                </i></p>
-            </header>
-        </main>
-        <main><p class="subsubtitle">note: you can hover over non-English text on this site for translations.</p></main>
-        <div class="subpagecontainer">
-            <a href="https://selilipona.github.io/about">
-                <div class="subpage">
-                    <div class="row">
-                        <h1 title="sona mi • info of me">󱥡󱤴</h1>
-                    </div>
-                    <p class="subtitle">about me</p>
-                </div>
-            </a>
-            <a href="https://selilipona.github.io/links">
-                <div class="subpage">
-                    <div class="row">
-                        <h1 title="lipu mi • pages of me">󱤪󱤴</h1>
-                    </div>
-                    <p class="subtitle">my linkies</p>
-                </div>
-            </a>
-            <a href="https://selilipona.github.io/things">
-                <div class="subpage">
-                    <div class="row">
-                        <h1 title="ijo epiku • epic things">󱤌󱦃</h1>
-                    </div>
-                    <p class="subtitle unusedsubtitle">cool thingies</p>
-                </div>
-            </a>
-            <a href="https://selilipona.github.io/work">
-                <div class="subpage">
-                    <div class="row">
-                        <h1 title="pali mi • work of me">󱥉󱤴</h1>
-                    </div>
-                    <p class="subtitle">stuff I've done</p>
-                </div>
-            </a>
-            <a href="https://selilipona.github.io/credits">
-                <div class="subpage">
-                    <div class="row">
-                        <h1 title="tan pali • sources of creation things">󱥧󱥉</h1>
-                    </div>
-                    <p class="subtitle">credits</p>
-                </div>
-            </a>
-        </div>
+        <div id="button-container" class="subpagecontainer"></div>
     </body>
 </html>
