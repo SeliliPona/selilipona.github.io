@@ -2,14 +2,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import archiver from 'archiver';
-const createArchive = typeof archiver === 'function' 
-  ? archiver 
-  : (archiver.default || archiver.create);
-
-if (typeof createArchive !== 'function') {
-  throw new Error("Could not find a valid archiver constructor. Check console logs.");
-}
+import * as archiverModule from 'archiver';
+const archiver = archiverModule.default || archiverModule.create || archiverModule;
 import * as music_metadata from 'music-metadata';
 
 const argv = process.argv;
@@ -32,11 +26,11 @@ async function initialize(message) {
         console.log(`Creating ZIP for: ${album.title}...`);
 
         const output = fs.createWriteStream(outputPath);
-        const archive = createArchive('zip', { zlib: { level: 0 } });
+        const archive = archiver('zip', { zlib: { level: 0 } });
 
         archive.pipe(output);
-
-        album.songs.forEach(async (song, idx) => {
+        
+        for (const [idx, song] of album.songs.entries()) {
             const name = song.files[0][0];
             const filePath = path.join(albumPath, name);
             const songFormats = {};
@@ -54,7 +48,7 @@ async function initialize(message) {
 
                         console.log(`making source zip for ${name}: ${sourceZipPath}`);
                         const sourceOutput = fs.createWriteStream(sourceZipPath);
-                        const sourceArchive = createArchive('zip', { zlib: { level: 0 } });
+                        const sourceArchive = archiver('zip', { zlib: { level: 0 } });
 
                         // error handling for the stream
                         sourceOutput.on('error', (err) => console.error("Stream Error:", err));
@@ -117,7 +111,7 @@ async function initialize(message) {
                     }
                 })();
             }
-        });
+        };
 
         await archive.finalize();
 
