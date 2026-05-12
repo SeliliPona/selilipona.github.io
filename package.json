@@ -1,0 +1,25 @@
+{
+  "name": "selilipona.github.io",
+  "version": "1.0.0",
+  "description": "ni li lipu (ike) pi jan Selili – this is Selili's (bad) website",
+  "main": "fill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeliliPona/selilipona.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SeliliPona/selilipona.github.io/issues"
+  },
+  "homepage": "https://github.com/SeliliPona/selilipona.github.io#readme",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "music-metadata": "^11.12.3"
+  }
+}
