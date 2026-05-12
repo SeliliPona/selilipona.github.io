@@ -22,16 +22,10 @@ jobs:
         with:
           node-version: '24'
 
-      # - name: install modules
-      #   run: |
-      #     npm install archiver
-      #     npm install music-metadata
-      #     cd node_modules
-      #     echo node_modules:
-      #     ls
-      #     cd ..
-      #     echo root:
-      #     ls
+      - name: install modules
+        run: |
+          npm install archiver
+          npm install music-metadata
       - name: run initalize
         env:
           GITHUB_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}

@@ -2,8 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const archiver = require('./node_modules/archiver/index.js');
-const music_metadata = require('./node_modules/music-metadata/lib/index.js');
+const archiver = require('archiver');
+const music_metadata = require('music-metadata');
 
 const argv = process.argv;
 console.log('argv:', argv)
