@@ -1,11 +1,9 @@
 // thank you Gemini :3
 
-const fs = require('fs');
-const path = require('path');
-const archiverModule = require('archiver');
-const archiver = archiverModule.default || archiverModule;
-const music_metadataModule = require('music-metadata');
-const music_metadata = music_metadataModule.default || music_metadataModule;
+import fs from 'fs';
+import path from 'path';
+import archiver from 'archiver';
+import * as music_metadata from 'music-metadata';
 
 const argv = process.argv;
 
