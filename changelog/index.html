@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/regular.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+        <link rel="icon" type="image/x-png" href="/assets/img/selili.png">
+        <link rel="stylesheet" href="./changelog.css">
+        <link rel="stylesheet" href="/shared/common.css">
+        <link rel="stylesheet" href="/shared/tl.css">
+        <link rel="stylesheet" href="/shared/topnav.css">
+        <meta charset="utf-8" />
+        <meta name="description" content="personal website for Selili">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="/assets/img/selili.png">
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/timezone.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/utc.js"></script>
+        <script>
+            dayjs.extend(window.dayjs_plugin_timezone);
+            dayjs.extend(window.dayjs_plugin_utc);
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+        <script src="./fill.js"></script>
+        <script src="/shared/common.js"></script>
+        <script src="/shared/marked.js"></script>
+        <script src="/shared/tab.js"></script>
+        <script src="/shared/tl.js"></script>
+        <title>ante lipu - lipu pi jan Selili</title>
+    </head>
+
+	<template id="commit-template">
+		<div class="commit">
+			<h2 id="commit-datetime"></h2>
+			<h1 id="commit-name"></h1>
+			<p id="commit-desc"></p>
+		</div>
+	</template>
+	<template id="commit-section-template">
+		<div class="commit-section">
+            <div class="text-divider">
+                <div class="divider-bar"></div>
+                <b class="divider-text"></b>
+                <div class="divider-bar"></div>
+            </div>
+			<div id="commit-section-contents"></div>
+		</div>
+	</template>
+	<template id="commit-scope-template">
+		<h3 id="commit-scope-name"></h3>
+	</template>
+
+	<body>
+		<main id="commit-holder">
+			<btn id="load-commits-button">
+				<div>
+					<i class="fa-solid fa-refresh"></i>
+					<span>load more</span>
+				</div>
+			</btn>
+		</main>
+	</body>
+</html>

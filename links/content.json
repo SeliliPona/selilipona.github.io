@@ -1,0 +1,52 @@
+[
+    [
+        {
+            "name": "Discord",
+            "icon": "fa-brands fa-discord",
+            "link": "https://discord.com/users/312804079216885763"
+        },
+        {
+            "name": "YouTube",
+            "icon": "fa-brands fa-youtube",
+            "link": "https://youtube.com/@SeliliPona"
+        },
+        {
+            "name": "Twitter",
+            "icon": "fa-brands fa-twitter",
+            "link": "https://x.com/SeliliPona"
+        },
+        {
+            "name": "GitHub",
+            "icon": "fa-brands fa-github",
+            "link": "https://github.com/SeliliPona"
+        },
+        {
+            "name": "Twitch",
+            "icon": "fa-brands fa-twitch",
+            "link": "https://twitch.tv/selilipona"
+        }
+    ],
+    [
+        {
+            "name": "Roblox",
+            "icon": "fa-solid fa-dumpster-fire",
+            "link": "https://roblox.com/users/150274710/profile"
+        },
+        {
+            "name": "Steam",
+            "icon":"fa-brands fa-steam",
+            "link": "https://steamcommunity.com/id/SeliliPona"
+        },
+        {
+            "name": "NameMC",
+            "icon":"fa-solid fa-cube",
+            "link": "https://namemc.com/profile/SeliliPona"
+        },
+        {
+            "name": "osu!",
+            "icon":"fa-solid fa-circle",
+            "link": "https://osu.ppy.sh/users/38982129"
+        }
+
+    ]
+]

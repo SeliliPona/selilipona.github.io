@@ -1,0 +1,243 @@
+{
+    "iah1": {
+        "iah.mp3": {
+            "size": 3093554,
+            "mtime": "2026-03-27T13:55:36.608Z",
+            "duration": 76.512
+        },
+        "sarah.mp3": {
+            "size": 2155632,
+            "mtime": "2026-03-27T13:55:36.613Z",
+            "duration": 53.064
+        },
+        "tooit.mp3": {
+            "size": 3179960,
+            "mtime": "2026-03-27T13:55:36.619Z",
+            "duration": 78.672
+        },
+        "sweden.mp3": {
+            "size": 4175132,
+            "mtime": "2026-04-02T21:56:25.419Z",
+            "duration": 103.608
+        },
+        "lavender.mp3": {
+            "size": 3537699,
+            "mtime": "2026-04-02T21:56:25.412Z",
+            "duration": 87.672
+        },
+        "aad.mp3": {
+            "size": 1947106,
+            "mtime": "2026-03-27T13:55:36.639Z",
+            "duration": 47.856
+        },
+        "tf.mp3": {
+            "size": 2625076,
+            "mtime": "2026-03-27T13:55:36.645Z",
+            "duration": 64.8
+        },
+        "/assets/audio/iah1/In_a_Heartbeat_OST.zip": {
+            "size": 20714611,
+            "mtime": "2026-05-08T22:42:17.980Z",
+            "format": "ZIP (7x MP3)"
+        }
+    },
+    "iah2": {
+        "iah_es.mp3": {
+            "size": 2419349,
+            "mtime": "2026-03-27T13:55:36.651Z",
+            "duration": 60.096
+        },
+        "lavender_es.mp3": {
+            "size": 3764407,
+            "mtime": "2026-04-02T21:57:09.142Z",
+            "duration": 93.552
+        },
+        "yr.mp3": {
+            "size": 7059222,
+            "mtime": "2026-05-06T12:38:09.081Z",
+            "duration": 175.848
+        },
+        "sarah_rs.mp3": {
+            "size": 5985872,
+            "mtime": "2026-03-27T13:55:36.685Z",
+            "duration": 149.016
+        },
+        "tooit_rs.mp3": {
+            "size": 3361877,
+            "mtime": "2026-03-27T13:55:36.699Z",
+            "duration": 167.10530612244898
+        },
+        "lavender_rs.mp3": {
+            "size": 2018696,
+            "mtime": "2026-04-02T21:57:09.159Z",
+            "duration": 100.272
+        },
+        "tf_rs.mp3": {
+            "size": 2598390,
+            "mtime": "2026-03-27T13:55:36.711Z",
+            "duration": 129.12326530612245
+        },
+        "/assets/audio/iah2/In_a_Heartbeat_OST.zip": {
+            "size": 27208287,
+            "mtime": "2026-05-08T22:42:18.025Z",
+            "format": "ZIP (7x MP3)"
+        }
+    },
+    "pplc": {
+        "dreams.mp3": {
+            "size": 1189499,
+            "mtime": "2026-05-06T12:40:24.480Z",
+            "duration": 144.03918367346938
+        },
+        "panic.mp3": {
+            "size": 2920695,
+            "mtime": "2026-05-06T12:40:24.497Z",
+            "duration": 143.46448979591835
+        },
+        "confession.mp3": {
+            "size": 3792142,
+            "mtime": "2026-05-06T12:40:24.491Z",
+            "duration": 187.03673469387755
+        },
+        "sayonara.mp3": {
+            "size": 3303125,
+            "mtime": "2026-05-06T12:40:24.507Z",
+            "duration": 162.58612244897958
+        },
+        "/assets/audio/pplc/PICO_PICO_Literature_Club!_OST.zip": {
+            "size": 11205787,
+            "mtime": "2026-05-08T22:42:18.048Z",
+            "format": "ZIP (4x MP3)"
+        }
+    },
+    "picotale": {
+        "bonetrousle.wav": {
+            "size": 3834272,
+            "mtime": "2026-03-31T17:11:30.559Z",
+            "duration": 79.67345833333333
+        },
+        "megalovania.wav": {
+            "size": 6754964,
+            "mtime": "2026-03-09T10:35:57.671Z",
+            "duration": 152.97306122448978
+        },
+        "/assets/source/crusher.p8": {
+            "size": 5678,
+            "mtime": "2026-03-31T04:37:10.179Z"
+        },
+        "crusher.wav": {
+            "size": 3650776,
+            "mtime": "2026-04-02T21:34:24.659Z",
+            "duration": 75.68979166666666
+        },
+        "undertale.wav": {
+            "size": 17810370,
+            "mtime": "2026-03-27T13:55:36.602Z",
+            "duration": 403.6789115646259
+        },
+        "flowey.wav": {
+            "size": 15468414,
+            "mtime": "2026-03-13T08:18:47.055Z",
+            "duration": 350.56326530612245
+        },
+        "asriel.wav": {
+            "size": 12667146,
+            "mtime": "2026-04-05T09:50:12.045Z",
+            "duration": 286.82448979591834
+        },
+        "/assets/source/number.p8": {
+            "size": 3364,
+            "mtime": "2026-04-14T16:50:00.989Z"
+        },
+        "number.wav": {
+            "size": 1421912,
+            "mtime": "2026-04-14T17:04:45.519Z",
+            "duration": 31.86938775510204
+        },
+        "/assets/source/megalovania.zip": {
+            "size": 29096,
+            "mtime": "2026-05-08T22:42:18.064Z",
+            "format": "ZIP (2x P8)"
+        },
+        "/assets/source/bonetrousle.zip": {
+            "size": 24985,
+            "mtime": "2026-05-08T22:42:18.064Z",
+            "format": "ZIP (2x P8)"
+        },
+        "/assets/source/undertale.zip": {
+            "size": 33328,
+            "mtime": "2026-05-08T22:42:18.066Z",
+            "format": "ZIP (3x P8)"
+        },
+        "/assets/source/flowey.zip": {
+            "size": 27638,
+            "mtime": "2026-05-08T22:42:18.066Z",
+            "format": "ZIP (3x P8)"
+        },
+        "/assets/source/asriel.zip": {
+            "size": 49859,
+            "mtime": "2026-05-08T22:42:18.067Z",
+            "format": "ZIP (4x P8)"
+        },
+        "/assets/audio/picotale/PICOTALE_Soundtrack.zip": {
+            "size": 61608315,
+            "mtime": "2026-05-08T22:42:18.125Z",
+            "format": "ZIP (7x WAV)"
+        }
+    },
+    "covers": {
+        "/assets/source/discord.p8": {
+            "size": 3988,
+            "mtime": "2026-04-26T09:04:40.982Z"
+        },
+        "discord.wav": {
+            "size": 4228348,
+            "mtime": "2026-04-29T08:16:28.486Z",
+            "duration": 95.60816326530612
+        },
+        "funnybones.mp3": {
+            "size": 534538,
+            "mtime": "2025-06-23T02:38:20.452Z",
+            "duration": 26.088
+        },
+        "korobeiniki.mp3": {
+            "size": 678315,
+            "mtime": "2026-03-05T11:19:12.248Z",
+            "duration": 82.91265306122449
+        },
+        "life.mp3": {
+            "size": 1861073,
+            "mtime": "2026-04-02T22:31:27.501Z",
+            "duration": 224.592
+        },
+        "/assets/source/otherside.p8": {
+            "size": 12269,
+            "mtime": "2026-04-09T16:23:06.979Z"
+        },
+        "otherside.wav": {
+            "size": 8327068,
+            "mtime": "2026-04-09T19:54:16.653Z",
+            "duration": 188.56054421768707
+        },
+        "pico4lyfe.mp3": {
+            "size": 213837,
+            "mtime": "2026-03-05T11:00:43.681Z",
+            "duration": 24.576
+        },
+        "blaster.mp3": {
+            "size": 2873405,
+            "mtime": "2026-03-05T11:01:27.317Z",
+            "duration": 143.46448979591835
+        },
+        "/assets/source/life.zip": {
+            "size": 56471,
+            "mtime": "2026-05-08T22:42:18.129Z",
+            "format": "ZIP (2x P8)"
+        },
+        "/assets/audio/covers/other_covers.zip": {
+            "size": 18717015,
+            "mtime": "2026-05-08T22:42:18.149Z",
+            "format": "ZIP (5x MP3, 2x WAV)"
+        }
+    }
+}

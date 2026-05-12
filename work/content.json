@@ -4,320 +4,619 @@
             "image": "In the Blink of an Eye.png",
             "title": "In the Blink of an Eye",
             "date": "8 May 2024",
-            "desc": "my first ever digital drawing with ibisPaint. it was supposed to depict me medicated vs unmedicated, and/or how I can go from happy to depressed “in the blink of an eye”. I'm still proud of it to this day."
+            "desc": [
+                "my first ever digital drawing with ibisPaint. it was supposed to depict me medicated vs unmedicated, and/or how I can go from happy to depressed “in the blink of an eye”. I'm still proud of it to this day."
+            ]
         },
         {
             "image": "AetherRedrawzs.png",
             "title": "AetherRedrawzs",
             "date": "9-10 May 2024",
-            "desc" : "my own take on Aether, Sleepy's OC and then-persona. named after her Twitch handle, which at the time was AetherDrawzs."
+            "desc": [
+                "my own take on Aether, Sleepy's OC and then-persona. named after their Twitch handle, which at the time was AetherDrawzs."
+            ]
         },
         {
             "image": "Fun in the Snow.png",
             "title": "Fun in the Snow",
             "date": "9-11 May 2024",
-            "desc" : "this picture depicts Sarah dressed in winter clothes, making a snow angel. I don't remember if I ever officially considered it finished."
+            "desc": [
+                "this picture depicts Sarah dressed in winter clothes, making a snow angel. I don't remember if I ever officially considered it finished."
+            ]
         },
         {
             "image": "Two Young Ladies.png",
             "title": "Two Young Ladies",
             "date": "13-14 May 2024",
-            "desc" : "this image depicts a child Sarah looking at a ladybug on her hand.\nthis image still disturbs me today."
+            "desc" : [
+                "this image depicts a child Sarah looking at a ladybug on her hand.",
+                "_*this image still disturbs me today.*_"
+            ]
         },
         {
             "image": "KISSK.png",
             "title": "KISSK",
             "date": "14-16 May 2024",
-            "desc" : "this is another self-portrait. the name was supposed to be an acronym, though for what I don't remember – my best guess is “kind, intelligent, sweet, silly kid”."
+            "desc": [
+                "this is another self-portrait. the name was supposed to be an acronym, though for what I don't remember – my best guess is “kind, intelligent, sweet, silly kid”."
+            ]
         },
         {
             "image": "Sillies Being Silly.png",
             "title": "Sillies Being Silly",
             "date": "12 Jun 2024",
-            "desc" : "this is an image I drew for Sleepy's birthday. it includes (left to right, top to bottom) Ether, Aether, Sarah, and them. I am happy with how Aether and more so Ether came out. Sarah and Sleepy, not so much.\nnote: the date is speculation. I lost the original IPV file for this art – the date is based off of the only export I have."
+            "desc" : [
+                "this is an image I drew for Sleepy's birthday. it includes (left to right, top to bottom) Ether, Aether, Sarah, and them. I am happy with how Aether and more so Ether came out. Sarah and Sleepy, not so much.",
+                "note: the date is speculation. I lost the original IPV file for this art – the date is based off of the only export I have."
+            ]
         },
         {
             "image": "Selaso.png",
             "title": "Selaso",
             "date": "20-23 Jun 2024",
-            "desc" : "first ever appearance of Selaso, one of my OCs. since then her appearance has changed a bit, but still mostly the same."
+            "desc": [
+                "first ever appearance of Selaso, one of my OCs. since then her appearance has changed a bit, but still mostly the same."
+            ]
         },
         {
             "image": "Just Sarah..png",
             "title": "Just Sarah.",
             "date": "3-12 Jul 2024",
-            "desc" : "this is supposed to be a parody of Act 3 of ｢Doki Doki Literature Club!｣ with Sarah, one of my OCs. she is supposed to be sitting in a bean bag, the context being similar to the source material."
+            "desc": [
+                "this is supposed to be a parody of Act 3 of ｢Doki Doki Literature Club!｣ with Sarah, one of my OCs. she is supposed to be sitting in a bean bag, the context being similar to the source material."
+            ]
         },
         {
             "image": "Aether Aether.png",
             "title": "Aether Aether",
             "date": "21-23 Jul 2024",
-            "desc" : "drawing of Sleepy's OC (and then-persona) “Aether” about to make an Aether portal (as in, the ｢Minecraft｣ mod). terible joke, I know.\nthis artwork is actually the one I'm most proud of. I think it turned out the best. ^.^"
+            "desc" : [
+                "drawing of Sleepy's OC (and then-persona) “Aether” about to make an Aether portal (as in, the ｢Minecraft｣ mod). terible joke, I know.",
+                "this artwork is actually the one I'm most proud of. I think it turned out the best. ^.^"
+            ]
         },
         {
             "image": "lon li nasa.png",
             "title": "󱤬󱤧󱤾",
-            "translation": "lon li nasa • existence is weird",
+            "title_tl": [
+                "lon li nasa",
+                "existence is weird"
+            ],
+            "nanpa": true,
             "date": "5-6 Aug 2024",
-            "desc" : "in this picture, Selaso is laying on her bed having a moment of depression/contemplation.\nthe thoughts roughly tranlate to “what is existence? why do I exist? everything is wierd.”."
+            "desc": [
+                "in this picture, Selaso is laying on her bed having a moment of depression/contemplation.\nthe thoughts roughly tranlate to “what is existence? why do I exist? everything is wierd.”."
+            ]
         },
         {
             "image": "relAIxation.png",
             "title": "relAIxation",
             "date": "3-4 Dec 2024",
-            "desc" : "a trace of a photograph of the Neuro-sama V2 plushie. the scene is supposed to be a beach."
+            "desc": [
+                "a trace of a photograph of the Neuro-sama V2 plushie. the scene is supposed to be a beach."
+            ]
         },
         {
             "image": "Drawing 8.png",
             "title": "Drawing 8",
             "date": "14 Feb 2025",
-            "desc" : "pixel art traces of the poemgame chibis from ｢Doki Doki Literature Club!｣, using the standard PICO-8 palette."
+            "desc": [
+                "pixel art traces of the poemgame chibis from ｢Doki Doki Literature Club!｣, using the standard PICO-8 palette."
+            ]
         },
         {
             "image": "Drawing 7.png",
             "title": "Drawing 7",
             "date": "12 Mar 2025",
-            "desc" : "simple pixel art drawing of Vedal and the Neuro twins using the extended PICO-8 palette. I submitted it to Neurocord and it never got reviewed T-T"
+            "desc": [
+                "simple pixel art drawing of Vedal and the Neuro twins using the extended PICO-8 palette. I submitted it to Neurocord and it never got reviewed T-T"
+            ]
         },
         {
             "image": "Drawing 47.png",
             "title": "Drawing 47",
             "date": "23 Jun 2025",
-            "desc" : "Neuro-sama riding a happy ghast from ｢Minecraft｣. another one that was submitted to Neurocord and never reviewed."
+            "desc": [
+                "Neuro-sama riding a happy ghast from ｢Minecraft｣. another one that was submitted to Neurocord and never reviewed."
+            ]
         },
         {
             "image": "B.png",
             "title": "B",
             "date": "3 Oct 2025",
-            "desc" : "a more feminized depiction of Selili, this was mostly traced from a drawing of Rosa from ｢Pokémon Black 2 & White 2｣ sourced from Pixiv, the original author of which I can't recall.\nI used this as my pfp for a while, until my mom questioned why it “depicted me with breasts”. -_-"
+            "desc" : [
+                "a more feminized depiction of Selili, this was mostly traced from a drawing of Rosa from ｢Pokémon Black 2 & White 2｣ that was [posted on Pixiv](https://www.pixiv.net/artworks/134476151).",
+                "I used this as my pfp for a while, until my mom questioned why it “depicted me with breasts”. -_-"
+            ]
         }
     ],
     "albums": [
         {
             "title": "In a Heartbeat OST",
             "subtitle": "(side A)",
-            "desc": "these songs were created for ｢In a Heartbeat｣, a game I never finished. it was supposed to be a visual novel dating sim made in LÖVE with PICO-8-inspired visuals.",
+            "desc": [
+                "these songs were created for ｢In a Heartbeat｣, a game I made for my friend's birthday. it was mostly finished, though I never got it to a stable/playable state. it was supposed to be a visual novel dating sim (think ｢DDLC｣) made in [LÖVE](https://love2d.org) with [PICO-8](https://lexaloffle.com/pico-8.php)-inspired visuals.",
+                "I made these songs without any experience with composing. some of them I got a bit of help with from someone who knows music composing (mostly the “Restarted Versions”), but the OST was mostly just me, which is why it sucks.",
+                "there was no real intent with these other than like “I need to make music for this game, lemme make some music”, so none of them really fit the game.",
+                "I probably can't release ｢IaH｣ in its current state, since it was written specifically for/about my friend and contains a bunch of potential PII. I have since started work on ｢In a Heartbeat Restarted｣, a Ren'Py remake/“public version”, but it's currently on indefinite hiatus, so don't keep your hopes up.",
+                "the end credits sequence was [this PICO-8 ｢Still Alive｣ remake](https://lexaloffle.com/bbs/?pid=43647) modified to allow mixed-case text, but since I didn't make the audio or edit it at all, it didn't feel right to include here."
+            ],
+            "date": "16 Mar 2024",
             "path": "iah1",
+            "image": "iah1.png",
             "songs": [
                 {
                     "title": "In a Heartbeat",
-                    "file": "1 In a Heartbeat.mp3",
-                    "image": "iah1.png"
+                    "files": [
+                        ["iah.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "this was the first song I made for ｢IaH｣. I still feel like it's the best in the soundtrack, which is why it doesn't have a “Restarted Version”, unlike most of the other songs."
+                    ]
                 },
                 {
                     "title": "Sarah's Song",
-                    "file": "2 Sarah's Song.mp3",
-                    "image": "iah1.png"
+                    "files": [
+                        ["sarah.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "this song was made as a theme song for the love interest in ｢IaH｣, Sarah. the name is a play on ｢Sally's Song｣ from ｢The Nightmare Before Christmas｣.",
+                        "it includes a snippet of the background ukulele/whatever from ｢Still Alive｣, ig because Sarah likes ｢Portal｣? idk, a lot of her character was never set in stone."
+                    ]
                 },
                 {
                     "title": "The Only One I Trust",
-                    "file": "3 The Only One I Trust.mp3",
-                    "image": "iah1.png"
+                    "files": [
+                        ["tooit.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "this song's title is a reference to Sarah, her backstory, and initial relationship with the protagonist.",
+                        "for context: she has never told anyone about her mom's highly covert abuse because doing so means saying bye-bye to “gifts” (big purchases used as bribes). but after meeting the protagonist, she feels he'd keep it secret – he's “the only one she trusts”."
+                    ]
                 },
                 {
                     "title": "Sweden",
-                    "file": "4 Sweden.mp3",
+                    "files": [
+                        ["sweden.mp3", "audio"]
+                    ],
                     "artist": "C418",
-                    "image": "iah1.png"
+                    "link": "https://c418.bandcamp.com/track/sweden",
+                    "desc": [
+                        "there's a scene in ｢IaH｣ where the protagonist plays ｢Minecraft｣ with a friend. this is the bgm for that scene."
+                    ]
                 },
                 {
                     "title": "シオンタウンのテーマ",
-                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
-                    "file": "5 シオンタウンのテーマ.mp3",
+                    "title_tl": [
+                        "Shiontaun no Tēma",
+                        "Lavender Town Theme"
+                    ],
+                    "files": [
+                        ["lavender.mp3", "audio"]
+                    ],
                     "artist": "増田順一",
-                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
-                    "image": "iah1.png"
+                    "artist_tl": [
+                        "Masuda Jun'ichi",
+                        "Junichi Masuda"
+                    ],
+                    "link": "https://archive.org/details/pkmn-rgby-soundtrack/Disc+1/39+-+Lavender+Town.flac",
+                    "desc": [
+                        "this song plays during a scene that can only be described as a shitty, unnecessarily R-16, uniquely-PICO-8 knockoff of the end of ｢DDLC｣'s first act. the Restarted Version of this song further solidifies that, including an intro referencing it.",
+                        "as seen with the “Early Sketch” version, I originally wanted to make this cover closer to the original instrument-wise, but ultimately decided to change it up a bit, which I think works better with the context of the scene."
+                    ]
                 },
                 {
                     "title": "An Actual Date",
-                    "file": "6 An Actual Date.mp3",
-                    "image": "iah1.png"
+                    "files": [
+                        ["aad.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "this song plays after Sarah and the protagonist make plans for a date. nothing much else to say about this song."
+                    ]
                 },
                 {
                     "title": "Together Forever",
-                    "file": "7 Together Forever.mp3",
-                    "image": "iah1.png"
+                    "files": [
+                        ["tf.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "this song is a peculiar case. unlike the rest of the soundtrack, I have no manually saved P8s for this song, and the only automatic backups I have from making it are partially incomplete, which makes me think I simply opened PICO-8, made a song, exported it, and rebooted PICO-8. this means I can never go back and reexport this song as WAV – the song will only ever exist in MP3.",
+                        "the Restarted Version of this song was made as a sort of a way to remedy this. also, as I have the P8 for it and it's similar enough to the original, I could probably use it with the backups to fully recreate the original."
+                    ]
                 }
             ]
         },
         {
             "title": "In a Heartbeat OST",
             "subtitle":"(side B)",
-            "desc": "these are some bonus songs made for the ｢In a Heartbeat｣ soundtrack. none of them were in the game.",
+            "desc": [
+                "these are some bonus songs made for the ｢In a Heartbeat｣ soundtrack. none of them were in the game.",
+                "“Restarted Versions” are remakes of songs, named after the indefinitely-postponed remake ｢In a Heartbeat Restarted｣. “Early Sketches” are in-development versions of songs, named after songs in Disc 2 of the ｢DDLC｣ OST."
+            ],
             "path": "iah2",
+            "image": "iah2.png",
+            "date": "16 Mar 2024",
             "songs": [
                 {
                     "title":"In a Heartbeat",
                     "subtitle": "(Early Sketch)",
-                    "file": "1 In a Heartbeat (Early Sketch).mp3",
-                    "image": "iah2.png"
+                    "files": [
+                        ["iah_es.mp3", "audio"]
+                    ]
                 },
                 {
                     "title": "シオンタウンのテーマ",
-                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
+                    "title_tl": [
+                        "Shiontaun no Tēma",
+                        "Lavender Town Theme"
+                    ],
                     "subtitle": "(Early Sketch)",
                     "artist": "増田順一",
-                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
-                    "file": "2 シオンタウンのテーマ (Early Sketch).mp3",
-                    "image": "iah2.png"
+                    "artist_tl": [
+                        "Masuda Jun'ichi",
+                        "Junichi Masuda"
+                    ],
+                    "files": [
+                        ["lavender_es.mp3", "audio"]
+                    ],
+                    "link": "https://archive.org/details/pkmn-rgby-soundtrack/Disc+1/39+-+Lavender+Town.flac"
                 },
                 {
-                    "title": "Your Reality",
+                    "title": "Your Reality (IaH cover)",
                     "artist": "Dan Salvato, Jillian Ashcraft",
-                    "file": "3 Your Reality.mp3",
-                    "image": "iah2.png"
+                    "files": [
+                        ["yr.mp3", "audio"]
+                    ],
+                    "link": "https://music.youtube.com/watch?v=Bf6b-TwhF3A",
+                    "desc": [
+                        "I don't know why I decided to include this. it was the first cover I made just because. if I made it today, it would probably go along with the misc covers.",
+                        "along with the [｢PPLC｣ OST](#songs/pplc), I had to update this song's title after the fact to comply with Team Salvato's IP guidelines – it was originally just “Your Reality”."
+                    ]
                 },
                 {
                     "title": "Sarah's Song",
                     "subtitle": "(Restarted Version)",
-                    "file": "4 Sarah's Song (Restarted Version).mp3",
-                    "image": "iah2.png"
+                    "files": [
+                        ["sarah_rs.mp3", "audio"]
+                    ]
                 },
                 {
                     "title": "The Only One I Trust",
                     "subtitle": "(Restarted Version)",
-                    "file": "5 The Only One I Trust (Restarted Version).mp3",
-                    "image": "iah2.png"
+                    "files": [
+                        ["tooit_rs.mp3", "audio"]
+                    ]
                 },
                 {
                     "title": "シオンタウンのテーマ",
-                    "title_translation": "Shiontaun no Tēma · Lavender Town Theme",
+                    "title_tl": [
+                        "Shiontaun no Tēma",
+                        "Lavender Town Theme"
+                    ],
                     "subtitle": "(Restarted Version)",
                     "artist": "増田順一",
-                    "artist_translation": "Masuda Jun'ichi • Junichi Masuda",
-                    "file": "6 シオンタウンのテーマ (Restarted Version).mp3",
-                    "image": "iah2.png"
+                    "artist_tl": [
+                        "Masuda Jun'ichi",
+                        "Junichi Masuda"
+                    ],
+                    "files": [
+                        ["lavender_rs.mp3", "audio"]
+                    ],
+                    "link": "https://archive.org/details/pkmn-rgby-soundtrack/Disc+1/39+-+Lavender+Town.flac"
                 },
                 {
                     "title": "Together Forever",
                     "subtitle": "(Restarted Version)",
-                    "file": "7 Together Forever (Restarted Version).mp3",
-                    "image": "iah2.png"
+                    "files": [
+                        ["tf_rs.mp3", "audio"]
+                    ],
+                    "desc": [
+                        "as mentioned in side A of the ｢IaH｣ OST, this was made partially to remedy the lack of P8 files of the original. the sections including parts of the theme song are references to ｢Dreams Of Love and Literature｣ from ｢DDLC｣."
+                    ]
                 }
             ]
         },
         {
             "title": "PICO PICO Literature Club! OST",
-            "desc": "PICO-8 versions of some of ｢DDLC｣'s OST. I was half-planning on actually demaking it into PICO-8 and using these songs.",
+            "desc": [
+                "an “album” containing PICO-8 versions of some of ｢DDLC｣'s OST. I was half-planning on actually demaking it into PICO-8 and using these songs.",
+                "these songs' titles all had “(PPLC cover)” appended just before an update to this site in order to comply with some random out-of-the-blue update to Team Salvato's IP guidelines. curse you, Team Salvato! _(just kidding, love what you do :3)_"
+            ],
             "path": "pplc",
+            "image": "pplc.jpeg",
+            "count": 16,
             "songs": [
                 {
-                    "title": "Dreams Of Love and Literature",
+                    "title": "Dreams Of Love and Literature (PPLC cover)",
                     "artist": "Dan Salvato",
-                    "file": "03 Dreams Of Love and Literature.mp3",
-                    "image": "pplc.jpeg"
+                    "files": [
+                        ["dreams.mp3", "audio"]
+                    ],
+                    "link": "https://music.youtube.com/watch?v=8hfZjTkUtgc"
                 },
                 {
-                    "title": "Poem Panic!",
+                    "title": "Poem Panic! (PPLC cover)",
                     "artist": "Dan Salvato",
-                    "file": "06 Poem Panic!.mp3",
-                    "image": "pplc.jpeg"
+                    "files": [
+                        ["panic.mp3", "audio"]
+                    ],
+                    "link": "https://music.youtube.com/watch?v=4wBd7xYAa8Q"
                 },
                 {
-                    "title": "My Confession",
+                    "title": "My Confession (PPLC cover)",
                     "artist":"Dan Salvato",
-                    "file": "09 My Confession.mp3",
-                    "image": "pplc.jpeg"
+                    "files": [
+                        ["confession.mp3", "audio"]
+                    ],
+                    "link": "https://music.youtube.com/watch?v=FgMYAz6pTNk"
                 },
                 {
-                    "title": "Sayo-nara",
+                    "title": "Sayo-nara (PPLC cover)",
                     "artist": "Dan Salvato",
-                    "file": "10 Sayo-nara.mp3",
-                    "image": "pplc.jpeg"
+                    "files": [
+                        ["sayonara.mp3", "audio"]
+                    ],
+                    "link": "https://music.youtube.com/watch?v=mLLlpSMnGiI"
                 }
             ]
         },
         {
             "title": "PICOTALE Soundtrack",
-            "desc": "covers of ｢UNDERTALE｣'s soundtrack. I'm slightly more confident these could be made into an actual PICO-8 port in the future than with the ｢DDLC｣ ones because ｢UNDERTALE｣ is more of a game if you get what I mean. still would be a fuckton of effort though.\nmy goal is to cover at least every boss theme, and some others I like.",
+            "desc": [
+                "covers of ｢UNDERTALE｣'s soundtrack. I'm slightly more confident these could be made into an actual PICO-8 port in the future than with the ｢DDLC｣ ones because ｢UNDERTALE｣ is more of a game if you get what I mean. still would be a fuckton of effort though.",
+                "my goal is to cover at least every boss theme, and some others I like."
+            ],
             "path": "picotale",
+            "image": "picotale.png",
+            "unnumbered": true,
             "songs": [
                 {
                     "title": "Bonetrousle",
                     "artist": "Toby Fox",
-                    "file": "Bonetrousle.wav",
+                    "files": [
+                        ["bonetrousle.wav", "audio"]
+                    ],
                     "image": "bonetrousle.png",
-                    "desc": "this song is technically double (± a bit) the speed of the original song, but the notes are also double the normal length, so you'd never notice (I'm like 90% sure there's a music term for this but idk it). this was done so that I could put in the half notes you can hear thoughout the song, which I think make it sound a lot better.\nI also thought the song was too short, so I added a bit from the trailer version of the song at the end. I think it works quite well."
+                    "date": "31 Mar 2026",
+                    "desc": [
+                        "this song is technically around double the speed of the original song, but the notes are also double the normal length, so you'd never notice (I'm like 90% sure there's a music term for this but idk it). this was done so that I could put in the half notes you can hear thoughout the song, which I think make it sound a lot better.",
+                        "I also thought the song was too short, so I added a bit from the trailer version of the song at the end. I think it works quite well."
+                    ],
+                    "link": "https://tobyfox.bandcamp.com/track/bonetrousle",
+                    "source": [
+                        "bonetrousle.p8",
+                        "bonetrousle2.p8"
+                    ]
                 },
                 {
                     "title": "MEGALOVANIA",
                     "artist": "Toby Fox",
-                    "file": "MEGALOVANIA.wav",
+                    "files": [
+                        ["megalovania.wav", "audio"]
+                    ],
                     "image": "megalovania.png",
-                    "desc": "between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio. PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized. so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV."
+                    "date": "9 Mar 2026",
+                    "desc": [
+                        "between covering ｢LIFE｣ and covering this song, I discovered what WAV files are – raw uncompressed audio. PICO-8 actually exports in WAV by default, I (dumbly) thought WAV was an obscure format that not many programs recognized. so, everything prior to this is MP3. at some point I'll dig up the original P8 files for the rest and reexport as WAV."
+                    ],
+                    "link": "https://music.youtube.com/watch?v=0FCvzsVlXpQ",
+                    "source": [
+                        "mega1.p8",
+                        "mega2.p8"
+                    ]
                 },
                 {
                     "title": "Metal Crusher",
                     "artist": "Toby Fox",
-                    "file": "Metal Crusher.wav",
+                    "files": [
+                        ["crusher.wav", "audio"]
+                    ],
                     "image": "crusher.png",
-                    "desc": "I am not super happy with this song's cover art for a couple reasons.\nthe art is meant to depict a hypothetical PICO-8 port of ｢UNDERTALE｣. the HUD being visible means there is text on the art, but this port can't hide it during the enemy's turn for reasons you'd know if you've seen the end of the Genocide route.\nalso, it just looks bad. unlike the Mettaton sprite (which was custom drawn for this art), the Alphys one is just the one in game scaled down with a few minor tweaks, so it's really ugly."
+                    "date": "29 Mar 2026",
+                    "desc": [
+                        "I am not super happy with this song's cover art for a couple reasons.",
+                        "the art is meant to depict a hypothetical PICO-8 port of ｢UNDERTALE｣. the HUD being visible means there is text on the art, but this port can't hide it during the enemy's turn for reasons you'd know if you've seen the end of the Genocide route.",
+                        "also, it just looks bad. unlike the Mettaton sprite (which was custom drawn for this art), the Alphys one is just the one in game scaled down with a few minor tweaks, so it's really ugly."
+                    ],
+                    "link": "https://tobyfox.bandcamp.com/track/metal-crusher",
+                    "source": [
+                        "crusher.p8"
+                    ]
                 },
                 {
                     "title": "Undertale",
                     "artist": "Toby Fox",
-                    "file": "Undertale.wav",
+                    "files": [
+                        ["undertale.wav", "audio"]
+                    ],
                     "image": "undertale.png",
-                    "desc": "this will probably be my longest cover, unless I decide to do something like ｢Bury the Light｣.\n the art for this one was very fun to make. I actually made it in PICO-8 for once instead of using LibreSprite like I usually do, to make it look like an actual PICO-8 demake of ｢UNDERTALE｣. it was originally gonna include a dialogue box saying the famous line, but I figured having text on it looked ugly. also I really like the human's face on it – they just look so silly :3"
+                    "date": "19 Mar 2026",
+                    "desc": [
+                        "this will probably be my longest cover, unless I decide to do something like ｢Bury the Light｣.",
+                        "the art for this one was very fun to make. I actually made it in PICO-8 for once instead of using LibreSprite like I usually do, to make it look like an actual PICO-8 demake of ｢UNDERTALE｣. it was originally gonna include a dialogue box, but I figured having text on it looked ugly. also I really like the human's face on it – they just look so silly :3"
+                    ],
+                    "link": "https://tobyfox.bandcamp.com/track/undertale",
+                    "source": [
+                        "undertale.p8",
+                        "undertale2.p8",
+                        "undertale3.p8"
+                    ]
                 },
                 {
                     "title": "󱥱󱥍󱤗󱦐󱥍󱤃󱥷󱤌󱦑",
                     "nanpa": true,
-                    "title_translation":"utala pi kasi Pawi · Flowey fight",
+                    "title_tl": [
+                        "utala pi kasi Pawi",
+                        "Flowey fight"
+                    ],
                     "artist": "Toby Fox",
-                    "file": "utala pi kasi Pawi.wav",
+                    "files": [
+                        ["flowey.wav", "audio"]
+                    ],
                     "image": "nightmare.png",
-                    "desc": "this is a mix of ｢Your Best Nightmare｣ and ｢Finale｣. I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.\n I had a lot more fun with this one, strayed a bit farther from the source material than usual. and I think it came out pretty good!"
+                    "date": "13 Mar 2026",
+                    "desc": [
+                        "this is a mix of [｢Your Best Nightmare｣](https://music.youtube.com/watch?v=SObWQRaltug) and [｢Finale｣[(https://music.youtube.com/watch?v=5qajT8lS2ok).",
+                        "I always thought the first song/cover of mine to have my voice would be with lyrics. apprarently not.\n I had a lot more fun with this one, strayed a bit farther from the source material than usual. and I think it came out pretty good!"
+                    ],
+                    "source": [
+                        "nightmare.p8",
+                        "nightmare2.p8",
+                        "finale.p8"
+                    ]
                 },
                 {
                     "title": "󱥱󱥍󱥢󱦐󱤀󱥦󱥰󱥷󱤏󱤓󱥅󱦑",
                     "nanpa": true,
-                    "title_translation": "utala pi soweli Asuwijo · Asriel fight",
+                    "title_tl": [
+                        "utala pi soweli Asuwijo",
+                        "Asriel fight"
+                    ],
                     "artist":"Toby Fox",
-                    "file": "utala pi soweli Asuwijo.wav",
+                    "files": [
+                        ["asriel.wav", "audio"]
+                    ],
                     "image": "hopes.png",
-                    "desc": "this is a mix of ｢Hopes and Dreams｣ and ｢SAVE the World｣. I am generally very happy with this cover. I feel it sounds very accurate despite all the things removed (I have to remove some stuff because PICO-8 only supports four audio channels).\nI'm not super happy with the album art though – as it stands it's just a palette-swap of the flashback. I would've done something with the Asriel's God of Hyperdeath form flying around with the LSD stuff in the back, but it proved to be too much work for me."
+                    "date": "5 Apr 2026",
+                    "desc": [
+                        "this is a mix of [｢Hopes and Dreams｣](https://music.youtube.com/watch?v=HA3Ks8NLS-Y) and [｢SAVE the World｣](https://music.youtube.com/watch?v=LAn-JYzKm5M).",
+                        "I am generally very happy with this cover. I feel it sounds very accurate despite all the things removed (I have to remove some stuff because PICO-8 only supports four audio channels).",
+                        "I'm not super happy with the album art though – as it stands it's just a palette-swap of the flashback. I would've done something with the Asriel's God of Hyperdeath form flying around with the LSD stuff in the back, but it proved to be too much work for me."
+                    ],
+                    "source": [
+                        "hopes.p8",
+                        "hopes1.p8",
+                        "hopes2.p8",
+                        "save1.p8"
+                    ]
+                },
+                {
+                    "title": "Wrong Number",
+                    "artist": "Toby Fox",
+                    "files": [
+                        ["number.wav", "audio"]
+                    ],
+                    "image": "number.png",
+                    "date": "14 Apr 2026",
+                    "desc": [
+                        "this is a quick cover I made for my phone ringtone. the cover itself isn't anything special but it's not supposed to be."
+                    ],
+                    "link": "https://music.youtube.com/watch?v=8fhWZ0PoR_E",
+                    "source": [
+                        "number.p8"
+                    ]
                 }
             ]
         },
         {
             "title": "other covers",
-            "desc": "all other covers that aren't in their own album",
+            "desc": [
+                "all other covers that aren't in their own album"
+            ],
             "path": "covers",
+            "image": "covers.png",
+            "unnumbered": true,
             "songs": [
+                {
+                    "title": "Call Ringing",
+                    "artist": "some Discord employee ig",
+                    "files": [
+                        ["discord.wav", "audio"]
+                    ],
+                    "image": "discord.png",
+                    "date": "29 Apr 2026",
+                    "desc": [
+                        "this is a cover of the Discord incoming call ringtone, as well as ｢Snow halation｣ by µ's since it appears in the “Original Version” SiIvaGunner rip by Ellie53. I believe “Call Ringing” would be the most canon name for the ringtone because it is referred to as `call_ringing` in Discord's code. Equicord's CustomSounds plugin also refers to it as “Call Ringing”.",
+                        "I'm fairly happy with how this came out, though I will admit the “beat” sections are a bit noisy. not entirely sure what I'd have to do to fix that. I got the idea to cover it after my brother got the secret `call_ringing_beat` variation."
+                    ],
+                    "source": [
+                        "discord.p8"
+                    ]
+                },
                 {
                     "title": "Dance Mr. Funnybones",
                     "artist": "PuffballsUnited",
-                    "file": "Dance Mr. Funnybones.mp3",
-                    "image": "funnybones.png"
+                    "files": [
+                        ["funnybones.mp3", "audio"]
+                    ],
+                    "image": "funnybones.png",
+                    "link": "https://archive.org/details/henrystickmincollection-ost/33+Dance+Mr.+Funnybones+(Distraction+Dance).mp3"
                 },
                 {
                     "title": "Коробе́йники",
                     "fairfax": true,
-                    "title_translation": "Korobéyniki • Korobeiniki",
+                    "title_tl": [
+                        "Korobéyniki",
+                        "The Peddlers"
+                    ],
                     "artist": "田中宏和",
-                    "artist_translation": "Tanaka Hirokazu • Hirokazu Tanaka",
-                    "file": "Korobeiniki.mp3",
-                    "image": "коробе́йники.png"
+                    "artist_tl": [
+                        "Tanaka Hirokazu",
+                        "Hirokazu Tanaka"
+                    ],
+                    "files": [
+                        ["korobeiniki.mp3", "audio"]
+                    ],
+                    "image": "коробе́йники.png",
+                    "date": "2025",
+                    "desc": [
+                        "I got the initial idea to make this after hearing ｢{テトリス}[Tetorisu](Tetoris)｣ by {柊マグネタイト}[Hīragi Magunetaito](Hiiragi Magnetite) for the first time. I wanted to make it but felt it would be too hard at the time, so this was the next best thing."
+                    ],
+                    "link": "https://youtu.be/NmCCQxVBfyM"
                 },
                 {
                     "title": "LIFE",
                     "artist": "Neuro-sama",
-                    "file": "LIFE.mp3",
+                    "files": [
+                        ["life.mp3", "audio"]
+                    ],
                     "image": "life.png",
-                    "desc": "this is the first song where I encountered a unique issue: the song didn't fit in one PICO-8 cartridge. I solved this by simply putting the rest (just the last chorus) in a second cartridge and combining the two in Audacity.\nI also discovered that PICO-8 can smoothly fade out sound. I can't do it in the audio editor – it's a runtime effect – but it's possible so I allow it."
+                    "date": "19 Sep 2025",
+                    "desc": [
+                        "this is the first song where I encountered a unique issue: the song didn't fit in one PICO-8 cartridge. I solved this by simply putting the rest (just the last chorus) in a second cartridge and combining the two in Audacity.",
+                        "I also discovered that PICO-8 can smoothly fade out sound. I can't do it in the audio editor – it's a runtime effect – but it's possible so I allow myself to do it, using Audacity."
+                    ],
+                    "link": "https://music.youtube.com/watch?v=b2IQNuaswqY",
+                    "source": [
+                        "life.p8",
+                        "lifea.p8"
+                    ]
+                },
+                {
+                    "title": "otherside",
+                    "artist": "Lena Raine",
+                    "files": [
+                        ["otherside.wav", "audio"]
+                    ],
+                    "image": "otherside.png",
+                    "date": "9 Apr 2026",
+                    "desc": [
+                        "this one...was a doozy to make. I first made it at 1x speed, until I realized there were half-notes. since simplifying them to full notes sounded bad, I had to redo it in half-speed. I'm also a bit annoyed I couldn't include all of the harmonies, I feel it hurts the cover a bit."
+                    ],
+                    "link": "https://music.youtube.com/watch?v=kK81m-A3qpU",
+                    "source": [
+                        "otherside.p8"
+                    ]
                 },
                 {
                     "title": "PICO 4 Lyfe",
                     "artist": "PuffballsUnited",
-                    "file": "PICO 4 Lyfe.mp3",
-                    "image": "pico4lyfe.png"
+                    "files": [
+                        ["pico4lyfe.mp3", "audio"]
+                    ],
+                    "image": "pico4lyfe.png",
+                    "date": "2024",
+                    "link": "https://archive.org/details/henrystickmincollection-ost/11+Gangsta+4+Lyfe.mp3"
                 },
                 {
                     "title": "Science Blaster",
                     "artist": "SpellingPhailer",
-                    "file": "Science Blaster.mp3",
-                    "image": "blaster.png"
+                    "files": [
+                        ["blaster.mp3", "audio"]
+                    ],
+                    "image": "blaster.png",
+                    "date": "2025",
+                    "link": "https://youtu.be/quxzJ5xyuC4"
                 }
             ]
         }

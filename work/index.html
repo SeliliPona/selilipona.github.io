@@ -1,219 +1,257 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-        <meta charset="utf-8" />
-        <title>pali mi - lipu pi jan Selili</title>
-        <meta name="description" content="personal website for Selili">
-        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
-        <link rel="preload" href="../assets/fonts/FairfaxHD.ttf" as="font" type="font/ttf" crossorigin>
-        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet">
-        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet">
-        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet">
-        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet">
-        <link rel="stylesheet" href="../thing.css">
-        <link rel="stylesheet" href="../links/links.css">
-        <link rel="stylesheet" href="../things/things.css">
+        <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/regular.css" rel="stylesheet">
+        <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+        <link rel="icon" type="image/x-png" href="/assets/img/selili.png">
+        <link rel="stylesheet" href="./viewport.css">
         <link rel="stylesheet" href="./work.css">
-        <link rel="stylesheet" href="../topnav.css">
-        <script src="./fill.js"></script>
-        <script src="../topnav.js"></script>
-        <script src="./dropdown.js"></script>
-        <script src="../tab.js"></script>
-        <meta property="og:image" content="../assets/img/selili.png">
+        <link rel="stylesheet" href="/links/links.css">
+        <link rel="stylesheet" href="/shared/common.css">
+        <link rel="stylesheet" href="/shared/tl.css">
+        <link rel="stylesheet" href="/shared/topnav.css">
+        <link rel="stylesheet" href="/things/things.css">
+        <meta charset="utf-8" />
+        <meta name="description" content="personal website for Selili">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="/assets/img/selili.png">
+        <script src="https://cdn.jsdelivr.net/npm/filesize@9.0.11/lib/filesize.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+        <script src="./download.js"></script>
+        <script src="./dropdown.js"></script>
+        <script src="./fill.js"></script>
+        <script src="./viewport.js"></script>
+        <script src="/shared/common.js"></script>
+        <script src="/shared/marked.js"></script>
+        <script src="/shared/tab.js"></script>
+        <script src="/shared/tl.js"></script>
+        <title>pali mi - lipu pi jan Selili</title>
     </head>
+
+    <template id="drawing-template">
+        <div class="artcolumn">
+            <div class="content">
+                <img class="image" src="" alt="" style="width:100%">
+                <i id="date"><h3 class="date"></h3></i>
+                <p class="desc"></p>
+            </div>
+        </div>
+    </template>
+    <template id="album-template">
+        <div class="albumcolumn">
+            <div class="albumcell">
+                <btn id="" class="albumbtn">
+                    <img class="albumart" src="">
+                    <!-- <h2 class="songtitle"></h2> -->
+                </btn>
+            </div>
+        </div>
+    </template>
+    <template id="album-page">
+        <div class="albumpage">
+            <div class="albumheader">
+                <img class="albumpageart">
+                <h1 class="albumtitle"></h1>
+            </div>
+            <p class="albumdesc"></p>
+            <h3 class="albummeta"></h3>
+            <div class="text-divider">
+                <div class="divider-bar"></div>
+                <b class="divider-text">downloads</b>
+                <div class="divider-bar"></div>
+            </div>
+            <div class="download-container"></div>
+        </div>
+    </template>
+    <template id="download-template">
+        <btn class="download-chip">
+            <i id="download-icon"></i>
+            <div id="download-text">
+                <span class="download-title"></span>
+                <span class="download-info"></span>
+            </div>
+        </btn>
+    </template>
+    <template id="song-template">
+        <div class="songthing">
+            <span class="songnumber"></span>
+            <div class="songinfo">
+                <img class="songimage" src="">
+                <h2 class="songtitle"></h2>
+            </div>
+        </div>
+    </template>
+
     <body>
-    
-            <!-- image modal -->
+    <!--
+            image modal 
         <div id="modal" class="modal">
 
-            <!-- close button -->
+            <!-- close button 
             <span id="closeButton" class="close" onclick="closeModal();">&times;</span>
 
-            <!-- modal content -->
+            <!-- modal content 
             <img class="modal-content" id="img01">
 
-            <!-- modal caption -->
+            <!-- modal caption 
             <div id="caption"></div>
         </div>
-        <div class="topnav" id="topnavstuff">
-            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
-            <a href="https://selilipona.github.io">home</a>
-            <a href="https://selilipona.github.io/about">about me</a>
-            <a href="https://selilipona.github.io/links">all my linkies</a>
-            <a href="https://selilipona.github.io/things">cool thingies</a>
-            <a class="active">stuff I've done</a>
-            <a href="https://selilipona.github.io/credits">credits</a>
-            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
-                <div class="icon-container">
-                    <span class="dots">•••</span>
-                    <span class="close">✕</span>
+        ---->
+        <div class="viewport">
+            <div id="view-1" class="view active">
+                <div id="body"></div>
+                <main>
+                    <p class="subsubtitle">
+                        each section will probably get more entries over time, this (hopefully) isn't final
+                    </p>
+                </main>
+
+                <!-- Tab links -->
+                <div class="tab" data-default="drawings">
+                    <btn class="tablinks" id="button-drawings" onclick="tab(event, 'drawings')" id="defaultOpen">
+                        <div class="row"><span class="tl" data-roman="sitelen" data-trans="pictures"><h2>󱥠</h2></span></div>
+                        <p class="subtitle">drawings</p>
+                    </btn>
+                    <btn class="tablinks" id="button-songs" onclick="tab(event, 'songs')">
+                        <div class="row"><span class="tl" data-roman="kalama" data-trans="sounds"><h2>󱤕</h2></span></div>
+                        <p class="subtitle">songs</p>
+                    </btn>
+                    <btn class="tablinks" id="button-translations" onclick="tab(event, 'translations')">
+                        <div class="row"><span class="tl" data-roman="ante toki" data-trans="language changes"><h2>󱤆󱥬</h2></span></div>
+                        <p class="subtitle">translations</p>
+                    </btn>
+                    <btn class="tablinks" id="button-misc" onclick="tab(event, 'misc')">
+                        <div class="row"><span class="tl" data-roman="kin" data-trans="extra"><h2>󱥹</h2></span></div>
+                        <p class="subtitle">misc</p>
+                        
+                    </btn>
                 </div>
-            </a>
+
+                <!--
+                    there is so much wrong with this presentation.
+                    I tried to add a closeup view modal that shows up when you click a picture,
+                    but it just errors for no reason. fucking JavaScript...
+                -->
+
+                <!-- Tab content -->
+                <div id="drawings" class="tabcontent drawingcontent">
+                    <main>
+                        <p class="subsubtitle">
+                            the works made with ibisPaint (the non-pixel arts) are all from back when I could draw. I have since lost (or at least misplaced) that talent.<br>
+                            they are sorted from oldest to newest, dated based on the creation and update dates that ibisPaint displays (or if inapplicable, the last export date).
+                            if an official name was never given to a drawing, the project name or filename is used.<br>
+                            <i>wow I forgot I drew so many pics...</i>
+                        </p>
+                    </main>
+                </div>
+                <div id="songs" class="tabcontent drawingcontent">
+                    <main>
+                        <p class="subsubtitle">
+                            this is all the music I've made. many of these are covers of existing songs, but some were fully made by me. they were all made with PICO-8.<br>
+                            if for whatever reason you want to download them, right-click or long tap on the player and choose the option that saves a file. they all have full metadata added, so they'll look nice in whatever app you use.<br>
+                            you have full right to do whatever with them except claim them as yours, and you must credit me somehow.
+                        </p>
+                    </main>
+                </div>
+                <!-- shh... -->
+                <!-- <div id="translations" class="tabcontent drawingcontent">
+                    <main><p class="subsubtitle">these are things I've translated. most of them have never culminated into anything other than text, but I wish to change that someday.<br>
+                    for now, translations are unavailable for them until I figure out a good way to implement them on this site.</p>
+                    </main>
+                    <main class="tabthing">
+                    <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></h1>
+                        <br>
+                        I am an (and afaik the only) active translator for Harmonoid (see <a href="https://selilipona.github.io/things">cool thingies</a>) – every other translation (other than the original English) seems to be maintained by AI. I guess the original contributors gave up?
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" href="https://harmonoid.com"><i class="fa-solid fa-globe"></i></a>
+                        <a class="thinglink" href="https://discord.gg/2Rc3edFWd8"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </main>
+                <main class="tabthing">
+                    <img src="../assets/img/translations/lavachicken.png" class="songimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">Steve's Lava Chicken <small>by Jack Black</small></h1>
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                        <a class="thinglink" href="https://open.spotify.com/track/2n5sAzeWh5LqnV9cGBjgGr"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </main>
+                <main class="tabthing">
+                    <img src="../assets/img/translations/stillalive.png" class="songimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">Still Alive <small>by Jonathan Coulton & Ellen McLain</small></h1>
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                        <a class="thinglink" href="https://open.spotify.com/track/2JVZSUwPWzfBdgkdy3ZHet"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </main>
+                <main class="tabthing">
+                    <img src="../assets/img/translations/bananaphone.png" class="songimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">Bananaphone <small>by Raffi</small></h1>
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                        <a class="thinglink" href="https://open.spotify.com/track/2Uu4AnnMTJpevC0IrwAuOW"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </main>
+                <main class="tabthing">
+                    <img src="../assets/img/translations/boom.png" class="songimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">BOOM <small>by Evil Neuro</small></h1>
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                        <a class="thinglink" href="https://open.spotify.com/track/7kn8ks0WDXIyJyrrklNUkD"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </main>
+                <main class="tabthing">
+                    <img src="../assets/img/translations/wearenumberone.jpeg" class="songimage"/>
+                    <div style="padding-right: 25px; padding-left: 25px"><span>
+                        <h1 class="thingname" style="vertical-align: top;">We Are Number One <small>by LazyTown</small></h1>
+                    
+                    </span></div>
+                    <div>
+                        <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
+                        <a class="thinglink" href="https://open.spotify.com/track/15rwk2llI0gzo6l0Pk8SBw"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </main>
+                </div> -->
+            </div>
+            <div id="view-2" class="view right">
+                <span id="pathlinks" class="pathtext"></span>
+                <div id="album-page-container"></div>
+                <div class="albumsongholder"></div>
+            </div>
+            <div id="view-3" class="view right">
+                <span id="pathlinks" class="pathtext"></span>
+                <div id="album-page-container"></div>
+            </div>
         </div>
-        <main>
-            <header class="hero">
-                <div class="row">
-                    <h1 title="pali mi • work of me">󱥉󱤴</h1>
-                </div>
-                <p class="subtitle">stuff I've done</p>
-                <p class="subsubtitle"><i>everything remotely cool I've done or participated in
-                </i></p>
-            </header>
-        </main>
-        <main>
-            <p class="subsubtitle">
-                each section will probably get more entries over time, this (hopefully) isn't final
-            </p>
-        </main>
-
-        <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks" onclick="tab(event, 'drawings')" id="defaultOpen">
-                <div class="row"><h2 title="sitelen • pictures">󱥠</h2></div>
-                <p class="subtitle">drawings</p>
-            </button>
-            <button class="tablinks" onclick="tab(event, 'songs')">
-                <div class="row"><h2 title="kalama • sounds">󱤕</h2></div>
-                <p class="subtitle">songs</p>
-            </button>
-            <button class="tablinks" onclick="tab(event, 'translations')">
-                <div class="row"><h2 title="ante toki • language changes">󱤆󱥬</h2></div>
-                <p class="subtitle">translations</p>
-            </button>
-            <button class="tablinks" onclick="tab(event, 'misc')">
-                <div class="row"><h2 title="kin • extra">󱥹</h2></div>
-                <p class="subtitle">misc</p>
-            </button>
-        </div>
-
-        <!--
-            there is so much wrong with this presentation.
-            I tried to add a closeup view modal that shows up when you click a picture,
-            but it just errors for no reason. fucking JavaScript...
-        -->
-
-
-        <template id="drawing-template">
-            <div class="artcolumn">
-                <div class="content">
-                    <img class="image" src="" alt="" style="width:100%">
-                    <h3 class="title"></h3>
-                    <i><h3 class="date"></h3></i>
-                    <p class="desc"></p>
-                </div>
-            </div>
-        </template>
-        <template id="album-template">
-            <div class="dropdown">
-                <button id="" class="dropbtn"></button>
-                <div id="pplc" class="dropdown-content">
-                    <h2 class="desc"></h2>
-                </div>
-            </div>
-        </template>
-        <template id="song-template">
-            <div class="tabthing">
-                <img class="songimage" src="">
-                <div>
-                    <h2 class="songtitle"></h2>
-                </div>
-            </div>
-        </template>
-
-        <!-- Tab content -->
-        <div id="drawings" class="tabcontent drawingcontent">
-            <main>
-                <p class="subsubtitle">
-                    the works made with ibisPaint (the non-pixel arts) are all from back when I could draw. I have since lost (or at least misplaced) that talent.
-                    they are sorted from oldest to newest, dated based on the creation and update dates that ibisPaint displays (or if inapplicable, the last export date).<br><i>wow I forgot I drew so many pics...</i>
-                </p>
-            </main>
-        </div>
-        <div id="songs" class="tabcontent drawingcontent">
-            <main>
-                <p class="subsubtitle">
-                    this is all the music I've made. many of these are covers of existing songs, but some were fully made by me. they were all made with PICO-8.<br>
-                    if for whatever reason you want to download them, right-click or long tap on the player and choose the option that saves a file. they all have full metadata added, so they'll look nice in whatever app you use.<br>
-                    you have full right to do whatever with them except claim them as yours, and you must credit me somehow.
-                </p>
-            </main>
-        </div>
-        <!-- shh... -->
-        <!-- <div id="translations" class="tabcontent drawingcontent">
-            <main><p class="subsubtitle">these are things I've translated. most of them have never culminated into anything other than text, but I wish to change that someday.<br>
-            for now, translations are unavailable for them until I figure out a good way to implement them on this site.</p>
-            </main>
-            <main class="tabthing">
-            <img src="../assets/img/tools/harmonoid.png" class="thingimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">Harmonoid <small>by Hitesh Kumar Saini</small></h1>
-                <br>
-                I am an (and afaik the only) active translator for Harmonoid (see <a href="https://selilipona.github.io/things">cool thingies</a>) – every other translation (other than the original English) seems to be maintained by AI. I guess the original contributors gave up?
-            
-            </span></div>
-            <div>
-                <a class="thinglink" href="https://harmonoid.com"><i class="fa-solid fa-globe"></i></a>
-                <a class="thinglink" href="https://discord.gg/2Rc3edFWd8"><i class="fa-brands fa-discord"></i></a>
-            </div>
-        </main>
-        <main class="tabthing">
-            <img src="../assets/img/translations/lavachicken.png" class="songimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">Steve's Lava Chicken <small>by Jack Black</small></h1>
-            
-            </span></div>
-            <div>
-                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
-                <a class="thinglink" href="https://open.spotify.com/track/2n5sAzeWh5LqnV9cGBjgGr"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </main>
-        <main class="tabthing">
-            <img src="../assets/img/translations/stillalive.png" class="songimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">Still Alive <small>by Jonathan Coulton & Ellen McLain</small></h1>
-            
-            </span></div>
-            <div>
-                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
-                <a class="thinglink" href="https://open.spotify.com/track/2JVZSUwPWzfBdgkdy3ZHet"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </main>
-        <main class="tabthing">
-            <img src="../assets/img/translations/bananaphone.png" class="songimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">Bananaphone <small>by Raffi</small></h1>
-            
-            </span></div>
-            <div>
-                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
-                <a class="thinglink" href="https://open.spotify.com/track/2Uu4AnnMTJpevC0IrwAuOW"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </main>
-        <main class="tabthing">
-            <img src="../assets/img/translations/boom.png" class="songimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">BOOM <small>by Evil Neuro</small></h1>
-            
-            </span></div>
-            <div>
-                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
-                <a class="thinglink" href="https://open.spotify.com/track/7kn8ks0WDXIyJyrrklNUkD"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </main>
-        <main class="tabthing">
-            <img src="../assets/img/translations/wearenumberone.jpeg" class="songimage"/>
-            <div style="padding-right: 25px; padding-left: 25px"><span>
-                <h1 class="thingname" style="vertical-align: top;">We Are Number One <small>by LazyTown</small></h1>
-            
-            </span></div>
-            <div>
-                <a class="thinglink" onclick=""><i class="fa-solid fa-language"></i></a>
-                <a class="thinglink" href="https://open.spotify.com/track/15rwk2llI0gzo6l0Pk8SBw"><i class="fa-brands fa-spotify"></i></a>
-            </div>
-        </main>
-        </div> -->
-        
     </body>
+
+    <script>
+            // Get the element with id="defaultOpen" and click on it
+            const url = getUrl();
+            const tabs = document.querySelector('.tab');
+            let open = tabs.getAttribute('data-default');
+            if (url != "" && !url.includes('/')) {
+                console.log("url", url)
+                open = url.slice(1);
+                console.log("open", open)
+                document.getElementById('button-'+open).click();
+            }
+    </script>
 </html>

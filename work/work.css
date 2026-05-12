@@ -1,11 +1,6 @@
-/* * {
-  
-} */
-
-
 h1 {
   font-size: 50px;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 .artrow {
@@ -41,70 +36,178 @@ h1 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .artcolumn {
     width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .artcolumn {
     width: 100%;
   }
 }
 
 
+.albumrow {
+  margin: 8px -16px;
+}
 
- /* Dropdown Button */
-.dropbtn {
-    width: 100%;
+/* Add padding BETWEEN each column (if you want) */
+.albumrow/*,
+.albumrow > .albumcolumn*/ {
+  padding: 8px;
+}
+
+.albumcolumn {
+  float:left;
+  width:25%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.albumbtn {
   background-color: #caf;
   border-radius: 10px;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  font-family: fredoka;
-
-  /* margin: 8px -16px; */
 }
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover {
+.albumbtn:hover {
   background-color: #ddc7ff;
 }
-.dropbtn:focus {
-    background-color: #bc8fff
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
+.albumart {
   width:100%;
-  background-color:#caf;
-  border-radius: 0 0 10px 10px;
-  z-index: 1;
+  border-radius: 5%;
+}
+
+.songheader {
+  display:flex;
+  justify-content: end;
+}
+.songnumber {
+  text-align: left;
+  font-size: 30px;
+  font-family: fredoka;
+}
+.songduration {
+  font-family: nunito;
+  font-size: 20px
+}
+.songopen {
+  text-align: right;
+  font-size: 25px;
+}
+
+.songrow {
+  grid-template-columns: auto auto;
+}
+
+.songthing {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #bc8fff;
+  display:grid;
+  max-width: 900px;
+  margin: 15px auto;
+  grid-template-columns: 50px auto 50px;
+}
+.songthing:hover {
+  background-color: #ddc7ff;
+  cursor: pointer;
+}
+
+.songinfo {
+  display: grid;
+  grid-template-columns: 128px auto;
+  justify-content: start;
+}
+
+.songlink, .songlink:visited {
+  color: #00e
+}
+.songdesc {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.songdesc p {
+  margin: 0
+}
+.songartist {
+  margin-bottom: 0;
   font-family: nunito;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;} 
-.open {border-radius: 10px 10px 0 0;}
-
 .songtitle {
-    color:white;
-    font-family: Fredoka;
-    vertical-align: middle;
+  color:white;
+  font-family: Fredoka;
+  vertical-align: middle;
+  padding:0 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .albumcolumn {
+    width: 50%;
+  }
+}
+
+/* album page */
+.pathtext {
+  font-size:30px;
+  margin: 5px;
+}
+.pathlink {
+  color: #caf;
+}
+.pathlink:hover {
+  color:#ddc7ff
+}
+.pathlink:active {
+  color:#bc8fff
+}
+
+.albumpage {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #bc8fff;
+  display:grid;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+.albumheader {
+  display: grid;
+  grid-template-columns: 192px 600px;
+  justify-content:start;
+}
+.albumpageart {
+  max-width:100%;
+  border-radius: 10px;
+}
+
+.albumtitle {
+  font-family: fredoka;
+  padding-left: 20px;
+}
+
+.albumbtntitle {
+  color:white;
+  font-family: Fredoka;
+  vertical-align: middle;
+  padding:10px;
+}
+
+.albumdesc {
+  font-family: nunito;
+  font-size: 25px;
+}
+
+.albummeta {
+  font-family: nunito;
+  /* color: var(--subtext); */
+}
+
+.albumdl {
+  color: white;
+  font-size: 25px;
 }
 
 
@@ -173,8 +276,70 @@ h1 {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 768px){
   .modal-content {
     width: 100%;
+  }
+  .albumdesc {
+    font-size: 20px;
+    max-width: 100%;
+    padding: 10px;
+    justify-self: center;
+  }
+  .albumheader {
+    grid-template-columns: auto;
+    /* grid-template-rows: 400px 192px; */
+    justify-items: center;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+  }
+  .albumart {
+    max-width: 100%;
+    /* margin: 25px;
+    padding: 25px; */
+    align-self: center;
+  }
+  .albumtitle {
+    text-align: center;
+    padding: 0;
+  }
+  .albumpage {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    display: block;
+  }
+  .songinfo {
+    width:100%;
+    max-width:100%;
+  }
+  .songtitle {
+    /* width: 100%; */
+    max-width:100%;
+    margin: 0 auto 0 0;
+    font-size: 25px;
+    vertical-align: auto;
+  }
+  .albumbtntitle {
+    font-size:20px;
+    max-width:100%;
+    margin: 0 auto 0 0;
+    font-size: 25px;
+    min-height: 4em;
+  }
+  .songthing {
+    /* padding: 15px 25px; */
+    border-radius: 10px;
+    background-color: #bc8fff;
+    margin: 0 auto 0 0;
+  }
+  .albumdl {
+    font-size: 35px;
+    padding-left: 10px;
+  }
+  .albumsongholder {
+    max-width: 100%;
+    padding: 10px;
   }
 }

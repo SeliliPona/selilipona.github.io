@@ -1,98 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>ijo epiku - lipu pi jan Selili</title>
-        <meta name="description" content="personal website for Selili">
-        <meta property="og:image" content="assets/img/selili.png">
-        <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/brands.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/regular.css" rel="stylesheet" />
-        <link href="../assets/fontawesome/css/solid.css" rel="stylesheet" />
-        <link rel="icon" type="image/x-png" href="../assets/img/selili.png">
-        <link rel="stylesheet" href="../thing.css" />
+        <link href="/assets/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/regular.css" rel="stylesheet" />
+        <link href="/assets/fontawesome/css/solid.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-png" href="/assets/img/selili.png">
         <link rel="stylesheet" href="./things.css" />
-        <link rel="stylesheet" href="../topnav.css" />
-        <script src="./fill.js" defer></script>
-        <script src="../topnav.js"></script>
-        <script src="../tab.js"></script>
+        <link rel="stylesheet" href="/shared/common.css" />
+        <link rel="stylesheet" href="/shared/tl.css" />
+        <link rel="stylesheet" href="/shared/topnav.css" />
+        <meta charset="utf-8" />
+        <meta name="description" content="personal website for Selili">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="/assets/img/selili.png">
+        <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+        <script src="./fill.js" defer></script>
+        <script src="/shared/common.js"></script>
+        <script src="/shared/marked.js"></script>
+        <script src="/shared/tab.js"></script>
+        <script src="/shared/tl.js"></script>
+        <title>ijo epiku - lipu pi jan Selili</title>
     </head>
+
+    <template id="thing-template">
+        <main class="tabthing">
+            <img src="" class="thingimage"/>
+            <div class="thingdesc" style="padding-right: 25px; padding-left: 25px"></div>
+            <div class="links"></div>
+        </main>
+    </template>
+
+    <template id="game-template">
+        <main class="tabthing">
+            <img src="" class="gameimage"/>
+            <div class="thingdesc" style="padding-right: 25px; padding-left: 25px"></div>
+            <div class="links"></div>
+        </main>
+    </template>
+
     <body>
-        <div class="topnav" id="topnavstuff">
-            <a href="https://selilipona.github.io"><img class="topnavicon" src="../assets/img/selili-min.png" alt="pixel art drawing of Selili"></a>
-            <a href="https://selilipona.github.io">home</a>
-            <a href="https://selilipona.github.io/about">about me</a>
-            <a href="https://selilipona.github.io/links">all my linkies</a>
-            <a class="active">cool thingies</a>
-            <a href="https://selilipona.github.io/work">stuff I've done</a>
-            <a href="https://selilipona.github.io/credits">credits</a>
-            <a href="javascript:void(0);" class="icon" onclick="toggleTopnav()">
-                <div class="icon-container">
-                    <span class="dots">•••</span>
-                    <span class="close">✕</span>
-                </div>
-            </a>
-        </div>
-        <main>
-            <header class="hero">
-                <div class="row">
-                    <h1 title="ijo epiku • epic things">󱤌󱦃</h1>
-                </div>
-                <p class="subtitle">cool thingies</p>
-                <p class="subsubtitle"><i>like an Awesome list but objectively worse because it's mine
-                </i></p>
-            </header>
-        </main>
-        <main>
-            <p class="subsubtitle">
-                these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out! hopefully you find something you like :3
-            </p>
-        </main>
         <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks" onclick="tab(event, 'tools')" id="defaultOpen">
-                <div class="row"><h2 title="ilo • tools">󱤎</h2></div>
+        <div class="tab" data-default="tools">
+            <btn class="tablinks" id="button-tools" onclick="tab(event, 'tools')">
+                <div class="row"><span class="tl" data-roman="ilo" data-trans="tools"><h2>󱤎</h2></span></div>
                 <p class="subtitle">tools</p>
-            </button>
-            <button class="tablinks" onclick="tab(event, 'creators')">
-                <div class="row"><h2 title="jan • people">󱤑</h2></div>
+            </btn>
+            <btn class="tablinks" id="button-creators" onclick="tab(event, 'creators')">
+                <div class="row"><span class="tl" data-roman="jan" data-trans="people"><h2>󱤑</h2></span></div>
                 <p class="subtitle">creators</p>
-            </button>
+            </btn>
             <!-- TODO: why the fuck are half-width entries so fucking hard -->
-            <!-- <button class="tablinks" onclick="tab(event, 'music')">
-                <div class="row"><h2 title="kalama • sounds">󱤕</h2></div>
+            <!-- <btn class="tablinks" id="button-music" onclick="tab(event, 'music')">
+                <div class="row"><span class="tl" data-roman="kalama" data-trans="sounds"><h2>󱤕</h2></span></div>
                 <p class="subtitle">music</p>
-            </button> -->
-            <button class="tablinks" onclick="tab(event, 'games')">
-                <div class="row"><h2 title="musi • funs">󱤻</h2></div>
+            </btn> -->
+            <btn class="tablinks" id="button-games" onclick="tab(event, 'games')">
+                <div class="row"><span class="tl" data-roman="musi" data-trans="fun"><h2>󱤻</h2></span></div>
                 <p class="subtitle">games</p>
-            </button>
-            <button class="tablinks" onclick="tab(event, 'anime')">
-                <div class="row"><h2 title="sitelen • pictures">󱥠</h2></div>
+            </btn>
+            <btn class="tablinks" id="button-anime" onclick="tab(event, 'anime')">
+                <div class="row"><span class="tl" data-roman="sitelen tawa" data-trans="moving pictures"><h2>󱥠󱥩</h2></span></div>
                 <p class="subtitle">anime</p>
-            </button>
+            </btn>
         </div>
-
-        <template id="thing-template">
-            <main class="tabthing">
-                <img src="" class="thingimage"/>
-                <div class="thingdesc" style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;"></h1><br>
-                </span></div>
-                <div class="links"></div>
-            </main>
-        </template>
-
-        <template id="game-template">
-            <main class="tabthing">
-                <img src="" class="gameimage"/>
-                <div class="thingdesc" style="padding-right: 25px; padding-left: 25px"><span>
-                    <h1 class="thingname" style="vertical-align: top;"></h1><br>
-                </span></div>
-                <div class="links"></div>
-            </main>
-        </template>
 
         <!-- Tab content -->
         <div id="tools" class="tabcontent"></div>
@@ -125,5 +96,14 @@
 
         <script>
             // Get the element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click();
+            const url = getUrl();
+            const tabs = document.querySelector('.tab');
+            let open = tabs.getAttribute('data-default');
+            if (url != "") {
+                open = url.slice(1);
+            }
+            console.log('url:', url)
+            document.getElementById('button-'+open).click();
         </script>
+    </body>
+</html>
