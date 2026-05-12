@@ -3,7 +3,15 @@
 import fs from 'fs';
 import path from 'path';
 import * as archiverModule from 'archiver';
-const archiver = archiverModule.default || archiverModule.create || archiverModule;
+const archiver = (typeof archiverModule.default === 'function') 
+  ? archiverModule.default 
+  : (typeof archiverModule === 'function' ? archiverModule : archiverModule.create);
+
+// Verify before calling
+if (typeof archiver !== 'function') {
+  console.error('Archiver Module Structure:', archiverModule);
+  throw new Error("Target 'archiver' is still not a function. Check the log above.");
+}
 import * as music_metadata from 'music-metadata';
 
 const argv = process.argv;
