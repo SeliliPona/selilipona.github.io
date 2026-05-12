@@ -1,0 +1,64 @@
+[
+    {
+        "sitelen": "󱤪󱥍󱤑",
+        "roman": "lipu pi jan Selili",
+        "trans": "page of Selili",
+        "english": "Selili's page",
+        "desc": "please help I don't know how to make a website (>///<)",
+        "comment": "note: you can hover over non-English text on this site for translations.",
+        "comment_mobile": "note: you can tap non-English text on this site for translations.",
+        "link": ""
+    },
+    {
+        "sitelen": "󱥡󱤴",
+        "roman": "sona mi",
+        "trans": "info about me",
+        "english": "about me",
+        "desc": "don't know why anyone would want to know about me but okay",
+        "link": "about"
+    },
+    {
+        "sitelen": "󱤪󱤴",
+        "roman": "lipu mi",
+        "trans": "my pages",
+        "english": "my linkies",
+        "desc": "have fun stalking me ig",
+        "comment": "note: everything here is me. assume everything else is not. some of these I regularly use, some I only have so that no one impersonates me on that platform.",
+        "link": "links"
+    },
+    {
+        "sitelen": "󱤌󱦃",
+        "roman": "ijo epiku",
+        "trans": "epic things",
+        "english": "cool thingies",
+        "desc": "like an Awesome list but objectively worse because it's mine",
+        "comment": "these are some things I've found during my years on the internet. some of them are obscure, others are known by many. I encourage you to check all of them out! hopefully you find something you like :3",
+        "link": "things"
+    },
+    {
+        "sitelen": "󱥉󱤴",
+        "roman": "pali mi",
+        "trans": "my work",
+        "english": "stuff I've done",
+        "desc": "everything remotely cool I've done or participated in",
+        "body": "view-1",
+        "link": "work"
+    },
+    {
+        "sitelen": "󱥧󱥉",
+        "roman": "tan pali",
+        "trans": "work sources",
+        "english": "credits",
+        "desc": "because God knows I didn't make this by myself",
+        "link": "credits"
+    },
+    {
+        "sitelen": "󱤆󱤪",
+        "roman": "ante lipu",
+        "trans": "page changes",
+        "english": "changelog",
+        "desc": "a log of changes",
+        "comment": "this is a log of every commit made to this website, with more info than VSCodium's commiting allows. commit 56 and below are taken from the repo's commit history, and since they're from before the changelog system was implemented, they will have less information.",
+        "link": "changelog"
+    }
+]

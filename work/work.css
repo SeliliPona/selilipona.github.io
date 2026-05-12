@@ -1,0 +1,345 @@
+h1 {
+  font-size: 50px;
+  /* word-break: break-all; */
+}
+
+.artrow {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.artrow,
+.artrow > .artcolumn {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.artcolumn {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+/* Clear floats after rows */
+.artrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #caf;
+  padding: 10px;
+  border-radius: 12px;
+  font-family: nunito, nanpa;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 768px) {
+  .artcolumn {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 576px) {
+  .artcolumn {
+    width: 100%;
+  }
+}
+
+
+.albumrow {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.albumrow/*,
+.albumrow > .albumcolumn*/ {
+  padding: 8px;
+}
+
+.albumcolumn {
+  float:left;
+  width:25%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.albumbtn {
+  background-color: #caf;
+  border-radius: 10px;
+}
+.albumbtn:hover {
+  background-color: #ddc7ff;
+}
+.albumart {
+  width:100%;
+  border-radius: 5%;
+}
+
+.songheader {
+  display:flex;
+  justify-content: end;
+}
+.songnumber {
+  text-align: left;
+  font-size: 30px;
+  font-family: fredoka;
+}
+.songduration {
+  font-family: nunito;
+  font-size: 20px
+}
+.songopen {
+  text-align: right;
+  font-size: 25px;
+}
+
+.songrow {
+  grid-template-columns: auto auto;
+}
+
+.songthing {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #bc8fff;
+  display:grid;
+  max-width: 900px;
+  margin: 15px auto;
+  grid-template-columns: 50px auto 50px;
+}
+.songthing:hover {
+  background-color: #ddc7ff;
+  cursor: pointer;
+}
+
+.songinfo {
+  display: grid;
+  grid-template-columns: 128px auto;
+  justify-content: start;
+}
+
+.songlink, .songlink:visited {
+  color: #00e
+}
+.songdesc {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.songdesc p {
+  margin: 0
+}
+.songartist {
+  margin-bottom: 0;
+  font-family: nunito;
+}
+
+.songtitle {
+  color:white;
+  font-family: Fredoka;
+  vertical-align: middle;
+  padding:0 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .albumcolumn {
+    width: 50%;
+  }
+}
+
+/* album page */
+.pathtext {
+  font-size:30px;
+  margin: 5px;
+}
+.pathlink {
+  color: #caf;
+}
+.pathlink:hover {
+  color:#ddc7ff
+}
+.pathlink:active {
+  color:#bc8fff
+}
+
+.albumpage {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #bc8fff;
+  display:grid;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+.albumheader {
+  display: grid;
+  grid-template-columns: 192px 600px;
+  justify-content:start;
+}
+.albumpageart {
+  max-width:100%;
+  border-radius: 10px;
+}
+
+.albumtitle {
+  font-family: fredoka;
+  padding-left: 20px;
+}
+
+.albumbtntitle {
+  color:white;
+  font-family: Fredoka;
+  vertical-align: middle;
+  padding:10px;
+}
+
+.albumdesc {
+  font-family: nunito;
+  font-size: 25px;
+}
+
+.albummeta {
+  font-family: nunito;
+  /* color: var(--subtext); */
+}
+
+.albumdl {
+  color: white;
+  font-size: 25px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 768px){
+  .modal-content {
+    width: 100%;
+  }
+  .albumdesc {
+    font-size: 20px;
+    max-width: 100%;
+    padding: 10px;
+    justify-self: center;
+  }
+  .albumheader {
+    grid-template-columns: auto;
+    /* grid-template-rows: 400px 192px; */
+    justify-items: center;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+  }
+  .albumart {
+    max-width: 100%;
+    /* margin: 25px;
+    padding: 25px; */
+    align-self: center;
+  }
+  .albumtitle {
+    text-align: center;
+    padding: 0;
+  }
+  .albumpage {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    display: block;
+  }
+  .songinfo {
+    width:100%;
+    max-width:100%;
+  }
+  .songtitle {
+    /* width: 100%; */
+    max-width:100%;
+    margin: 0 auto 0 0;
+    font-size: 25px;
+    vertical-align: auto;
+  }
+  .albumbtntitle {
+    font-size:20px;
+    max-width:100%;
+    margin: 0 auto 0 0;
+    font-size: 25px;
+    min-height: 4em;
+  }
+  .songthing {
+    /* padding: 15px 25px; */
+    border-radius: 10px;
+    background-color: #bc8fff;
+    margin: 0 auto 0 0;
+  }
+  .albumdl {
+    font-size: 35px;
+    padding-left: 10px;
+  }
+  .albumsongholder {
+    max-width: 100%;
+    padding: 10px;
+  }
+}

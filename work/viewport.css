@@ -1,0 +1,33 @@
+.view {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  display: none;
+  top: 0;
+}
+
+/* Center Stage */
+.view.active {
+  position: relative; /* Keeps the container height flexible */
+  opacity: 1;
+  display: unset;
+  transform: translateX(0);
+  z-index: 2;
+}
+
+/* Right Stage (Waiting to come in from right, or exited to the right) */
+.view.right {
+  opacity: 0;
+  display: none;
+  transform: translateX(200px);
+  pointer-events: none; /* Prevents clicking hidden elements */
+}
+
+/* Left Stage (Waiting to come in from left, or exited to the left) */
+.view.left {
+  opacity: 0;
+  display: none;
+  transform: translateX(-200px);
+  pointer-events: none;
+}

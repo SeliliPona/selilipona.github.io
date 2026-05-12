@@ -1,0 +1,92 @@
+ /* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #ccaaff;
+  max-width: 900px;
+    margin: 25px auto;
+    border-radius: 32px;
+    padding: 15px 25px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab btn {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 24px;
+  width:25%;
+}
+
+/* Change background color of buttons on hover */
+.tab btn:hover {
+  background-color: #986ed7;
+}
+
+/* Create an active/current tablink class */
+.tab btn.active {
+  background-color: #BC8FFF;
+}
+@media screen and (max-width: 600px) {
+  .tab btn {
+    display: block;
+    width: 50%;
+  }
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  max-width: 900px;
+  padding: 6px 12px;
+  border-top: none;
+  margin: auto;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.songcontent {
+    justify-items: left;
+}
+.drawingcontent {
+    margin: auto;
+}
+.tabthing {
+    display: flex;
+    align-items:center;
+}
+.tabsong {
+    max-width: 366px;
+}
+.thingname {
+    /* display: flex; */
+    font-size: 25px;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items:start;
+    font-family: Fredoka, nanpa, sans-serif;
+}
+.thinglink {
+    color: white;
+    font-size: 20px;
+}
+.thingimage {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 100%;
+}
+.gameimage {
+    max-width: 192px;
+    max-height: 192px;
+    border-radius: 5%;
+}
+.songimage {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 5%;
+}

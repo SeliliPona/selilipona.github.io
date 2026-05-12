@@ -1,0 +1,67 @@
+/* The wrapper */
+.tl {
+  position: relative;
+  text-decoration: underline dotted var(--tl-stroke) 2px;
+  cursor: help;
+  font-style: normal;
+}
+
+#tl-tooltip {
+  position: fixed;
+  pointer-events: none; /* Prevents the tooltip from flickering when the mouse hits it */
+  background: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: opacity 0.1s ease; /* Smooth fade in/out */
+}
+
+.tl-roman {
+    font-family: nunito;
+    font-size: 0.85rem;
+}
+.tl-trans {
+    font-family: nunito;
+    font-size: 1rem;
+}
+
+.tooltip-hidden {
+  opacity: 0;
+}
+
+.tooltip-visible {
+  opacity: 1;
+}
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    #tl-tooltip {
+        position: fixed;
+        left: 0 !important;
+        bottom: 0 !important;
+        top: auto !important; /* Overrides the JS positioning */
+        width: 100%;
+        max-width: none;
+        border-radius: 0;
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    /* 1. Make the H1 ignore the link click */
+    #title {
+        pointer-events: none;
+        position: relative;
+        z-index: 10;
+    }
+
+    /* 2. BUT make the <span> inside it clickable/tappable again */
+    /* This allows your translation hover/tap effect to work */
+    #title span.tl {
+        pointer-events: auto;
+    }
+
+    /* 3. The background and subtitle stay clickable by default */
+    /* because we haven't disabled pointer-events on the .button itself */
+}
