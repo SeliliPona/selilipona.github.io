@@ -3,6 +3,13 @@
 import fs from 'fs';
 import path from 'path';
 import archiver from 'archiver';
+const createArchive = typeof archiver === 'function' 
+  ? archiver 
+  : (archiver.default || archiver.create);
+
+if (typeof createArchive !== 'function') {
+  throw new Error("Could not find a valid archiver constructor. Check console logs.");
+}
 import * as music_metadata from 'music-metadata';
 
 const argv = process.argv;
@@ -25,7 +32,7 @@ async function initialize(message) {
         console.log(`Creating ZIP for: ${album.title}...`);
 
         const output = fs.createWriteStream(outputPath);
-        const archive = archiver('zip', { zlib: { level: 0 } });
+        const archive = createArchive('zip', { zlib: { level: 0 } });
 
         archive.pipe(output);
 
@@ -47,7 +54,7 @@ async function initialize(message) {
 
                         console.log(`making source zip for ${name}: ${sourceZipPath}`);
                         const sourceOutput = fs.createWriteStream(sourceZipPath);
-                        const sourceArchive = archiver('zip', { zlib: { level: 0 } });
+                        const sourceArchive = createArchive('zip', { zlib: { level: 0 } });
 
                         // error handling for the stream
                         sourceOutput.on('error', (err) => console.error("Stream Error:", err));
@@ -80,7 +87,7 @@ async function initialize(message) {
                             }
                         });
 
-                        sourceArchive.finalize();
+                        await sourceArchive.finalize();
                         console.log("filled zip")
                     } else {
                         const sourcePath = `/assets/source/${song.source[0]}`
